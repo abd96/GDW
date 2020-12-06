@@ -2,8 +2,10 @@ import sys
 import csv 
 import sqlite3 
 import logging 
+import traceback 
 import pandas as pd
 import matplotlib.pyplot as plt 
+from sklearn import preprocessing 
 
 
 logging.getLogger().setLevel(logging.INFO)
@@ -57,21 +59,44 @@ class Database:
         logging.info(f"|-> Successfully read data of shape {data.shape}")        
         return data
     
-    def export_csv(self, data):
+    def export_csv(self, data, name):
+        data.to_csv(name)
 
-        cursor = self.conn.cursor()
-        csv_writer = csv.writer(open('falttened_data.csv', 'w'))
-        csv_writer.writerow(("id","sex",'race','age','juv_fel_count','priors_count','juv_misd_count', 'out_custody', 'in_custody','juv_other_count', 'charge', 'charge_degree'))
-        for x in data:
-            csv_writer.writerow(x)
+    def categorize(self, data, cols):
+        for col in cols:
+            data[col] = data[col].astype('category')
+            data[col+"_cat"] = data[col].cat.codes
+            del data[col] 
+        self.export_csv(data, 'data_cat.csv')
+        return data 
+    
+    def calculate_custody_persion(self, data):
+        data['in_custody']     = pd.to_datetime(data['in_custody'])
+        data['out_custody']    = pd.to_datetime(data['out_custody'])
+        data['custody_period'] = data['out_custody'].sub(data['in_custody']).dt.days
+        del data['in_custody']
+        del data['out_custody'] 
+        self.export_csv(data, 'data_cat.csv')
+        
+    def normalize(self, data):
+        x = data.values
+        min_max_scaler = preprocessing.MinMaxScaler()
+        x_scaled = min_max_scaler.fit_transform(x)
+        df = pd.DataFrame(x_scaled)
 
     def flatten(self, data):
         logging.info('|-> Starting to flatten')
 
-        # get all column names  
-        col_names = [col for col in data.columns]
-    
-    
+        ############## Preprocess #######################
+        # Categerize columns given as list 
+        data = self.categorize(data, ['sex', 'race', 'charge', 'charge_degree'])
+        
+        # calculate custody period
+        self.calculate_custody_persion(data)
+        # data normalization   
+        # self.normalize(data)
+        logging.info('|-> Done flattening')
+        
     def join_to_csv(self):
         cursor = self.conn.cursor()
         # Die Ergebnisse dieser Query sind auch durch sqlitebrowser als csv speicherbar, aber die Methode könnte später auch hilfreich sind.
@@ -91,7 +116,7 @@ class Database:
                 "
         cursor.execute(query)
 
-        self.export_csv(cursor.fetchall())
+        self.export_csv(cursor.fetchall(), 'data.csv')
     
     def plot(self, data):
         data.plot.scatter(x='sex',y='age', color='green')
@@ -101,7 +126,6 @@ class Database:
         plt.show()
 
 if __name__ == '__main__':
-    path = '/mnt/c/Users/Abdul/Desktop/prisoner.db'
     try :
         path = sys.argv[1]
     except:
@@ -110,9 +134,12 @@ if __name__ == '__main__':
     try:
 
         db = Database(path)
-        data = db.read_csv('data.csv')
-        db.plot(data) 
-
+        data = db.read_csv(path)
+        # db.plot(data) 
+        # db.export_csv(data, "data.csv")
+        db.flatten(data)
+         
     except Exception as e:
         logging.warning(f"|-> Error while loading database {path}: Exception: {e}")
+        traceback.print_exc()
 
