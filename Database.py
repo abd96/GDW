@@ -1,12 +1,13 @@
 import sys
 import csv 
 import sqlite3 
-from tqdm import tqdm 
 import logging 
 import traceback 
 import pandas as pd
 import numpy as np
+from functools import reduce
 import matplotlib.pyplot as plt 
+from tqdm import tqdm 
 from sklearn import preprocessing 
 
 from gensim.models import word2vec
@@ -66,14 +67,14 @@ class Database:
         logging.info(f"|-> Exporting Data to csv, filename : {name}")
         data.to_csv(name)
         logging.info(f"|-> Done writing data to csv, filename : {name}")
+    
 
     def embed_sentence(self, data, col):
         ''' 
             step 1) train a word2vec model on all possible words in charge column 
             step 2) convert all possible words in each row in data[col] to a vector using that model 
-            step 3) muliply all vectors of each word of charge text with each others 
-            step 4) normalize the product vector 
-            step 5) save the product as a sentence representation of the charge 
+            step 3) summ all vectors of each word and then calculate the average 
+            step 5) save the average as a sentence representation of the charge 
 
         '''
         corpus = data[col].values.astype('U').tolist()
@@ -84,14 +85,15 @@ class Database:
         corpus_sent2vec = []
         for tokenized_charge in tqdm(corpus):
             #logging.info(f"|-> Working on word : {tokenized_charge}")
-            product = np.ones(shape=(100,)) 
+            to_multiply = []
             for word in tokenized_charge:
                 vector_of_word = model.wv[word]
-                product = np.dot(product,vector_of_word)
+                to_multiply.append(vector_of_word)
                 #logging.info("|-> Converted word <{word}> to vector and multiplying ")
             #logging.info("|-> Result of multiplication ")
-            # scale 
-            corpus_sent2vec.append(product)
+            summation = np.add.reduce(to_multiply)
+            summation = sum(summation) / summation.shape[0]
+            corpus_sent2vec.append(summation)
                  
         data[col] = corpus_sent2vec
         return data 
@@ -105,7 +107,7 @@ class Database:
         logging.info("|-> Done categorizing ")
         return data 
     
-    def calculate_custody(self, data, output_file_name):
+    def calculate_custody(self, data):
         logging.info('|-> Converting jail custody to datetime')
         data['in_custody']     = pd.to_datetime(data['in_custody'])
         data['out_custody']    = pd.to_datetime(data['out_custody'])
@@ -128,7 +130,6 @@ class Database:
         logging.info('|-> Deleting in_custody and out_custody')
         del data['prison_in']
         del data['prison_out'] 
-        logging.info(f"|-> Saving Data to {output_file_name}")
         return data  
 
     def normalize(self, data):
@@ -143,13 +144,13 @@ class Database:
         ############## Preprocess #######################
         # Categerize columns given as list 
         data = self.categorize(data, ['sex', 'race', 'charge_degree'])
-        
         # calculate custody period
-        data = self.calculate_custody(data, 'data_cat_new.csv')
+        data = self.calculate_custody(data)
         # data normalization   
         # self.normalize(data)
         logging.info('|-> Done flattening')
         return data 
+
     def join_to_csv(self):
         cursor = self.conn.cursor()
         # Die Ergebnisse dieser Query sind auch durch sqlitebrowser als csv speicherbar, aber die Methode könnte später auch hilfreich sind.
@@ -193,8 +194,8 @@ if __name__ == '__main__':
 
         db = Database(path)
         data = db.read_csv(path)
-        data = db.flatten(data)
         data = db.embed_sentence(data, 'charge')
+        data = db.flatten(data)
         db.export_csv(data, "data_cat_new_new.csv")    
         # db.plot(data) 
         # db.export_csv(data, "data.csv")
