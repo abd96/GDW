@@ -8,8 +8,9 @@ import numpy as np
 from functools import reduce
 import matplotlib.pyplot as plt 
 from tqdm import tqdm 
+from pprint import pprint 
 from sklearn import preprocessing 
-
+from datetime import datetime 
 from gensim.models import word2vec
 
 logging.getLogger().setLevel(logging.INFO)
@@ -92,7 +93,7 @@ class Database:
                 #logging.info("|-> Converted word <{word}> to vector and multiplying ")
             #logging.info("|-> Result of multiplication ")
             summation = np.add.reduce(to_multiply)
-            summation = sum(summation) / summation.shape[0]
+            summation = round(sum(summation) / summation.shape[0], 4)
             corpus_sent2vec.append(summation)
                  
         data[col] = corpus_sent2vec
@@ -100,36 +101,64 @@ class Database:
 
     def categorize(self, data, cols):
         logging.info("|-> Starting to categorize ")
+        categories = {}
         for col in cols:
             logging.info(f"|-> categorizing {col}")
             data[col] = data[col].astype('category')
+            categories[col] = dict(enumerate(data[col].cat.categories))
             data[col] = data[col].cat.codes
         logging.info("|-> Done categorizing ")
-        return data 
+        return data, categories   
     
     def calculate_custody(self, data):
+        
         logging.info('|-> Converting jail custody to datetime')
         data['in_custody']     = pd.to_datetime(data['in_custody'])
         data['out_custody']    = pd.to_datetime(data['out_custody'])
         logging.info('|-> Converting jail custody to datetime finished ')
         logging.info('|-> Subtracting datetimes for each entry ')
         data['jail_days'] = data['out_custody'].sub(data['in_custody']).dt.days
-        data['jail_hours'] = data['out_custody'].sub(data['in_custody']).dt.components['hours']
+        
+        # if the difference is only hours and the datetimes has same %Y%m%d then -1 retuned 
+        # this line below will remove -1 and replace them with 0
+        data['jail_days'] = data['jail_days'].apply(lambda x: 0 if x==-1 else x)
+        
         logging.info('|-> Subtracting datetimes for each entry finished ')
         logging.info('|-> Deleting in_custody and out_custody')
         del data['in_custody']
         del data['out_custody'] 
+        
         logging.info('|-> Converting prison custody to datetime')
         data['prison_in']     = pd.to_datetime(data['prison_in'])
         data['prison_out']    = pd.to_datetime(data['prison_out'])
         logging.info('|-> Converting prison custody to datetime finished ')
         logging.info('|-> Subtracting datetimes for each entry ')
         data['prison_days'] = data['prison_out'].sub(data['prison_in']).dt.days
-        data['prison_hours'] = data['prison_out'].sub(data['prison_in']).dt.components['hours']
+
+        # if the difference is only hours and the datetimes has same %Y%m%d then -1 retuned 
+        # this line below will remove -1 and replace them with 0
+        data['prison_days'] = data['prison_days'].apply(lambda x: 0 if x==-1 else x)
+        
         logging.info('|-> Subtracting datetimes for each entry finished ')
         logging.info('|-> Deleting in_custody and out_custody')
         del data['prison_in']
         del data['prison_out'] 
+
+        logging.info('|-> Converting person c_jail to datetime')
+        data['c_jail_in']   = pd.to_datetime(data['c_jail_in']) 
+        data['c_jail_out']  = pd.to_datetime(data['c_jail_out']) 
+        logging.info('|-> Converting person c_jail to datetime finished')
+        logging.info('|-> Subtracting datetimes for each entry')
+        data['c_jail_days'] = (data['c_jail_out'] - data['c_jail_in']).dt.days 
+
+        # if the difference is only hours and the datetimes has same %Y%m%d then -1 retuned 
+        # this line below will remove -1 and replace them with 0
+        data['c_jail_days'] = data['c_jail_days'].apply(lambda x: 0 if x==-1 else x)
+
+        logging.info('|-> Subtracting datetimes for each entry finished')
+        logging.info('|-> Deleting c_jail_in and c_jail_out')
+        del data['c_jail_in']
+        del data['c_jail_out']
         return data  
 
     def normalize(self, data):
@@ -143,7 +172,10 @@ class Database:
 
         ############## Preprocess #######################
         # Categerize columns given as list 
-        data = self.categorize(data, ['sex', 'race', 'charge_degree'])
+        data, categories = self.categorize(data, ['sex', 'race', 'charge_degree'])
+           
+        pprint(categories )
+
         # calculate custody period
         data = self.calculate_custody(data)
         # data normalization   
@@ -173,12 +205,18 @@ class Database:
         self.export_csv(cursor.fetchall(), 'data.csv')
     
     def plot(self, data):
-        data.plot.scatter(x='sex_cat',y='age', color='green')
-        data.plot.scatter(x='sex_cat', y='priors_count', color='blue')
-        data.plot.scatter(x='priors_count', y='age') 
-        data.plot.scatter(x='priors_count', y='juv_fel_count') 
+        data.plot.scatter(x='sex',y='age', color='green')
+        # data.plot.scatter(x='sex_cat', y='priors_count', color='blue')
+        # data.plot.scatter(x='priors_count', y='age') 
+        # data.plot.scatter(x='priors_count', y='juv_fel_count') 
+        data.plot.scatter(x='id', y='race')
         plt.show()
-    
+
+
+    def describe(self, data, column):
+        logging.info(f'|-> Describtion of {column}')
+        print(data[column].describe())
+        
     def find_correlation(self, data):
         logging.info("|-> Finding Correlation of Data")
         print(data.corr(method='pearson'))
@@ -194,14 +232,15 @@ if __name__ == '__main__':
 
         db = Database(path)
         data = db.read_csv(path)
-        data = db.embed_sentence(data, 'charge')
-        data = db.flatten(data)
-        db.export_csv(data, "data_cat_new_new.csv")    
+        # data = db.embed_sentence(data, 'charge')
+        # data = db.flatten(data)
+        # db.export_csv(data, "dataaaaaaaaaaaa.csv")    
         # db.plot(data) 
         # db.export_csv(data, "data.csv")
         # db.flatten(data)
         # db.plot(data)
         # db.find_correlation(data)
+        # db.describe(data, 'race')
          
     except Exception as e:
         logging.warning(f"|-> Error while loading database {path}: Exception: {e}")
