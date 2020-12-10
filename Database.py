@@ -8,6 +8,7 @@ import numpy as np
 from functools import reduce
 import matplotlib.pyplot as plt 
 from tqdm import tqdm 
+from pprint import pprint 
 from sklearn import preprocessing 
 
 from gensim.models import word2vec
@@ -100,12 +101,14 @@ class Database:
 
     def categorize(self, data, cols):
         logging.info("|-> Starting to categorize ")
+        categories = {}
         for col in cols:
             logging.info(f"|-> categorizing {col}")
             data[col] = data[col].astype('category')
+            categories[col] = dict(enumerate(data[col].cat.categories))
             data[col] = data[col].cat.codes
         logging.info("|-> Done categorizing ")
-        return data 
+        return data, categories   
     
     def calculate_custody(self, data):
         logging.info('|-> Converting jail custody to datetime')
@@ -143,7 +146,11 @@ class Database:
 
         ############## Preprocess #######################
         # Categerize columns given as list 
-        data = self.categorize(data, ['sex', 'race', 'charge_degree'])
+        data, categories = self.categorize(data, ['sex', 'race', 'charge_degree'])
+           
+        # pprint(categories )
+
+        
         # calculate custody period
         data = self.calculate_custody(data)
         # data normalization   
@@ -173,10 +180,11 @@ class Database:
         self.export_csv(cursor.fetchall(), 'data.csv')
     
     def plot(self, data):
-        data.plot.scatter(x='sex_cat',y='age', color='green')
-        data.plot.scatter(x='sex_cat', y='priors_count', color='blue')
-        data.plot.scatter(x='priors_count', y='age') 
-        data.plot.scatter(x='priors_count', y='juv_fel_count') 
+        data.plot.scatter(x='sex',y='age', color='green')
+        # data.plot.scatter(x='sex_cat', y='priors_count', color='blue')
+        # data.plot.scatter(x='priors_count', y='age') 
+        # data.plot.scatter(x='priors_count', y='juv_fel_count') 
+        data.plot.scatter(x='prison_days', y='sex')
         plt.show()
     
     def find_correlation(self, data):
@@ -194,9 +202,9 @@ if __name__ == '__main__':
 
         db = Database(path)
         data = db.read_csv(path)
-        data = db.embed_sentence(data, 'charge')
-        data = db.flatten(data)
-        db.export_csv(data, "data_cat_new_new.csv")    
+        #data = db.embed_sentence(data, 'charge')
+        # data = db.flatten(data)
+        #db.export_csv(data, "data_cat_new_new.csv")    
         # db.plot(data) 
         # db.export_csv(data, "data.csv")
         # db.flatten(data)
