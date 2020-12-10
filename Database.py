@@ -174,8 +174,11 @@ class Database:
         # Categerize columns given as list 
         data, categories = self.categorize(data, ['sex', 'race', 'charge_degree'])
            
-        pprint(categories )
+        # pprint(categories )
 
+        # pprint(categories )
+
+        
         # calculate custody period
         data = self.calculate_custody(data)
         # data normalization   
@@ -209,7 +212,8 @@ class Database:
         # data.plot.scatter(x='sex_cat', y='priors_count', color='blue')
         # data.plot.scatter(x='priors_count', y='age') 
         # data.plot.scatter(x='priors_count', y='juv_fel_count') 
-        data.plot.scatter(x='id', y='race')
+        # data.plot.scatter(x='id', y='race')
+        # data.plot.scatter(x='prison_days', y='sex')
         plt.show()
 
 
@@ -232,9 +236,13 @@ if __name__ == '__main__':
 
         db = Database(path)
         data = db.read_csv(path)
+
         # data = db.embed_sentence(data, 'charge')
         # data = db.flatten(data)
         # db.export_csv(data, "dataaaaaaaaaaaa.csv")    
+        # data = db.embed_sentence(data, 'charge')
+        # data = db.flatten(data)
+        # db.export_csv(data, "data_cat_new_new.csv")    
         # db.plot(data) 
         # db.export_csv(data, "data.csv")
         # db.flatten(data)
