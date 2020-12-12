@@ -1,5 +1,6 @@
 import sys
 import csv 
+import re
 import sqlite3 
 import logging 
 import traceback 
@@ -13,6 +14,13 @@ from sklearn import preprocessing
 from datetime import datetime 
 from gensim.models import word2vec
 
+
+# NLP 
+import nltk
+from nltk.corpus import stopwords 
+from nltk.tokenize import word_tokenize 
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
 logging.getLogger().setLevel(logging.INFO)
 
 class Database: 
@@ -20,6 +28,8 @@ class Database:
     def __init__(self, fileDB):
         self.fileDB = fileDB 
         self.conn = self.create_connection() 
+        self.model = word2vec.Word2Vec.load("word2vec.model")
+
 
     def create_connection(self):
         conn = None
@@ -69,8 +79,39 @@ class Database:
         data.to_csv(name)
         logging.info(f"|-> Done writing data to csv, filename : {name}")
     
+    def embed_sentence(self, sent):
+        if isinstance(sent, float):
+            return []  # because there is entries without a charge (1300+ )
+        else:
 
-    def embed_sentence(self, data, col):
+            porter = PorterStemmer()
+            sent = sent.replace('/', ' ') 
+            # convert to lower and tokenize 
+            tokenized_sent = word_tokenize(sent.lower())
+            # remove special characters 
+            # remove punctuations/ symbols / numbers 
+            tokenized_sent = [re.sub('[\W\_]','', word) for word in tokenized_sent if not word in stopwords.words('english')]
+            # remove Nans and empty strings 
+            tokenized_sent = [word for word in tokenized_sent if len(word) > 1]
+            return tokenized_sent 
+
+    def calculate_value(self, tokenized_charge):
+        if not tokenized_charge:
+            return -1.0
+        else:
+
+            to_multiply = []
+            for word in tokenized_charge:
+                vector_of_word = self.model.wv[word]
+                to_multiply.append(vector_of_word)
+                #logging.info("|-> Converted word <{word}> to vector and multiplying ")
+            #logging.info("|-> Result of multiplication ")
+            summation = np.add.reduce(to_multiply)
+            summation = round(sum(summation) / summation.shape[0], 4)
+            return summation 
+
+
+    def embed_sentences(self, data, col):
         ''' 
             step 1) train a word2vec model on all possible words in charge column 
             step 2) convert all possible words in each row in data[col] to a vector using that model 
@@ -78,23 +119,37 @@ class Database:
             step 5) save the average as a sentence representation of the charge 
 
         '''
-        corpus = data[col].values.astype('U').tolist()
-        corpus = [sentence.split() for sentence in corpus]
-        model = word2vec.Word2Vec(corpus, min_count=1)
-        # model.save("word2vec.model")
-        model = word2vec.Word2Vec.load("word2vec.model") # this is how you load word2vec model
+
+        corpus1 = data[col].values.astype('U').tolist()
+        logging.info('|-> NLP preprocessing, this will take a while')
+        corpus = [self.embed_sentence(sentence) for sentence in tqdm(corpus1)]
+        logging.info('|-> NLP preprocessing is done ')
+        
+        # self.model = word2vec.Word2Vec(corpus, min_count=1)
+
+        #logging.info('|-> Saving Word2Vec model.... ')
+        #self.model.save("word2vec.model")
+        #logging.info('|-> Saving Word2Vec model done' )
+        
+        # model = word2vec.Word2Vec.load("word2vec.model") # this is how you load word2vec model
         corpus_sent2vec = []
+        
         for tokenized_charge in tqdm(corpus):
             #logging.info(f"|-> Working on word : {tokenized_charge}")
+            summation = -1.0
             to_multiply = []
-            for word in tokenized_charge:
-                vector_of_word = model.wv[word]
-                to_multiply.append(vector_of_word)
-                #logging.info("|-> Converted word <{word}> to vector and multiplying ")
-            #logging.info("|-> Result of multiplication ")
-            summation = np.add.reduce(to_multiply)
-            summation = round(sum(summation) / summation.shape[0], 4)
-            corpus_sent2vec.append(summation)
+            if not tokenized_charge:
+                corpus_sent2vec.append(summation)
+            else:
+
+                for word in tokenized_charge:
+                    vector_of_word = self.model.wv[word]
+                    to_multiply.append(vector_of_word)
+                    #logging.info("|-> Converted word <{word}> to vector and multiplying ")
+                #logging.info("|-> Result of multiplication ")
+                summation = np.add.reduce(to_multiply)
+                summation = round(sum(summation) / summation.shape[0], 4)
+                corpus_sent2vec.append(summation)
                  
         data[col] = corpus_sent2vec
         return data 
@@ -226,6 +281,18 @@ class Database:
         print(data.corr(method='pearson'))
         logging.info("-> Process of finding correlation is done ")
 
+    def write_possible_charges(self, data):
+        di = {}
+        group_charge = data['charge'].unique()
+        for charge in group_charge:
+            di[charge] =  db.calculate_value(db.embed_sentence(charge))
+
+        with open('possible_charges.csv', 'w') as f:
+            for k,v in di.items():
+                k = k.replace(',', ' ') if isinstance(k, str) else k
+                k = k.replace('\n', ' ') if isinstance(k, str) else k
+                f.write(f'{k} : {v}, \n')
+
 if __name__ == '__main__':
     try :
         path = sys.argv[1]
@@ -236,10 +303,10 @@ if __name__ == '__main__':
 
         db = Database(path)
         data = db.read_csv(path)
-
-        # data = db.embed_sentence(data, 'charge')
+        # data = db.embed_sentences(data, 'charge')
         # data = db.flatten(data)
         # db.export_csv(data, "dataaaaaaaaaaaa.csv")    
+        # db.write_possible_charges(data)
         # data = db.embed_sentence(data, 'charge')
         # data = db.flatten(data)
         # db.export_csv(data, "data_cat_new_new.csv")    
