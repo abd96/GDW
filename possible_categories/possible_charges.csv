@@ -1,1607 +1,1607 @@
-Battery, -0.0213 
-Child Restraint Required, 0.2034 
-Drink Near Licensed Establishm, 0.3202 
-Driving License Suspended, -0.0172 
-Driving Wrong Lane Or Side, 0.0129 
-Fail Drive To Right/Slow, 0.2546 
-Fail To Display Registration, 0.0946 
-Fail To Stop Steady Red Signal, -0.2316 
-Fail Wear Safety Belt/Operator, 0.4447 
-Felony Driving While Lic Suspd, 0.0542 
-Felony Petit Theft, -0.2032 
-Fleeing Or Attmp Eluding A Leo, 0.3419 
-Pers/Inj/Prot/Ins Require, -0.0986 
-Petit Theft, -0.1552 
-Poss Of Open Cont In M/V Drive, 0.2825 
-Possess Cannabis/20 Grams Or Less, 0.3819 
-Possess Drug Paraphernalia, 0.1843 
-Possession of Cocaine, 0.0936 
-Red Light Camera Violation, -0.255 
-Resist/Obstruct W/O Violence, 0.1375 
-Tampering With Physical Evidence, 0.3499 
-Viol Prot Injunc Repeat Viol, 0.0201 
-Fail Register Vehicle, -0.0536 
-Grand Theft in the 3rd Degree, -0.3127 
-No/Improper Drivers License, 0.1457 
-Bike/Lights None Or Improper, 0.0827 
-Resist Officer w/Violence, 0.1454 
-nan, -1 
-Aggrav Battery w/Deadly Weapon, -0.214 
-Burglary Conveyance Assault/Bat, -0.1252 
-Burglary Struct/conv Dwel/occp, -0.2469 
-Burglary Struct/convey Unoccup, -0.1932 
-Deliv/Poss Imitat Contrl Subst, 0.1049 
-Disobey/Avoid Red Light, -0.1249 
-Drive On Sidewalk/Bike Path, 0.0973 
-Escape, -0.0248 
-Expired DL More Than 6 Months, 0.0615 
-Fail To Change Address/Name, 0.2869 
-Petit Theft $100- $300, -0.3205 
-Poss/pur/sell/deliver Cocaine, 0.3848 
-Prowling/Loitering, 0.0103 
-Susp Drivers Lic 1st Offense, 0.0018 
-Theft, -0.0192 
-Unlaw LicTag/Sticker Attach, 0.4405 
-Use/Poss/Drug Para/Plant/Grow, 0.3472 
-Battery on Law Enforc Officer, -0.1088 
-Bicycle/Moped Violations, 0.1164 
-Carrying a Concealed Weapon, 0.0174 
-Deliver Cocaine, 0.1134 
-Driving Under The Influence, -0.0687 
-Driving While License Revoked, -0.0309 
-Poss Meth/diox/meth/amp (mdma), 0.1267 
-Possession Of Open Container, 0.0526 
-Possession of Cannabis, 0.1322 
-Carjacking with a Firearm, -0.1156 
-Contribute Delinquency Of A Minor, 0.1362 
-Crimin Mischief Damage $1000+, 0.1762 
-Criminal Mischief, -0.0111 
-Imp Sunscrn At Top Of Wndshld, 0.0312 
-Kidnapping, -0.035 
-Learners Driver's Lic Viol, 0.2904 
-License Not Carried Exhibited, 0.1277 
-License Suspended W/O Knowledge, 0.0598 
-Solicit to Commit Armed Robbery, 0.1071 
-Biking Wrong Lane Or Side, 0.1261 
-Burglary Unoccupied Dwelling, -0.1066 
-Mcycle Oper Between Lane/Veh, 0.3737 
-Ped Fail To Yield To Traffic, 0.2075 
-Possession Burglary Tools, -0.0173 
-Unlaw Use False Name/Identity, 0.2835 
-Carrying Concealed Firearm, 0.0595 
-Disobey/Ran Stop Sign, -0.1321 
-Expired Tag More Than 6 Months, -0.002 
-Leave Acc/ Attend Veh/ More $50, 0.5459 
-Leaving The Scene Of Accident, 0.2939 
-License Suspended Revoked, 0.0954 
-No Insurance, 0.0373 
-Operating W/O Valid License, 0.0749 
-Poss Cocaine W/intent Deliver, 0.287 
-Possess Controlled Substance, 0.1446 
-Possession of  Cannabis, 0.1322 
-Resist/obstruct Officer W/viol, 0.0768 
-Robbery / No Weapon, -0.1354 
-Unlawful Alter Of Tag, 0.047 
-Use of Anti-Shoplifting Device, 0.0212 
-Aggravated Assault w/Firearm, 0.0502 
-Armed Burglary, -0.0917 
-Burglary, -0.1194 
-Burglary Of A Dwelling, -0.1155 
-Poss Firearm Commission Felony, 0.0275 
-Theft/To Deprive, -0.0573 
-Trespass Conveyance, -0.0695 
-Trespass Struct/conveyanc, -0.0208 
-Aggravated Battery / Pregnant, -0.0403 
-Aggravated Child Abuse, 0.0929 
-Carry Open/Uncov Bev In Pub, -0.0473 
-Delivery Of Cocaine, 0.0849 
-Discard Litter Upon Property, -0.0051 
-Drink/Licensed/Establisment, 0.1837 
-Felony Battery (Dom Strang), -0.1522 
-Felony Battery w/Prior Convict, -0.2801 
-Improper Backing, 0.1095 
-Loiter Or Prowl, -0.025 
-Ped Fail To Cross In X-Walk, 0.2398 
-Poss/Sel/Del Cocaine 1000' Chur, 0.4853 
-Robbery, 0.0211 
-Trespass Structure/Conveyance, -0.0203 
-Trespassing, 0.0114 
-Aggravated Battery w/o Firearm, -0.1422 
-Attempt Felony Murder, -0.1295 
-Burglary Conveyance Unoccup, -0.1301 
-Burglary Dwelling Assault/Batt, -0.0311 
-Disorderly Intoxication, 0.0475 
-Oper Veh Unsafe/Improp Equip, 0.5499 
-Poss Weapn/firearm School Prop, 0.2169 
-Trespass On School Property, 0.0714 
-Failure To Stop For School Bus, -0.0519 
-Grand Theft (Motor Vehicle), -0.264 
-Improper Right Turn, 0.066 
-Fnt St Pass/Ovr 18/Stbelt, 0.3048 
-Burglary Dwelling Occupied, -0.12 
-Driving W/License Susp/Revok, -0.0273 
-FTYROW to Emergency Vehicle, -0.0512 
-Gambling For Money, 0.0664 
-Pos Cannabis W/Intent Sel/Del, 0.4375 
-Poss Cocaine/Intent To Del/Sel, 0.4134 
-Poss/pur/sell/del/man/cannabis, 0.5335 
-Possess Cannabis W/i Deliver, 0.203 
-Possession Of Carts/Dairy Case, 0.1261 
-Possession of Cannabis (inactive), 0.1278 
-Seat Belts Required, 0.1651 
-Tamper/fabricate Physical Evid, 0.3833 
-Traffick Oxycodone     4g><14g, 0.1581 
-Trafficking In Cocaine,+28-200, 0.0705 
-Trespass Other Struct/Conve, -0.0371 
-Attempted Burlgary, -0.0797 
-Bike/Fal Use Care/Too Fast Con, 0.2567 
-Disobey Avoid Red Light, -0.1249 
-Drinking Alcohol In Public, 0.027 
-Fail To Report Accident, 0.1359 
-No Lodge On City Owned Prop, 0.3399 
-Poss Alch Beach/Public Area, 0.2274 
-Drinking Alch Beverage In Open, 0.0668 
-Petit Theft To Appropriate, -0.1932 
-Poss Prescrip Drug W/O Presc, 0.2537 
-Poss Stln Property, 0.1705 
-Poss Tetrahydrocannabinols, 0.1621 
-Trespass After Warning, 0.0311 
-Trespass Struct/Conveyance, -0.0837 
-Agg Fleeing and Eluding, 0.2187 
-Conterfeit Plate/Sticker, 0.2998 
-DL Restrictions/Time Restrict, 0.1088 
-Deliver Cocaine 1000' School, 0.2193 
-Disobey Lane Control Device, 0.016 
-Expired Tag/Infraction, 0.0468 
-Fail To Drive In A Single Lane, 0.1657 
-Flee/Elude LEO-Agg Flee Unsafe, 0.3227 
-Leave Acc/Attend Veh/More $50, 0.5459 
-Obstruct Disable Access To Space, 0.1373 
-Poss Alprazolam W/int Sell/Del, 0.356 
-Poss Cocaine/intent To Del/sel, 0.4134 
-Poss/Sell/Del Cocaine 1000' Sch, 0.4606 
-Stand/Park Prohibited Stop Signal, 0.0521 
-Two Lgtd Headlamp/Req/M/V, -0.0 
-Crim Conspiracy 2nd Deg Felony, -0.2014 
-Deliver 3,4 Methylenediox, 0.0828 
-Possession Of Methamphetamine, 0.0768 
-Sel Etc/Pos/w/Int Contrft Schd, 0.3617 
-Aggrav Stalking After Injunctn, -0.0328 
-Alcohol Consumption Violation, -0.0582 
-Battery Upon Detainee, -0.044 
-Deliver Cannabis, 0.152 
-Open Door Into Moving Traffic, 0.0468 
-Place Injurious Substance On Road, 0.1556 
-Poss F/arm,wep Delinq/conv Fel, -0.0223 
-Poss/pur/sell/del/man Cannabis, 0.5335 
-Robbery Sudd Snatch No Weapon, -0.1295 
-Trespass, 0.0361 
-Viol Injunct Domestic Violence, 0.1586 
-Viol Pretrial Release Dom Viol, 0.0307 
-Weapons Permit Violations, 0.1424 
-Armed Sexual Battery, -0.0194 
-Burglary Dwelling Armed, -0.0879 
-Burglary Struc/dwel/conv Armed, -0.1869 
-Driving W/O Lights, 0.061 
-Failure To Register As A Felon, -0.063 
-False Imprisonment, 0.0313 
-Poss Wep Conv Felon, -0.0309 
-Attempted Robbery Deadly Weapo, -0.0803 
-Delivery Of Methodone, 0.0529 
-Fail To Use Due Care, 0.2353 
-Firearm Ccf Arm, -0.1249 
-Following Too Closely, 0.023 
-Murder in 2nd Degree, -0.2137 
-Poss Of Weapon Or Ammo By, 0.0169 
-Poss Pyrrolidinovalerophenone, 0.1739 
-Poss/delivery Of Cannabis, 0.2866 
-Robbery / Deadly Weapon, -0.1561 
-Robbery / Weapon, -0.1354 
-Robbery 1 / Deadly Weapon, -0.1561 
-Robbery/Firearm, -0.0933 
-Vehicle W/O Lights At Night, 0.0066 
-Attempted Kidnapping, -0.0868 
-No Proof of Insurance, 0.0409 
-No Tag Light, -0.0525 
-No Valid License, 0.0529 
-Petit Theft Habitual Offender, -0.3046 
-Trespass Struct/Convey Occupy, -0.1482 
-Dealing in Stolen Property, 0.1955 
-Evasion/Fail To Pay Toll, 0.1056 
-Possess Tobacco Product Under 18, 0.2118 
-Burglary Structure Unoccup, 0.0246 
-Careless Driving, -0.0543 
-Poss of Firearm by Convic Felo, 0.0988 
-Pedestrian Leave Place Of Safety, 0.285 
-Retail/Farm/Fare/Theft, -0.1345 
-Theft To Deprive, -0.0573 
-Dealing Credit Card of Another, 0.3579 
-Obst By False Info, 0.0534 
-Poss of Cocaine W/I/D/S 1000FT Park, 0.2683 
-Possession Of Paraphernalia, 0.1343 
-Bike/Fail To Ride Right Hand Curb, 0.2488 
-Grand Theft Firearm, -0.2633 
-Sex Offender Fail Comply W/law, -0.1374 
-Assault, 0.171 
-Fleeing or Eluding a LEO, 0.3041 
-Reckless Driving, -0.0769 
-Agg Battery Grt/Bod/Harm, -0.0671 
-Attempt Murder in the First Degree, -0.2264 
-Criminal Attempt 1st Deg Felon, -0.1891 
-Drive Wrong Way One Way Street, -0.1212 
-Fail to Display Registrartion, 0.0878 
-Felony Battery, -0.0692 
-Leaving Acc/Unattended Veh, 0.462 
-No Valid Drivers License, 0.0236 
-Shoot Into Vehicle, -0.1095 
-Speed Posted Municip/State Rd-Driver, 0.1364 
-Open Cont Alcohol/ Prohib, 0.0236 
-Open Container-FL, -0.0329 
-Unlaw Consumption Alcohol Bev, -0.0576 
-Lewdness Violation, -0.0752 
-Offer Agree Secure/Lewd Act, -0.2776 
-Agg Assault Law Enforc Officer, 0.043 
-Arson in the First Degree, -0.1579 
-Child Abuse, 0.0994 
-Disobey/Avoid Traffic Device, 0.1149 
-Fail To Obey Traffic Sign, 0.171 
-Fail To Surrender DL/CDL, 0.102 
-Unlawful Tag Alteration, 0.0094 
-Uttering a Forged Instrument, 0.2206 
-Sexual Battery Victim 12 Yrs +, -0.0546 
-Unlawful Sexual Activity, -0.003 
-Carrying A Concealed Weapon, 0.0174 
-Corrupt Public Servant, 0.0459 
-Open Container Alcohol/Prohib, -0.0145 
-Petit Theft/ Prior Conviction, -0.3576 
-Solicit Deliver Cocaine, 0.1691 
-Trespass Other Struct/Convey, -0.1326 
-Tresspass Struct/Conveyance, -0.1361 
-Armed Kidnapping, -0.0074 
-Armed Sex Batt/vict 12 Yrs +, -0.192 
-Criminal Mischief Damage <$200, 0.0588 
-Disobey Officer/Fireman, 0.004 
-Disorderly Conduct, 0.0234 
-Display/Obscur Unauth Traf Dev, 0.2062 
-Exposes Culpable Negligence, -0.0301 
-Opn Contnr On In/Stop/Prk Veh, 0.0937 
-Speeding State Posted, 0.0612 
-Aggrav Batt/Serious Body Injury, -0.0851 
-Aggravated Assault, 0.1645 
-Armed Carjacking, 0.0264 
-Improper Use HOV Lane, 0.1728 
-Sound Too Loud From Vehicle, -0.0866 
-Alcohol Violation, -0.0456 
-Att Tamper w/Physical Evidence, 0.3306 
-Poss Of Open Cont In M/V Passg, 0.2601 
-Agg Assault W/int Com Fel Dome, 0.1673 
-DWLS Canceled Disqul 1st Off, -0.1273 
-Drivg While Lic Suspd/Revk/Can, 0.2356 
-Grand Theft Of The 2nd Degree, -0.2851 
-No Stop Lamp, -0.0529 
-Sell/pur/mfr/del Contr Substan, 0.3521 
-Del Cannabis For Consideration, 0.185 
-Use Of 2 Way Device To Fac Fel, -0.0647 
-Engine Run/Key/Set Brake, -0.0704 
-Felon in Pos of Firearm or Amm, 0.02 
-Improper Stop On Sidewalk, 0.1038 
-Leave Highway Avoid Traff Dev, 0.3311 
-Mcycle/Mped Tag Improp Affixed, 0.1376 
-Opert With Susp DL 2nd Offens, -0.0369 
-Side Wind/Rest Sunscreen, 0.0712 
-Obtain Control Substance By Fraud, 0.1488 
-Agg Battery Law Enforc Officer, -0.1494 
-Burglary Struct/conv Asslt/bat, -0.3599 
-Felony Criminal Mischief, -0.059 
-Fail To Obey/Flee/Elude, 0.32 
-Failure To Rept Accd Immediate, 0.0017 
-Operate Vehicle With Headset On, -0.0658 
-Passing On a Grade (Hill), 0.0485 
-Procure For Prostitution, -0.0532 
-Riding Bike With No/Imp Light, -0.0256 
-Sale/Del Cocaine Child Care Fac, 0.3319 
-Sell Cocaine 200'Park, 0.1168 
-Wearing Headset/Listening Device, -0.0477 
-Agg Fleeing/Eluding High Speed, 0.3126 
-Carjacking, -0.0012 
-Fish/Hunt/Trap W/O License, 0.1083 
-Tamper With Witness/Victim/CI, 0.2509 
-Lve/Scen/Acc/Veh/Prop/Damage, 0.5921 
-False Ownership Info/Pawn Item, 0.0652 
-False Verif Ownership Pawn Shp, 0.0319 
-Property Not Structure Or Convey, -0.1098 
-Solicit ProstitutionViolation, 0.0728 
-DUI Property Damage/Injury, 0.0789 
-Poss Contr Subst W/o Prescript, 0.1677 
-Poss Of RX Without RX, 0.1597 
-Possession of Oxycodone, 0.0985 
-Alcoholic Beverage Violation-FL, 0.1942 
-Obstruction By False Name, 0.2263 
-Prostitution/Lewd Act Assignation, -0.2823 
-Solicit Prostitution, -0.0077 
-FTYROW To Emergency Vehicle, -0.0512 
-Petit Frm Merchant- 2nd Or More, -0.2092 
-Poss Of Controlled Substance, 0.2568 
-Prostitution/Lewdness/Assign, -0.1388 
-Resist/Obstruct/W/O Viol, 0.0767 
-U-turn Improper Unsafe Prohibited, 0.1745 
-Municipal Ord/System Charge, 0.1968 
-Att Burgl Struc/Conv Dwel/Occp, -0.1384 
-Loitering/Prowling, 0.0103 
-Counterf Prvt Lable Over $1000, 0.0929 
-Resist Merchant W Or W/O Viol, 0.0587 
-Trespass/Property/Other Structure, 0.0807 
-Unauth C/P/S Sounds>1000/Audio, 0.1395 
-Expired DL < 6 Months, 0.0615 
-Unlawful Speed (Requires Speeds), 0.3313 
-Beverage Law Violation, 0.0312 
-DUI - Enhanced, 0.0245 
-Obstr False Info Leo, 0.092 
-Aggravated Battery, -0.0278 
-D.U.I. Serious Bodily Injury, 0.0594 
-DL Restrictions 17 Years Old, 0.0868 
-Fail To Give Info/Render Aid, 0.0533 
-Leaving the Scene of Accident, 0.2939 
-Unlawful Blood Alcohol S.B.I., -0.016 
-Consump/Alcohol/Open Cont Pub, 0.0548 
-Disobey Taffic Signal, -0.0424 
-Expired Tag, 0.0382 
-Fail Stop Red Signal Rght Turn, -0.26 
-Flee Elude Police Officer, 0.2514 
-Flee/ Elude Off/ Not Revkd Court, 0.2922 
-Poss Counterfeit Subs W/i/sell, 0.2722 
-Possession Of Heroin, 0.0679 
-Sell/pur/mfr/del Cntrl Substan, 0.3399 
-Trespass Structure w/Dang Weap, 0.0159 
-Tresspass in Struct/Convey Occupy, -0.2005 
-Unlawful Removal Of Dairy Case, 0.1005 
-Violation Broward Co Ordinance, -0.1094 
-FTYROW When Turning Left, 0.0851 
-Attempted Robbery  Deadly Weap, -0.1512 
-Grand Theft of the 2nd Degree, -0.2851 
-Pedestrian Obstructing Traffic, 0.1836 
-Robbery W/Firearm, -0.0933 
-Speed Posted Municip/State Rd, 0.1477 
-Fail To Obey Traff Control Dev, 0.238 
-Felony Batt(Great Bodily Harm), -0.1134 
-Giving False Report, 0.0576 
-Mcycle W/O Eye Protection, 0.1287 
-Poss Pyrrolidinobutiophenone, 0.1642 
-Resisting W/O Violence, 0.129 
-Tag Unsecured/Obscured, -0.002 
-Battery On Law Enforce Officer, -0.0585 
-Sell Conterfeit Cont Substance, 0.3151 
-Attempted Murder 1st Degree, -0.2649 
-Delivery of Heroin, 0.0592 
-Restriction For Wndow Behnd Drv, 0.3169 
-Unlawful Speed (Requires Speeds)-Driver, 0.3824 
-Disobey Four Way Stop Sign, -0.1594 
-Drive Around Detour/Barricade, 0.1586 
-Driving Wrong Side Of Roadway, 0.0138 
-Fail to Submit Insurance W/I 24 hours, 0.0648 
-Fleeing a Police Officer, 0.2084 
-Improper Change Of Lanes, 0.1532 
-Offer Agree Secure For Lewd Act, -0.2776 
-Posses/Disply Susp/Revk/Frd DL, 0.1981 
-Stalking, -0.0064 
-Stalking (Aggravated), -0.0129 
-Vehicle Damage Road Surface, -0.0379 
-Aggravated Battery On 65/Older, -0.0213 
-Counterfeiting Contr Substance, 0.116 
-Deliver Cocaine 1000' Church, 0.191 
-Poss Pyrrolidinovalerophenone W/I/D/S, 0.1739 
-Depriv LEO of Protect/Communic, 0.1387 
-No Occupational License, 0.0852 
-Utter Worthless Check, 0.0762 
-Deliver Cannabis 1000FTChur, 0.167 
-Improper Left Turn, 0.041 
-No Lamps/Illuminating Device, -0.0511 
-No Turn Signal/Light, -0.1033 
-No Valid DL Infraction Infraction, 0.0184 
-Open Carrying Of Weapon, -0.0744 
-Poss/Sel/Del Cocaine 1000FT Chur, 0.4845 
-Possess Cannabis 1000FTSch, 0.1478 
-S/M/D/P/W/Int 1000 Sch/Child C, 0.2188 
-S/M/D/P/W/Int 1000FT Sch Oxycodo, 0.1846 
-Sel/Del Canbs At/Near Pub Park, 0.3295 
-Unlawful Speed/County Roads, 0.0866 
-Poss Trifluoromethylphenylpipe, 0.167 
-Poss of Benocylclidine, 0.1648 
-Possession of Benzylpiperazine, 0.0639 
-Trafficking In Illegal Drugs, 0.0184 
-Att Murder 2d Degree W/weapon, -0.3345 
-Cruelty To Animals, 0.032 
-Drive Across Divided Section, 0.1293 
-Expired DL More Than 4 Months, 0.0615 
-Fail Dim Headlights/Imp Adjust, 0.1199 
-Reckless Display Of Weapon, -0.0554 
-System Conspiracy 2nd Degree Misd, -0.1398 
-Unl/Speed In School Zone, 0.2718 
-Expired Tag/ Reg>6 Months 2nd, -0.0505 
-Fail To Use Designated Lane, 0.117 
-Cruelty Toward Child, 0.0889 
-DOC/Fighting/Threatening Words, 0.1131 
-Drv W/O Lghts Twilght/Fog/Rain, 0.1346 
-Grand Theft (motor Vehicle), -0.264 
-Oper Motorcycle W/O Valid DL, 0.2372 
-Pedestrian Fail To Use Sidewalk, 0.1836 
-Slow  Speed Impede Traffic, 0.2451 
-Drive Veh Unsafe/Defect Equip, 0.4393 
-Pos Cannabis W/intent Sel/del, 0.4375 
-Uttering Forged Bills, 0.2046 
-Sell/buy/del Cont Sub 1000'sch, 0.5 
-Speed/Busn/Resid/Intrstate/4Ln, 0.3149 
-Fail Sex Offend Report Bylaw, -0.0157 
-Failure To Register, -0.034 
-Op Veh Unsafe/Improper/Equip, 0.356 
-Sexual Battery / Vict 12 Yrs +, -0.1172 
-Fail To Dim Headlights, 0.0878 
-Soundmaking Device Violation, -0.0862 
-Fail to Obey Traffic Sign, 0.171 
-DOC/Open Container/Bus Facility, 0.0117 
-Drive Round/Railroad Gate/Barr, 0.1149 
-Imp Park/Agnst Flow/Curb 1 Way, -0.0141 
-Imp Start From Park/Stop Posit, 0.0024 
-Delivery Controlled Substance, 0.1447 
-Make/poss/throw Destruct Devic, 0.0519 
-Seat Belt Violation, 0.1295 
-Tail Lights None/Improper, 0.1464 
-Viol Municipal Speed / Posted, 0.1623 
-DL Restrictions Mech Cont Dev, 0.2255 
-Improper Pass /On Right/Off Rd, 0.2233 
-Refuse Submit Blood/Breath Test, -0.0619 
-Trespass School Grounds, 0.0865 
-Unlaw Use Temporary Tag, 0.0503 
-Criminal Mischief>$200<$1000, 0.0731 
-Making An Affray/Riot, 0.0377 
-Poss 3,4 MDMA (Ecstasy), 0.1682 
-Poss Cntrft Contr Sub w/Intent, 0.3585 
-Corrupt/threat Public Servant, 0.0642 
-Robbery Sudd Snatch w/Weapon, -0.1295 
-Speed Posted County Rd Res/Bus, 0.0985 
-Introduce Contraband Into Jail, 0.134 
-Agg Fleeing And Eluding, 0.2187 
-Operate Against Lic/Restriction, 0.2198 
-Attempted Robbery, -0.0307 
-Ped Fail Obey Traffic Sig, 0.3166 
-Possession of Hydrocodone, 0.0629 
-Sudden Stop Without Signal, -0.0666 
-Contribute Delinq/Depnd of Minor, 0.081 
-Lewd/Lasc Battery Pers 12+/<16, -0.3123 
-Speed / 65 Highway/Turnpike, 0.1529 
-Unlawful Speed School Zone, 0.1977 
-Criminal Attempt 3rd Deg Felon, -0.2172 
-Robbery W/firearm, -0.0933 
-Speed/65 Interstate, 0.1098 
-Urinate/ Public Bldg Open Place, 0.0457 
-Using Airless Tires, 0.023 
-Burglary Structure Occupied, -0.0747 
-Attempted Purchase of Cocaine, -0.0334 
-Grand Theft on 65 Yr or Older, -0.1426 
-Kidnapping / Domestic Violence, 0.0636 
-Live on Earnings of Prostitute, -0.005 
-Loiter Where Sign is Posted, -0.0034 
-Crim Attempt/Solic/Consp, -0.0227 
-Municipal Violation, -0.0112 
-Reckles Driv/Pers-INJ Prop Dam, 0.3398 
-Throw Deadly Missile Into Veh, 0.0238 
-DUI Level 0.15 Or Minor In Veh, 0.276 
-Neglect Child / No Bodily Harm, 0.1165 
-Reckles Driv Pers-Inj Prop Dam, 0.3398 
-Refuse Stop When Ordered LEO, -0.02 
-Refused To Obey Traffic Laws, 0.1689 
-Attempted Robbery  No Weapon, -0.1872 
-Fail Register Career Offender, -0.1045 
-Attempted Armed Carjacking, -0.0253 
-Attempted Robbery Firearm, -0.145 
-Assault On Law Enforc Officer, 0.0835 
-Attempted Burglary (dwelling), -0.1673 
-Giving False Crime Report, 0.073 
-Improper Center Lane Use, 0.1563 
-Ped In Rdwy/ Solict Ride/Busns, 0.4362 
-Deliver Cocaine 1000FT School, 0.2186 
-Fail To Obey Police Officer, 0.1436 
-Block Intersection Crosswalk, -0.0111 
-Fail To Signal Turn Properly, -0.0506 
-No Safety Belts/Passg Under 18, 0.2467 
-Opert With Susp DL 2nd Offense, -0.0807 
-Speed / 65 Highway/Turnpike-Driver, 0.1137 
-Throw Missile Into Pub/Priv Dw, -0.1151 
-Tresspass in Structure or Conveyance, -0.0727 
-Exploit Elderly < 2000, 0.0901 
-Murder in the First Degree, -0.2222 
-Indecent Exposure, 0.0831 
-Possession Cocaine W/i/deliver, 0.1733 
-Bike Passenger Violation, -0.0953 
-Credit Card Theft, 0.1896 
-Deliver Oxycodone, 0.1183 
-Poss Oxycodone W/int/sell/del, 0.379 
-Possession Of Carisoprodol, 0.0656 
-Proof Of Insurance, 0.0409 
-Litter Pub Hghwy/Mot Veh, 0.1704 
-Possession Of Alprazolam, 0.0755 
-Traffic, 0.0636 
-Possession Of Diazepam, 0.0682 
-Aggravated Assault W/Dead Weap, 0.0769 
-Domestic Violence, 0.0987 
-Att. Deprive P/O Means Protect, 0.0025 
-Operating W/O License, 0.1053 
-Possess/Use Weapon 3 Deg Felon, -0.1448 
-DWLS Habitual Offender 2nd, -0.2296 
-DWLS/License Susp/Revoked, -0.0031 
-Speeding (Speed Not Indicated)-Driver, 0.2167 
-Sleep On Pub/Street/Sidewlk/Bch, -0.0251 
-Impair/Impede Phone/Power Dweli, 0.1184 
-Possession Of MDMA W/I/D/S, 0.0614 
-Trafficking In Cocaine, 0.0546 
-Burglary Conveyance Occupied, -0.2294 
-None Or Improper Turn Signal, -0.0971 
-Shoot In Occupied Dwell, -0.0675 
-Shoot/throw In Occupied Build, -0.0919 
-Temporary Tag, 0.0201 
-Throw In Occupied Dwell, -0.1235 
-Burgl Dwel/Struct/Convey Armed, -0.1668 
-Poss New/Legend Drug w/o RX, 0.2443 
-Poss/sell/deliver Alprazolam, 0.3207 
-Shoot/throw Into Vehicle, -0.1807 
-Crim Conspiracy 3rd Deg Felony, -0.229 
-Soliciting For Prostitution, -0.0661 
-Disturbing The Peace, 0.0193 
-Driving while DL Susp / Financial Resp, -0.0801 
-Fail To Secure Load, -0.0512 
-Del Cannabis At/Near Park, 0.2384 
-Obstruct Officer By Disguise, 0.0545 
-Drinking In Public, 0.0272 
-Loitering Or Prowling, 0.0103 
-Agg Batt W/Arm S/B/I 25 Min/Ma, -0.1458 
-Petit Theft / Previous Convict, -0.2906 
-Possession Stolen Credit Card, 0.3717 
-Bike/Brakes None/Improper, -0.0738 
-Fail Disp Registration, 0.0534 
-Poss of Ethylone W/I/D/S, 0.1587 
-Possession Of Clonazepam, 0.0668 
-Possession of Hydromorphone, 0.0701 
-Battery (aged), -0.0281 
-Battery on a Person Over 65, 0.0406 
-Fail To Change Address On DL, 0.0924 
-Fail Yield Overtaking Vehicle, -0.0514 
-False Motor Veh Insurance Card, 0.2855 
-Fish/Hunt/Trap W/O License/Stamp, 0.1117 
-Inflicts Culpable Negligence, -0.0187 
-Sell/Man/Del Pos/w/int Heroin, 0.4508 
-Learner DL/Operate Invalid Hrs, 0.156 
-Fel Drive License Perm Revoke, 0.1792 
-Temporary Tag Expired 7 Days/<, 0.0828 
-Induce/Entice Lewd Act, -0.1986 
-Pub Indecency/Urinate In Public, 0.0245 
-Shoot/throw In Occupied Dwell, -0.1388 
-Assault Law Enforcement Officer, 0.1733 
-Loitering, -0.0241 
-Tampering With A Victim, 0.167 
-Theft/To Appropriate, -0.0572 
-Aggravated Assault W/dead Weap, 0.0769 
-Disobey Stop/Yield Sign, 0.0198 
-No Proper Endorsement On DL, 0.0521 
-Racing On Highway, 0.0859 
-Failed To Provide Plumbing Fix, -0.0049 
-Panhandling, 0.0124 
-Ped/Walk Left Side No Sidewlk, 0.2334 
-Sleeping On Municipal Beaches, 0.142 
-Solicit Charble Don W/O Permit, 0.1588 
-Poss Weapon Commission Felony, -0.0146 
-Sex Offender Fail Comply W/Law, -0.1374 
-Consp Sell/pur/mfr Cntrl Subst, 0.2009 
-Drink/Premises Licensed Estab, 0.1691 
-Forgery, -0.0007 
-Possess Armor Piercing Bullet, 0.0842 
-Possession of Ammunition, 0.0643 
-Shooting Into Occup Building, 0.0175 
-Possess Cannabis W/I Deliver, 0.203 
-System/Attempt/Solicit/Conspiracy, 0.0707 
-Attempted Strongarm Robbery, -0.0552 
-Intoxicating Beverages, 0.023 
-Fail Obey Driv Lic Restriction, 0.3856 
-Improper Stop/Stand/Park, 0.0691 
-No Valid Florida DL, 0.0172 
-Poss/sell/del Methamphetamine, 0.3152 
-Refuse To Submit To Breathalyzer, -0.0255 
-Too Fast For Conditions, 0.1387 
-Cont Oth Originally Del, 0.1685 
-Imp Pass/Interfr Approch Traff, 0.1778 
-Create/Poss/Use Fictitious Personal ID Info, 0.3966 
-Fail To Turn As Directed, -0.0381 
-Poss/Unlaw Use Driver License, 0.3278 
-Possess False ID Card, 0.2735 
-Unfiled Case - Capias Issued, 0.0481 
-Drive Left Side No Passing Zone, 0.356 
-Expired DL Less Than 4 Months, 0.1396 
-None/Def Rear View Mirrors, -0.0283 
-Bike Disobey/ Avoid Red Light, -0.2022 
-Disobey Green Light, -0.0255 
-Fail Surend DL Reg Susp By FRD, 0.0663 
-Opert With Susp DL 2ND Offense, -0.0807 
-Strong Armed  Robbery, 0.0343 
-Unlawful Use Temporary Tag, 0.0746 
-Lewd or Lascivious Molestation, -0.2159 
-Crim Use Of Personal Id Info, 0.1692 
-Operate W/Illegal Sunscreen, 0.0249 
-Poss Unlaw Issue Driv Lic / Id, 0.5768 
-Procure Person Und 18/Prostitu, 0.1745 
-Stand/Park Prohibited Driveway, 0.1051 
-Mcycle No/Imp Rearview Mirror, 0.0603 
-Headlights Required/Tinted, 0.1601 
-Passenger Exced Seatbelt-/Picku, 0.0231 
-Permit Unauthorizd Person Drv, 0.2696 
-Poss/sel/del Cannabis 1000'sch, 0.5035 
-Improper Change of Lanes, 0.1532 
-Conspiracy Traffic in Cocaine, 0.08 
-Fail to Provide Proof of Insur, 0.0479 
-Poss Oxycodone W/Int/Sell/Del, 0.379 
-Dog At Large-DV, 0.0165 
-Bike Regulation Violations, 0.0325 
-Obstruct Officer W/Violence, 0.1246 
-Red Light Camera Violation-LEO, -0.2226 
-Speed On Roadways, 0.049 
-Poss F/Arm Delinq, 0.1479 
-Criminal Attempt 2nd Deg Felon, -0.1896 
-Trafficking In Cocaine 28><200, 0.086 
-Consume Alcoh Bev Where Prohib, -0.0367 
-S/M/D/P/W/Int 1000 Sch Cocaine, 0.2045 
-Trespassing/Construction Site, 0.026 
-Loud Defective Muffler, 0.0061 
-Poss/sell/deliver Clonazepam, 0.3119 
-Speed Posted/Municip/State Rd-Toll, 0.1087 
-Attempted Robbery  Weapon, -0.1872 
-Felony/driving Under Influence, -0.1166 
-Burglary Structure Armed, -0.0426 
-Fail To Register Bike, -0.0366 
-Fraudulent Use of Credit Card, 0.3035 
-Hitchhiking/Stand, 0.0116 
-Home Invasion Robbery, 0.0032 
-Rec Goods Faud Cred Card, 0.2336 
-Conspiracy / Traffic Cocaine, 0.08 
-Overtake/Passing Veh Cutting In, 0.2218 
-FTYROW Thru Hgwy/XSection, 0.0916 
-Improper Pass / Overtake Vehicle, 0.0503 
-Poss/sell/del Cocaine 200'park, 0.3528 
-Drinking Alcohol Bev In Open, -0.0553 
-Speed Con/Zone No Worker/Equip, 0.4209 
-Fail Obey Driv Lic Restrictions, 0.3707 
-Possess Weapon 1 Deg Felon, -0.189 
-Retail Theft, -0.0795 
-Defective Equipment/ No Horn, 0.0189 
-Headlight Violation/Wrong, -0.0296 
-Mcycle Headlights Required On, 0.1488 
-Mcycle/No Headgear, 0.0662 
-Poss Personal Prop W/Alter ID, 0.5115 
-Poss/sell Mot Veh W/alt Vin #, 0.4035 
-Attempted Burglary Occupied, -0.1756 
-Eng/Bus/Contract W/O License, 0.0583 
-Failure Regist as Sex Predator, -0.1088 
-Obtain Prop False Personation, 0.1928 
-Sex Ofdr Fail Notify Leo Cor, 0.0179 
-Delivery Cannabis For Consider, 0.1469 
-Occupying Condemned Stucture, 0.0772 
-Sale Subst in Lieu Contr Subst, 0.0608 
-Extortion / Threats, 0.0186 
-Crim Attempt/Solicit/Consp, 0.002 
-Crim Use of Personal ID Info, 0.1692 
-Motor Vehicle Noise Violation, -0.1818 
-Poss Cannabis/20 Grams Or Less, 0.494 
-Solicit To Deliver Cocaine, 0.1691 
-Viol Disaster Emer Management, 0.1023 
-Crim Mischief (Aggregate Value), -0.0073 
-Grand Theft in the 1st Degree, -0.2847 
-Public Phone Cables Fixtures E, 0.0226 
-Take Copper Other Metal Intrf/Damg Utility, 0.0489 
-Dealing In Stolen Property, 0.1955 
-Attempted Murder 2nd Degree, -0.2654 
-Possession Of Lorazepam, 0.0642 
-Speeding (Speed not Indicated), 0.1656 
-FTYROW When Turning, 0.0521 
-Cash/deposit Item W/i/defraud, 0.0242 
-Defraud Financial Institution, 0.0423 
-Fraud Use/Persnl ID Info/Deceased, 0.1975 
-Offense Against Computer User, -0.0426 
-Perjury/contradict Statement, 0.0313 
-Poss Unlaw Issue Driver Licenc, 0.3226 
-Poss of Cloned Cellular Phone, 0.1849 
-Extradition/Defendants, 0.0196 
-Grand Theft In The 3Rd Degree, -0.3127 
-Assault (inactive), 0.1667 
-Fail To Change Name On DL, 0.2853 
-False Statement To Obtain DL/ID, 0.212 
-Felony/Driving Under Influence, -0.1166 
-No D/L Serious Bodily Injury, 0.0438 
-Possession of PCP, 0.061 
-Receiving Stolen Property, 0.1027 
-Solicit Sell/purch/del Cocaine, 0.292 
-Bike/Fail To Wear Helmet, 0.1487 
-Poss F/Arm Violent Career Crim, 0.0241 
-Possess/Use Weapon 1 Deg Felon, -0.1448 
-Poss/sell/deliv Lysergic Acid, 0.2021 
-Improper Turn, 0.008 
-Special Hazrd/To Fast For Cond, 0.2201 
-Altered Exhaust System, 0.0645 
-Litter On Private Land, 0.0206 
-Bike/Ride W/O Hands on Handlebars, 0.1835 
-Fraudulent Use Of Credit Card, 0.3035 
-Att Burgl Occp Dwelling, -0.0394 
-Unlaw Malic Strike K9/Horses, 0.1301 
-DWLS Suspend Cancel Revoked, -0.0622 
-Disobey Yield Sign, 0.0417 
-Battery On A Person Over 65, 0.0406 
-Defrauding Innkeeper $300/Less, -0.01 
-Present Proof of Invalid Insur, 0.0598 
-Failure To Pay Taxi Cab Charge, 0.0311 
-Possess Forged/altered Bills, 0.1828 
-Fraud Use/obtain D.Lic/id Card, 0.3205 
-Ride Tri-Rail Without Paying, 0.1961 
-Learner's Driver's License Vio, 0.2258 
-Florida Litter Law Over 5Lbs, 0.022 
-Leave Accd/Attend Veh/Less $50, 0.4966 
-Poss Forged/revoke Credit Card, 0.4519 
-Poss/sell/deliver Hydrocodone, 0.308 
-Trespass Structure, 0.0852 
-Agg Flee Serious Injury/Death, 0.0917 
-FYROW/Slow Speed Emerg Vehicle, 0.0225 
-Op Exh Sysm Noise/Abate Modify, 0.0194 
-Speed Con/Zone Workers/Equip, 0.4477 
-Sunscreen Violations, 0.0501 
-Attempted Burg/Convey/Unocc, -0.2609 
-Fail Obey Pol Off//Flee, 0.242 
-Felony DUI (level 3), -0.0058 
-Att Burgl Unoccupied Dwel, 0.0024 
-Park In Signed No Park Zone, 0.1518 
-Deliver Cannabis 1000FTSch, 0.1765 
-Trespass At A School, 0.0759 
-Sell Cannabis 1000FTChur, 0.1495 
-Aggravated Assault W/o Firearm, 0.0502 
-Def on Felony Bail Fail Appear, 0.0128 
-Exploit Elderly Person 20-100K, 0.1325 
-Loitering/prowling, 0.0103 
-Robbery / Wearing a Mask, -0.0054 
-Unlaw Number Of Person On Bike, 0.0478 
-DL Restrictions/Under 17, 0.0782 
-Burglary Struct Unoccup Mask, -0.059 
-Law Enforc Inves/Miss Prsn/Crm, -0.0631 
-Manufacture Cannabis, 0.0906 
-Littering, 0.0026 
-Poss/sell/deliver Diazepam, 0.3134 
-Poss3,4 Methylenedioxymethcath, 0.0583 
-Possession Of Amphetamine, 0.0676 
-Possession of Ethylone, 0.0554 
-Poss/Sell/Del Cocaine 1000FT Sch, 0.4598 
-Ped Fail To Use Sidewalk, 0.2103 
-FLA Litter Law Viol/Dumping, 0.0524 
-Open Container Alcohol - MV, -0.007 
-Possession of Morphine, 0.064 
-Alcoholic Bev Under Age Of 21, 0.009 
-Aiding Escape, -0.0258 
-No Valid DL / Non Resident, 0.0614 
-Ride W/O Hand on Handle Bar, 0.2254 
-Stand In Rd/ Solict Ride/Busns, 0.3049 
-DOC/Trespass Private Property, 0.0964 
-Prostitution, -0.0633 
-Comm/Off Lewd/Prost Assign, -0.2526 
-Lewd/Lascivious Behavior, -0.2047 
-Speed/65 Interstate (requires speed), 0.2937 
-Aggrav Battery W/Deadly Weapon, -0.214 
-Armed Home Invasion, 0.0098 
-Bike/Disobey Stop/Yield Sign, -0.0574 
-Possess Drug W/O Prescription, 0.1344 
-Aggrav Child Abuse-Agg Battery, 0.0175 
-Sex Battery Deft 18+/Vict 11-, -0.0605 
-Agg Bodily Inj with Dead Weapn, -0.0068 
-Unauth Poss ID Card or DL, 0.4295 
-Poss Short Barl Rifle, 0.179 
-Possession Of Phentermine, 0.0634 
-Traffick Hydrocodone   4g><14g, 0.1225 
-Temporary Tag Violation, -0.0253 
-Corrupt Threat/public Servant, 0.0642 
-DUI Blood Alcohol Above 0.20, -0.016 
-Arson in the Second Degree, -0.1418 
-Attempted Murder First Degree, -0.274 
-Burglary Damage Property>$1000, -0.0058 
-Petit Larceny, -0.1416 
-Child Neglect/Delinquency, 0.1552 
-Burglary With Assault/battery, 0.0303 
-Public Indecency/Exposing, 0.005 
-Agg Battery Domestic Violence, 0.0368 
-Fail To Stop/Yield at Sidewalk, 0.0471 
-Batt On School Board Employee, -0.0264 
-Failed To Stop/Yield At Sidewalk, 0.0172 
-Ride Bike 2 Abreast or More, 0.0944 
-Battery On County Det Facility, -0.0127 
-None Or Improper Stop/Turn Signal, -0.119 
-Use Mot Veh In Comm Of Felony, 0.1359 
-Windshield Violations, 0.0677 
-Pos Cannabis W/I/D/S Near Worsh, 0.3148 
-Imp Stop Lim Access Fac, 0.0749 
-Kidnapping (Facilitate Felony), -0.0931 
-Misuse Of 911 Or E911 System, 0.1766 
-Burglary Structure Assault/Batt, 0.0142 
-Crim Solicitation 1st Deg Misd, -0.201 
-False Info LEO During Invest, 0.0922 
-Unlaw Lic Use/Disply Of Others, 0.2824 
-Drink Alcoholic Bev In Public, 0.1046 
-Inciting to Riot, 0.0175 
-Drive While License Susp By FRD, 0.1875 
-Crim Solicitation 3 Deg Felony, -0.2058 
-Ind Assault Child Under 16 Yrs, 0.177 
-Del Pyrrolidinovalerophenone, 0.0836 
-Trespass Property w/Dang Weap, -0.0377 
-Agg Fleeing/eluding High Speed, 0.3126 
-Consp Traff Oxycodone  4g><14g, 0.1958 
-No Brake/Turn/Signals Lighted, -0.0632 
-Gambling Paraphernalia, 0.0937 
-Poss 3,4 Mdma (ecstasy), 0.1682 
-Possession Of Mdma W/I/D/S, 0.0614 
-Spearfishing Prohibited Area, 0.1 
-Violation Of Diver Down Flag, -0.0576 
-Litter In A Public Place, 0.0525 
-Sexual Battery - Great Force, -0.0421 
-Trafficking In Cocaine 200-400, 0.0605 
-Attempt Sexual Batt / Vict 12+, -0.1773 
-Fail Register Motor Vehicle, -0.0745 
-Poss Firearm W/alter/remov Id#, 0.2377 
-Refuse To Post Bond/Sign Summons, -0.0487 
-Poss Control Subst W/200' Park, 0.1679 
-Poss/Drug Para/Inject/Ingest, 0.2682 
-Traff In Cocaine <400g>150 Kil, 0.1823 
-Loiter Solicit Act Prostitute, -0.0243 
-Unnatural/Lascivious Act, -0.0716 
-Expired DL/More than 4 Months, 0.0615 
-Viol Municipal Speed / Posted-Driver, 0.1489 
-Murder in 3rd Degree, -0.2412 
-Aggravated Assault W/Firearm, 0.0502 
-Misuse Of Wireless 911 System, 0.147 
-Carjacking w/o Deadly Weapon, -0.1784 
-Crim Solicitation 3d Drugs, -0.1141 
-Insurance Fraud, 0.0446 
-Open Container Of Alcoholic Bev, 0.0257 
-Possession of a Fire Bomb, 0.078 
-False Imprisonment Under 13 YR, 0.0325 
-Grand Theft Dwell Property, -0.2012 
-Littering-DR, -0.0003 
-Unlawful Speed: Interstate, 0.1132 
-Aggrav Child Abuse-Causes Harm, 0.0281 
-Accessory After the Fact, 0.0012 
-Consume Alcoholic Bev Pub, 0.054 
-DWLS Child Support 1st Offense, -0.0909 
-Speeding (Speed Not Indicated), 0.1656 
-Unlawful Speed (Requires Speed)-Toll, 0.2492 
-Viol Drivers Lic Restriction, 0.2375 
-Consp To Attempt Deliv Cocaine, 0.0105 
-Gambling, 0.0192 
-Dog Running At Large Within City, 0.0806 
-Emit Excess Exhaust Fumes, 0.0402 
-No Registration, 0.007 
-Possession Of Alcohol Under 21, 0.0399 
-Susp D/l Death Serious Injury, -0.0162 
-Pos/Sel/Del Cannabis 1000FTChur, 0.4421 
-Fail Give Turn/Stop Signal, -0.0834 
-Improper Left Hand Turn, 0.0856 
-Disorderly By Fighting, 0.0142 
-Driving W/Lic Susp Habitual, -0.0474 
-Failure Display Registration, 0.02 
-License Not Carried, 0.1068 
-Violation Of Restraining Order, -0.0444 
-Poss Anti-Shoplifting Device, 0.1401 
-Lodge In Open/ Park Closed, 0.0422 
-Sleep On Municipal Beaches, 0.0694 
-Burg Dweling Occupied/Mask, -0.0722 
-Brakes Not Maintained, 0.0213 
-Ped Walk Left Side/No Sidewalks, 0.2497 
-Sleeping In Park Pavillion-FL, 0.0908 
-Solicitation On Felony 3 Deg, -0.145 
-Battery Spouse Or Girlfriend, -0.0264 
-DOC/Engage In Fighting, 0.0923 
-Bike / Fail To Wear Helmet, 0.1487 
-Possession Of Cannabis, 0.1322 
-Public Consumption Poss Prohib, 0.148 
-Assault on Person 65 or Older, 0.2326 
-Obstruct Firefighter During Duty, 0.0082 
-Obstruct Officer W/violence, 0.1246 
-Threat Public Servant, 0.0398 
-Did Lodge Underneath Bridge, 0.158 
-Attempted Burgl Conv Unoccup, -0.1675 
-Gambling/Gamb Paraphernalia, 0.1118 
-Sell or Offer for Sale Counterfeit Goods, 0.154 
-Sell/Possess Counterfeit Goods, 0.1577 
-Unauthor Copy of Sound Article, 0.0071 
-Resisting Arrest W/out Violenc, 0.0431 
-Advertisement of Drug Para, 0.0934 
-Pass in No Pass Zone, 0.1871 
-Penalties/Financial Responsibility, 0.0356 
-DWLS Susp/Cancel Revoked, -0.0897 
-Unlawful Speed/County Roads-Driver, 0.0551 
-DWLS Fin Obligation 1stOfense, -0.0435 
-Harass Witness/Victm/Informnt, 0.1718 
-Attempted Escape, -0.0765 
-Harass Witness/Victim/Information, 0.1731 
-Neglect/Abuse Elderly Person, 0.1908 
-Poss Controlled Substance, 0.2568 
-DWLS/ Habitual Offender, -0.2087 
-Fail to Wear Bike Helmet, 0.1487 
-Mcycle/Moped Head/Eye Protection, 0.1652 
-Moped Violation, -0.0084 
-Possess Meth/diox/meth/amp, 0.013 
-Drop /Shift/Leak Load, -0.0251 
-Improp Park/Unincorp Area, 0.1765 
-Possession Of Cocaine, 0.0936 
-Felony Dui (level 3), -0.0058 
-Violation License Restrictions, 0.0701 
-Temp Tag Expired 7days or Less, 0.0926 
-Break/Coin Operated Machine, 0.0255 
-Fail To Maintain Electrical, 0.04 
-Trespass In A Struct / Convey, -0.1326 
-Trespass School Grounds/Facility, 0.0804 
-Imp Stop Un/Load Pasg Limt Acs, -0.048 
-Solic Poss/Pur/Sell/Del Cocaine, 0.4089 
-Bicycle Regulation Violations, 0.1317 
-Slow Bike Fail Ride Right Curb, 0.2893 
-Discharge Firearm in Public, -0.0924 
-Agg Batt With Deadly Weapon, -0.3044 
-Att Murd Civ Vic/ser Bod Inj A, 0.0296 
-RR Crossing Failed To Stop, -0.0354 
-Disobey Red Flashing Signal, -0.1837 
-Trafficking 14-28 Grams Heroin, 0.1222 
-None/Improper Rear Stop Lamps, -0.0444 
-Racing on the Highway, 0.0859 
-Sale of Altered Motor Vehicle, -0.0472 
-Solicitor or Panhandler in/on Prohibited roadway, 0.1358 
-Inj/kill Police/fire Dog/horse, 0.073 
-Bike/Cyc On Limit Access/Inter, -0.0073 
-Ped Cross Intersect Diagonally, 0.1976 
-Prowling, 0.0344 
-Retail Theft $300 1st Offense, -0.2267 
-Unlawful Blood Alcohol Level, 0.0151 
-Delay Free Movement/ Any Person, 0.1284 
-Felony Committing Prostitution, -0.1301 
-Lodge Upon Property W/O Cons, 0.0937 
-No Solicit/Obstruct Veh Traffic, 0.2653 
-Ped On Limited Access Fac, 0.2248 
-Trespass Private Property, 0.0531 
-Tresps Privt Prop/Notice By Mgr, 0.4339 
-Unlawful Panhandling, Begging or Soliciting, 0.0271 
-Improper No Bike Brake, 0.02 
-Not Ride Astride/Perm Bike Seat, 0.1331 
-Resist/Obstruct An Officer, 0.005 
-Drive Wrong Side Divided Highway, 0.2748 
-Consume Alcohol In Public, 0.0031 
-False/fraud Insurance Claim, 0.0558 
-Insurance Fraud By False Claim, 0.0558 
-Possess Of Stolen Credit Card, 0.3628 
-Fail to Obey Traffic Laws, 0.1816 
-Speed Post Cnty Rd Non-Bus/Rsd, 0.0867 
-Fail Submit Writ Acc Rpt To St, 0.2813 
-Fail Wear Safety Belt/ Operator, 0.4447 
-Possession Of Open  Container, 0.0526 
-False Verification of Ownership to Secondhand Dealer, 0.0391 
-PL/Unlaw Use Credit Card, 0.251 
-Park/Obstruct Disable Pk Space, 0.1512 
-Pedestrian/Obstructing Traffic, 0.1836 
-Carrying Concealed Weapon, 0.0174 
-Red Fuse/Lant/Reflc Imp Amount, -0.1602 
-ATV- Violation, -0.0282 
-Fraudulent Use Credit Card, 0.3035 
-Robbery W/Deadly Weapon, -0.1561 
-Fail Secure Load Injury/ Death, -0.0428 
-Contempt Of Court, 0.0573 
-False 911 Call, 0.0628 
-Op Off Rd Veh W/O Reg Decal, 0.1875 
-Park Handicap Space/Private, 0.1007 
-Possess Cannabis W/i/deliver, 0.203 
-Pos/sel/del Cannabis 1000'chur, 0.4382 
-Computer Pornography, 0.0335 
-Fail to Reg as Sexual Offender, -0.1239 
-Oss W/I/Promote Sex Perform Child, -0.0064 
-Possession Child Pornography, 0.1184 
-Sexual Performance by a Child, 0.0296 
-Block Intersection/Crosswalk, -0.0111 
-Poss Of Firearm By Convicted, 0.0563 
-Registration not Carried, 0.0305 
-Contrib Delinq/depend Of Minor, 0.0506 
-Att Deprive offic/Weapon, -0.1547 
-Attempt Deprive Leo/weapon, -0.1539 
-Poss/Drug Paraphernalia, 0.2965 
-Improper Tag/Non-Resident, 0.0656 
-Pos W/Int/Del Cann N/Conv Busi, 0.1243 
-Sale/Del Counterfeit Cont Subs, 0.258 
-Sell Cocaine 1000FT Store, 0.1764 
-Improper Tags/Out of State, 0.0668 
-Solicitation To Purchase Cann, -0.0504 
-Bike Careless Driving, -0.1316 
-Poss W/I/Promot Sex Perf Child, 0.1511 
-Arson II (Vehicle), -0.1074 
-Accessory After The Fact, 0.0012 
-Impregnating a Minor, 0.0577 
-Ped/Fail Obey Traf Sig/Intersc, 0.3248 
-Deliver Cocaine 200' Park, 0.1374 
-Organized Fraud, 0.0174 
-Use Lost Or Stolen Credit Card, 0.3646 
-S/m/d/p/w/int 1000 Relig Mdma, 0.1112 
-Intoxicated/Safety Of Another, 0.1521 
-Expired Temp Tag 7 Day Or Less, 0.0951 
-Maximum Bumper Height/None, -0.0641 
-No Head Lamps Rain/Fog/Smoke, -0.0004 
-Burglary Dwelling Assault/batt, -0.0311 
-Tampering with a Victim, 0.167 
-Sex Offender Residence Prohib, -0.1468 
-Fail To Obey CMV Rules, 0.1098 
-Sex Batt Faml/Cust Vict 12-17Y, -0.1601 
-Ped Cros Rd Right Angl/Shortrt, 0.25 
-Ped Obstruct Traf/No Permit Sol, 0.2725 
-Pedestrian Disobey Red Light, -0.1053 
-Flee Law Enforcement Off, 0.1244 
-Purchase Of Cocaine, 0.0184 
+Battery : -0.0213, 
+Child Restraint Required : 0.2034, 
+Drink Near Licensed Establishm : 0.3202, 
+Driving License Suspended : -0.0172, 
+Driving Wrong Lane Or Side : 0.0129, 
+Fail Drive To Right/Slow : 0.2546, 
+Fail To Display Registration : 0.0946, 
+Fail To Stop Steady Red Signal : -0.2316, 
+Fail Wear Safety Belt/Operator : 0.4447, 
+Felony Driving While Lic Suspd : 0.0542, 
+Felony Petit Theft : -0.2032, 
+Fleeing Or Attmp Eluding A Leo : 0.3419, 
+Pers/Inj/Prot/Ins Require : -0.0986, 
+Petit Theft : -0.1552, 
+Poss Of Open Cont In M/V Drive : 0.2825, 
+Possess Cannabis/20 Grams Or Less : 0.3819, 
+Possess Drug Paraphernalia : 0.1843, 
+Possession of Cocaine : 0.0936, 
+Red Light Camera Violation : -0.255, 
+Resist/Obstruct W/O Violence : 0.1375, 
+Tampering With Physical Evidence : 0.3499, 
+Viol Prot Injunc Repeat Viol : 0.0201, 
+Fail Register Vehicle : -0.0536, 
+Grand Theft in the 3rd Degree : -0.3127, 
+No/Improper Drivers License : 0.1457, 
+Bike/Lights None Or Improper : 0.0827, 
+Resist Officer w/Violence : 0.1454, 
+nan : -1, 
+Aggrav Battery w/Deadly Weapon : -0.214, 
+Burglary Conveyance Assault/Bat : -0.1252, 
+Burglary Struct/conv Dwel/occp : -0.2469, 
+Burglary Struct/convey Unoccup : -0.1932, 
+Deliv/Poss Imitat Contrl Subst : 0.1049, 
+Disobey/Avoid Red Light : -0.1249, 
+Drive On Sidewalk/Bike Path : 0.0973, 
+Escape : -0.0248, 
+Expired DL More Than 6 Months : 0.0615, 
+Fail To Change Address/Name : 0.2869, 
+Petit Theft $100- $300 : -0.3205, 
+Poss/pur/sell/deliver Cocaine : 0.3848, 
+Prowling/Loitering : 0.0103, 
+Susp Drivers Lic 1st Offense : 0.0018, 
+Theft : -0.0192, 
+Unlaw LicTag/Sticker Attach : 0.4405, 
+Use/Poss/Drug Para/Plant/Grow : 0.3472, 
+Battery on Law Enforc Officer : -0.1088, 
+Bicycle/Moped Violations : 0.1164, 
+Carrying a Concealed Weapon : 0.0174, 
+Deliver Cocaine : 0.1134, 
+Driving Under The Influence : -0.0687, 
+Driving While License Revoked : -0.0309, 
+Poss Meth/diox/meth/amp (mdma) : 0.1267, 
+Possession Of Open Container : 0.0526, 
+Possession of Cannabis : 0.1322, 
+Carjacking with a Firearm : -0.1156, 
+Contribute Delinquency Of A Minor : 0.1362, 
+Crimin Mischief Damage $1000+ : 0.1762, 
+Criminal Mischief : -0.0111, 
+Imp Sunscrn At Top Of Wndshld : 0.0312, 
+Kidnapping : -0.035, 
+Learners Driver's Lic Viol : 0.2904, 
+License Not Carried Exhibited : 0.1277, 
+License Suspended W/O Knowledge : 0.0598, 
+Solicit to Commit Armed Robbery : 0.1071, 
+Biking Wrong Lane Or Side : 0.1261, 
+Burglary Unoccupied Dwelling : -0.1066, 
+Mcycle Oper Between Lane/Veh : 0.3737, 
+Ped Fail To Yield To Traffic : 0.2075, 
+Possession Burglary Tools : -0.0173, 
+Unlaw Use False Name/Identity : 0.2835, 
+Carrying Concealed Firearm : 0.0595, 
+Disobey/Ran Stop Sign : -0.1321, 
+Expired Tag More Than 6 Months : -0.002, 
+Leave Acc/ Attend Veh/ More $50 : 0.5459, 
+Leaving The Scene Of Accident : 0.2939, 
+License Suspended Revoked : 0.0954, 
+No Insurance : 0.0373, 
+Operating W/O Valid License : 0.0749, 
+Poss Cocaine W/intent Deliver : 0.287, 
+Possess Controlled Substance : 0.1446, 
+Possession of  Cannabis : 0.1322, 
+Resist/obstruct Officer W/viol : 0.0768, 
+Robbery / No Weapon : -0.1354, 
+Unlawful Alter Of Tag : 0.047, 
+Use of Anti-Shoplifting Device : 0.0212, 
+Aggravated Assault w/Firearm : 0.0502, 
+Armed Burglary : -0.0917, 
+Burglary : -0.1194, 
+Burglary Of A Dwelling : -0.1155, 
+Poss Firearm Commission Felony : 0.0275, 
+Theft/To Deprive : -0.0573, 
+Trespass Conveyance : -0.0695, 
+Trespass Struct/conveyanc : -0.0208, 
+Aggravated Battery / Pregnant : -0.0403, 
+Aggravated Child Abuse : 0.0929, 
+Carry Open/Uncov Bev In Pub : -0.0473, 
+Delivery Of Cocaine : 0.0849, 
+Discard Litter Upon Property : -0.0051, 
+Drink/Licensed/Establisment : 0.1837, 
+Felony Battery (Dom Strang) : -0.1522, 
+Felony Battery w/Prior Convict : -0.2801, 
+Improper Backing : 0.1095, 
+Loiter Or Prowl : -0.025, 
+Ped Fail To Cross In X-Walk : 0.2398, 
+Poss/Sel/Del Cocaine 1000' Chur : 0.4853, 
+Robbery : 0.0211, 
+Trespass Structure/Conveyance : -0.0203, 
+Trespassing : 0.0114, 
+Aggravated Battery w/o Firearm : -0.1422, 
+Attempt Felony Murder : -0.1295, 
+Burglary Conveyance Unoccup : -0.1301, 
+Burglary Dwelling Assault/Batt : -0.0311, 
+Disorderly Intoxication : 0.0475, 
+Oper Veh Unsafe/Improp Equip : 0.5499, 
+Poss Weapn/firearm School Prop : 0.2169, 
+Trespass On School Property : 0.0714, 
+Failure To Stop For School Bus : -0.0519, 
+Grand Theft (Motor Vehicle) : -0.264, 
+Improper Right Turn : 0.066, 
+Fnt St Pass/Ovr 18/Stbelt : 0.3048, 
+Burglary Dwelling Occupied : -0.12, 
+Driving W/License Susp/Revok : -0.0273, 
+FTYROW to Emergency Vehicle : -0.0512, 
+Gambling For Money : 0.0664, 
+Pos Cannabis W/Intent Sel/Del : 0.4375, 
+Poss Cocaine/Intent To Del/Sel : 0.4134, 
+Poss/pur/sell/del/man/cannabis : 0.5335, 
+Possess Cannabis W/i Deliver : 0.203, 
+Possession Of Carts/Dairy Case : 0.1261, 
+Possession of Cannabis (inactive) : 0.1278, 
+Seat Belts Required : 0.1651, 
+Tamper/fabricate Physical Evid : 0.3833, 
+Traffick Oxycodone     4g><14g : 0.1581, 
+Trafficking In Cocaine,+28-200 : 0.0705, 
+Trespass Other Struct/Conve : -0.0371, 
+Attempted Burlgary : -0.0797, 
+Bike/Fal Use Care/Too Fast Con : 0.2567, 
+Disobey Avoid Red Light : -0.1249, 
+Drinking Alcohol In Public : 0.027, 
+Fail To Report Accident : 0.1359, 
+No Lodge On City Owned Prop : 0.3399, 
+Poss Alch Beach/Public Area : 0.2274, 
+Drinking Alch Beverage In Open : 0.0668, 
+Petit Theft To Appropriate : -0.1932, 
+Poss Prescrip Drug W/O Presc : 0.2537, 
+Poss Stln Property : 0.1705, 
+Poss Tetrahydrocannabinols : 0.1621, 
+Trespass After Warning : 0.0311, 
+Trespass Struct/Conveyance : -0.0837, 
+Agg Fleeing and Eluding : 0.2187, 
+Conterfeit Plate/Sticker : 0.2998, 
+DL Restrictions/Time Restrict : 0.1088, 
+Deliver Cocaine 1000' School : 0.2193, 
+Disobey Lane Control Device : 0.016, 
+Expired Tag/Infraction : 0.0468, 
+Fail To Drive In A Single Lane : 0.1657, 
+Flee/Elude LEO-Agg Flee Unsafe : 0.3227, 
+Leave Acc/Attend Veh/More $50 : 0.5459, 
+Obstruct Disable Access To Space : 0.1373, 
+Poss Alprazolam W/int Sell/Del : 0.356, 
+Poss Cocaine/intent To Del/sel : 0.4134, 
+Poss/Sell/Del Cocaine 1000' Sch : 0.4606, 
+Stand/Park Prohibited Stop Signal : 0.0521, 
+Two Lgtd Headlamp/Req/M/V : -0.0, 
+Crim Conspiracy 2nd Deg Felony : -0.2014, 
+Deliver 3,4 Methylenediox : 0.0828, 
+Possession Of Methamphetamine : 0.0768, 
+Sel Etc/Pos/w/Int Contrft Schd : 0.3617, 
+Aggrav Stalking After Injunctn : -0.0328, 
+Alcohol Consumption Violation : -0.0582, 
+Battery Upon Detainee : -0.044, 
+Deliver Cannabis : 0.152, 
+Open Door Into Moving Traffic : 0.0468, 
+Place Injurious Substance On Road : 0.1556, 
+Poss F/arm,wep Delinq/conv Fel : -0.0223, 
+Poss/pur/sell/del/man Cannabis : 0.5335, 
+Robbery Sudd Snatch No Weapon : -0.1295, 
+Trespass : 0.0361, 
+Viol Injunct Domestic Violence : 0.1586, 
+Viol Pretrial Release Dom Viol : 0.0307, 
+Weapons Permit Violations : 0.1424, 
+Armed Sexual Battery : -0.0194, 
+Burglary Dwelling Armed : -0.0879, 
+Burglary Struc/dwel/conv Armed : -0.1869, 
+Driving W/O Lights : 0.061, 
+Failure To Register As A Felon : -0.063, 
+False Imprisonment : 0.0313, 
+Poss Wep Conv Felon : -0.0309, 
+Attempted Robbery Deadly Weapo : -0.0803, 
+Delivery Of Methodone : 0.0529, 
+Fail To Use Due Care : 0.2353, 
+Firearm Ccf Arm : -0.1249, 
+Following Too Closely : 0.023, 
+Murder in 2nd Degree : -0.2137, 
+Poss Of Weapon Or Ammo By : 0.0169, 
+Poss Pyrrolidinovalerophenone : 0.1739, 
+Poss/delivery Of Cannabis : 0.2866, 
+Robbery / Deadly Weapon : -0.1561, 
+Robbery / Weapon : -0.1354, 
+Robbery 1 / Deadly Weapon : -0.1561, 
+Robbery/Firearm : -0.0933, 
+Vehicle W/O Lights At Night : 0.0066, 
+Attempted Kidnapping : -0.0868, 
+No Proof of Insurance : 0.0409, 
+No Tag Light : -0.0525, 
+No Valid License : 0.0529, 
+Petit Theft Habitual Offender : -0.3046, 
+Trespass Struct/Convey Occupy : -0.1482, 
+Dealing in Stolen Property : 0.1955, 
+Evasion/Fail To Pay Toll : 0.1056, 
+Possess Tobacco Product Under 18 : 0.2118, 
+Burglary Structure Unoccup : 0.0246, 
+Careless Driving : -0.0543, 
+Poss of Firearm by Convic Felo : 0.0988, 
+Pedestrian Leave Place Of Safety : 0.285, 
+Retail/Farm/Fare/Theft : -0.1345, 
+Theft To Deprive : -0.0573, 
+Dealing Credit Card of Another : 0.3579, 
+Obst By False Info : 0.0534, 
+Poss of Cocaine W/I/D/S 1000FT Park : 0.2683, 
+Possession Of Paraphernalia : 0.1343, 
+Bike/Fail To Ride Right Hand Curb : 0.2488, 
+Grand Theft Firearm : -0.2633, 
+Sex Offender Fail Comply W/law : -0.1374, 
+Assault : 0.171, 
+Fleeing or Eluding a LEO : 0.3041, 
+Reckless Driving : -0.0769, 
+Agg Battery Grt/Bod/Harm : -0.0671, 
+Attempt Murder in the First Degree : -0.2264, 
+Criminal Attempt 1st Deg Felon : -0.1891, 
+Drive Wrong Way One Way Street : -0.1212, 
+Fail to Display Registrartion : 0.0878, 
+Felony Battery : -0.0692, 
+Leaving Acc/Unattended Veh : 0.462, 
+No Valid Drivers License : 0.0236, 
+Shoot Into Vehicle : -0.1095, 
+Speed Posted Municip/State Rd-Driver : 0.1364, 
+Open Cont Alcohol/ Prohib : 0.0236, 
+Open Container-FL : -0.0329, 
+Unlaw Consumption Alcohol Bev : -0.0576, 
+Lewdness Violation : -0.0752, 
+Offer Agree Secure/Lewd Act : -0.2776, 
+Agg Assault Law Enforc Officer : 0.043, 
+Arson in the First Degree : -0.1579, 
+Child Abuse : 0.0994, 
+Disobey/Avoid Traffic Device : 0.1149, 
+Fail To Obey Traffic Sign : 0.171, 
+Fail To Surrender DL/CDL : 0.102, 
+Unlawful Tag Alteration : 0.0094, 
+Uttering a Forged Instrument : 0.2206, 
+Sexual Battery Victim 12 Yrs + : -0.0546, 
+Unlawful Sexual Activity : -0.003, 
+Carrying A Concealed Weapon : 0.0174, 
+Corrupt Public Servant : 0.0459, 
+Open Container Alcohol/Prohib : -0.0145, 
+Petit Theft/ Prior Conviction : -0.3576, 
+Solicit Deliver Cocaine : 0.1691, 
+Trespass Other Struct/Convey : -0.1326, 
+Tresspass Struct/Conveyance : -0.1361, 
+Armed Kidnapping : -0.0074, 
+Armed Sex Batt/vict 12 Yrs + : -0.192, 
+Criminal Mischief Damage <$200 : 0.0588, 
+Disobey Officer/Fireman : 0.004, 
+Disorderly Conduct : 0.0234, 
+Display/Obscur Unauth Traf Dev : 0.2062, 
+Exposes Culpable Negligence : -0.0301, 
+Opn Contnr On In/Stop/Prk Veh : 0.0937, 
+Speeding State Posted : 0.0612, 
+Aggrav Batt/Serious Body Injury : -0.0851, 
+Aggravated Assault : 0.1645, 
+Armed Carjacking : 0.0264, 
+Improper Use HOV Lane : 0.1728, 
+Sound Too Loud From Vehicle : -0.0866, 
+Alcohol Violation : -0.0456, 
+Att Tamper w/Physical Evidence : 0.3306, 
+Poss Of Open Cont In M/V Passg : 0.2601, 
+Agg Assault W/int Com Fel Dome : 0.1673, 
+DWLS Canceled Disqul 1st Off : -0.1273, 
+Drivg While Lic Suspd/Revk/Can : 0.2356, 
+Grand Theft Of The 2nd Degree : -0.2851, 
+No Stop Lamp : -0.0529, 
+Sell/pur/mfr/del Contr Substan : 0.3521, 
+Del Cannabis For Consideration : 0.185, 
+Use Of 2 Way Device To Fac Fel : -0.0647, 
+Engine Run/Key/Set Brake : -0.0704, 
+Felon in Pos of Firearm or Amm : 0.02, 
+Improper Stop On Sidewalk : 0.1038, 
+Leave Highway Avoid Traff Dev : 0.3311, 
+Mcycle/Mped Tag Improp Affixed : 0.1376, 
+Opert With Susp DL 2nd Offens : -0.0369, 
+Side Wind/Rest Sunscreen : 0.0712, 
+Obtain Control Substance By Fraud : 0.1488, 
+Agg Battery Law Enforc Officer : -0.1494, 
+Burglary Struct/conv Asslt/bat : -0.3599, 
+Felony Criminal Mischief : -0.059, 
+Fail To Obey/Flee/Elude : 0.32, 
+Failure To Rept Accd Immediate : 0.0017, 
+Operate Vehicle With Headset On : -0.0658, 
+Passing On a Grade (Hill) : 0.0485, 
+Procure For Prostitution : -0.0532, 
+Riding Bike With No/Imp Light : -0.0256, 
+Sale/Del Cocaine Child Care Fac : 0.3319, 
+Sell Cocaine 200'Park : 0.1168, 
+Wearing Headset/Listening Device : -0.0477, 
+Agg Fleeing/Eluding High Speed : 0.3126, 
+Carjacking : -0.0012, 
+Fish/Hunt/Trap W/O License : 0.1083, 
+Tamper With Witness/Victim/CI : 0.2509, 
+Lve/Scen/Acc/Veh/Prop/Damage : 0.5921, 
+False Ownership Info/Pawn Item : 0.0652, 
+False Verif Ownership Pawn Shp : 0.0319, 
+Property Not Structure Or Convey : -0.1098, 
+Solicit ProstitutionViolation : 0.0728, 
+DUI Property Damage/Injury : 0.0789, 
+Poss Contr Subst W/o Prescript : 0.1677, 
+Poss Of RX Without RX : 0.1597, 
+Possession of Oxycodone : 0.0985, 
+Alcoholic Beverage Violation-FL : 0.1942, 
+Obstruction By False Name : 0.2263, 
+Prostitution/Lewd Act Assignation : -0.2823, 
+Solicit Prostitution : -0.0077, 
+FTYROW To Emergency Vehicle : -0.0512, 
+Petit Frm Merchant- 2nd Or More : -0.2092, 
+Poss Of Controlled Substance : 0.2568, 
+Prostitution/Lewdness/Assign : -0.1388, 
+Resist/Obstruct/W/O Viol : 0.0767, 
+U-turn Improper Unsafe Prohibited : 0.1745, 
+Municipal Ord/System Charge : 0.1968, 
+Att Burgl Struc/Conv Dwel/Occp : -0.1384, 
+Loitering/Prowling : 0.0103, 
+Counterf Prvt Lable Over $1000 : 0.0929, 
+Resist Merchant W Or W/O Viol : 0.0587, 
+Trespass/Property/Other Structure : 0.0807, 
+Unauth C/P/S Sounds>1000/Audio : 0.1395, 
+Expired DL < 6 Months : 0.0615, 
+Unlawful Speed (Requires Speeds) : 0.3313, 
+Beverage Law Violation : 0.0312, 
+DUI - Enhanced : 0.0245, 
+Obstr False Info Leo : 0.092, 
+Aggravated Battery : -0.0278, 
+D.U.I. Serious Bodily Injury : 0.0594, 
+DL Restrictions 17 Years Old : 0.0868, 
+Fail To Give Info/Render Aid : 0.0533, 
+Leaving the Scene of Accident : 0.2939, 
+Unlawful Blood Alcohol S.B.I. : -0.016, 
+Consump/Alcohol/Open Cont Pub : 0.0548, 
+Disobey Taffic Signal : -0.0424, 
+Expired Tag : 0.0382, 
+Fail Stop Red Signal Rght Turn : -0.26, 
+Flee Elude Police Officer : 0.2514, 
+Flee/ Elude Off/ Not Revkd Court : 0.2922, 
+Poss Counterfeit Subs W/i/sell : 0.2722, 
+Possession Of Heroin : 0.0679, 
+Sell/pur/mfr/del Cntrl Substan : 0.3399, 
+Trespass Structure w/Dang Weap : 0.0159, 
+Tresspass in Struct/Convey Occupy : -0.2005, 
+Unlawful Removal Of Dairy Case : 0.1005, 
+Violation Broward Co Ordinance : -0.1094, 
+FTYROW When Turning Left : 0.0851, 
+Attempted Robbery  Deadly Weap : -0.1512, 
+Grand Theft of the 2nd Degree : -0.2851, 
+Pedestrian Obstructing Traffic : 0.1836, 
+Robbery W/Firearm : -0.0933, 
+Speed Posted Municip/State Rd : 0.1477, 
+Fail To Obey Traff Control Dev : 0.238, 
+Felony Batt(Great Bodily Harm) : -0.1134, 
+Giving False Report : 0.0576, 
+Mcycle W/O Eye Protection : 0.1287, 
+Poss Pyrrolidinobutiophenone : 0.1642, 
+Resisting W/O Violence : 0.129, 
+Tag Unsecured/Obscured : -0.002, 
+Battery On Law Enforce Officer : -0.0585, 
+Sell Conterfeit Cont Substance : 0.3151, 
+Attempted Murder 1st Degree : -0.2649, 
+Delivery of Heroin : 0.0592, 
+Restriction For Wndow Behnd Drv : 0.3169, 
+Unlawful Speed (Requires Speeds)-Driver : 0.3824, 
+Disobey Four Way Stop Sign : -0.1594, 
+Drive Around Detour/Barricade : 0.1586, 
+Driving Wrong Side Of Roadway : 0.0138, 
+Fail to Submit Insurance W/I 24 hours : 0.0648, 
+Fleeing a Police Officer : 0.2084, 
+Improper Change Of Lanes : 0.1532, 
+Offer Agree Secure For Lewd Act : -0.2776, 
+Posses/Disply Susp/Revk/Frd DL : 0.1981, 
+Stalking : -0.0064, 
+Stalking (Aggravated) : -0.0129, 
+Vehicle Damage Road Surface : -0.0379, 
+Aggravated Battery On 65/Older : -0.0213, 
+Counterfeiting Contr Substance : 0.116, 
+Deliver Cocaine 1000' Church : 0.191, 
+Poss Pyrrolidinovalerophenone W/I/D/S : 0.1739, 
+Depriv LEO of Protect/Communic : 0.1387, 
+No Occupational License : 0.0852, 
+Utter Worthless Check : 0.0762, 
+Deliver Cannabis 1000FTChur : 0.167, 
+Improper Left Turn : 0.041, 
+No Lamps/Illuminating Device : -0.0511, 
+No Turn Signal/Light : -0.1033, 
+No Valid DL Infraction Infraction : 0.0184, 
+Open Carrying Of Weapon : -0.0744, 
+Poss/Sel/Del Cocaine 1000FT Chur : 0.4845, 
+Possess Cannabis 1000FTSch : 0.1478, 
+S/M/D/P/W/Int 1000 Sch/Child C : 0.2188, 
+S/M/D/P/W/Int 1000FT Sch Oxycodo : 0.1846, 
+Sel/Del Canbs At/Near Pub Park : 0.3295, 
+Unlawful Speed/County Roads : 0.0866, 
+Poss Trifluoromethylphenylpipe : 0.167, 
+Poss of Benocylclidine : 0.1648, 
+Possession of Benzylpiperazine : 0.0639, 
+Trafficking In Illegal Drugs : 0.0184, 
+Att Murder 2d Degree W/weapon : -0.3345, 
+Cruelty To Animals : 0.032, 
+Drive Across Divided Section : 0.1293, 
+Expired DL More Than 4 Months : 0.0615, 
+Fail Dim Headlights/Imp Adjust : 0.1199, 
+Reckless Display Of Weapon : -0.0554, 
+System Conspiracy 2nd Degree Misd : -0.1398, 
+Unl/Speed In School Zone : 0.2718, 
+Expired Tag/ Reg>6 Months 2nd : -0.0505, 
+Fail To Use Designated Lane : 0.117, 
+Cruelty Toward Child : 0.0889, 
+DOC/Fighting/Threatening Words : 0.1131, 
+Drv W/O Lghts Twilght/Fog/Rain : 0.1346, 
+Grand Theft (motor Vehicle) : -0.264, 
+Oper Motorcycle W/O Valid DL : 0.2372, 
+Pedestrian Fail To Use Sidewalk : 0.1836, 
+Slow  Speed Impede Traffic : 0.2451, 
+Drive Veh Unsafe/Defect Equip : 0.4393, 
+Pos Cannabis W/intent Sel/del : 0.4375, 
+Uttering Forged Bills : 0.2046, 
+Sell/buy/del Cont Sub 1000'sch : 0.5, 
+Speed/Busn/Resid/Intrstate/4Ln : 0.3149, 
+Fail Sex Offend Report Bylaw : -0.0157, 
+Failure To Register : -0.034, 
+Op Veh Unsafe/Improper/Equip : 0.356, 
+Sexual Battery / Vict 12 Yrs + : -0.1172, 
+Fail To Dim Headlights : 0.0878, 
+Soundmaking Device Violation : -0.0862, 
+Fail to Obey Traffic Sign : 0.171, 
+DOC/Open Container/Bus Facility : 0.0117, 
+Drive Round/Railroad Gate/Barr : 0.1149, 
+Imp Park/Agnst Flow/Curb 1 Way : -0.0141, 
+Imp Start From Park/Stop Posit : 0.0024, 
+Delivery Controlled Substance : 0.1447, 
+Make/poss/throw Destruct Devic : 0.0519, 
+Seat Belt Violation : 0.1295, 
+Tail Lights None/Improper : 0.1464, 
+Viol Municipal Speed / Posted : 0.1623, 
+DL Restrictions Mech Cont Dev : 0.2255, 
+Improper Pass /On Right/Off Rd : 0.2233, 
+Refuse Submit Blood/Breath Test : -0.0619, 
+Trespass School Grounds : 0.0865, 
+Unlaw Use Temporary Tag : 0.0503, 
+Criminal Mischief>$200<$1000 : 0.0731, 
+Making An Affray/Riot : 0.0377, 
+Poss 3,4 MDMA (Ecstasy) : 0.1682, 
+Poss Cntrft Contr Sub w/Intent : 0.3585, 
+Corrupt/threat Public Servant : 0.0642, 
+Robbery Sudd Snatch w/Weapon : -0.1295, 
+Speed Posted County Rd Res/Bus : 0.0985, 
+Introduce Contraband Into Jail : 0.134, 
+Agg Fleeing And Eluding : 0.2187, 
+Operate Against Lic/Restriction : 0.2198, 
+Attempted Robbery : -0.0307, 
+Ped Fail Obey Traffic Sig : 0.3166, 
+Possession of Hydrocodone : 0.0629, 
+Sudden Stop Without Signal : -0.0666, 
+Contribute Delinq/Depnd of Minor : 0.081, 
+Lewd/Lasc Battery Pers 12+/<16 : -0.3123, 
+Speed / 65 Highway/Turnpike : 0.1529, 
+Unlawful Speed School Zone : 0.1977, 
+Criminal Attempt 3rd Deg Felon : -0.2172, 
+Robbery W/firearm : -0.0933, 
+Speed/65 Interstate : 0.1098, 
+Urinate/ Public Bldg Open Place : 0.0457, 
+Using Airless Tires : 0.023, 
+Burglary Structure Occupied : -0.0747, 
+Attempted Purchase of Cocaine : -0.0334, 
+Grand Theft on 65 Yr or Older : -0.1426, 
+Kidnapping / Domestic Violence : 0.0636, 
+Live on Earnings of Prostitute : -0.005, 
+Loiter Where Sign is Posted : -0.0034, 
+Crim Attempt/Solic/Consp : -0.0227, 
+Municipal Violation : -0.0112, 
+Reckles Driv/Pers-INJ Prop Dam : 0.3398, 
+Throw Deadly Missile Into Veh : 0.0238, 
+DUI Level 0.15 Or Minor In Veh : 0.276, 
+Neglect Child / No Bodily Harm : 0.1165, 
+Reckles Driv Pers-Inj Prop Dam : 0.3398, 
+Refuse Stop When Ordered LEO : -0.02, 
+Refused To Obey Traffic Laws : 0.1689, 
+Attempted Robbery  No Weapon : -0.1872, 
+Fail Register Career Offender : -0.1045, 
+Attempted Armed Carjacking : -0.0253, 
+Attempted Robbery Firearm : -0.145, 
+Assault On Law Enforc Officer : 0.0835, 
+Attempted Burglary (dwelling) : -0.1673, 
+Giving False Crime Report : 0.073, 
+Improper Center Lane Use : 0.1563, 
+Ped In Rdwy/ Solict Ride/Busns : 0.4362, 
+Deliver Cocaine 1000FT School : 0.2186, 
+Fail To Obey Police Officer : 0.1436, 
+Block Intersection Crosswalk : -0.0111, 
+Fail To Signal Turn Properly : -0.0506, 
+No Safety Belts/Passg Under 18 : 0.2467, 
+Opert With Susp DL 2nd Offense : -0.0807, 
+Speed / 65 Highway/Turnpike-Driver : 0.1137, 
+Throw Missile Into Pub/Priv Dw : -0.1151, 
+Tresspass in Structure or Conveyance : -0.0727, 
+Exploit Elderly < 2000 : 0.0901, 
+Murder in the First Degree : -0.2222, 
+Indecent Exposure : 0.0831, 
+Possession Cocaine W/i/deliver : 0.1733, 
+Bike Passenger Violation : -0.0953, 
+Credit Card Theft : 0.1896, 
+Deliver Oxycodone : 0.1183, 
+Poss Oxycodone W/int/sell/del : 0.379, 
+Possession Of Carisoprodol : 0.0656, 
+Proof Of Insurance : 0.0409, 
+Litter Pub Hghwy/Mot Veh : 0.1704, 
+Possession Of Alprazolam : 0.0755, 
+Traffic : 0.0636, 
+Possession Of Diazepam : 0.0682, 
+Aggravated Assault W/Dead Weap : 0.0769, 
+Domestic Violence : 0.0987, 
+Att. Deprive P/O Means Protect : 0.0025, 
+Operating W/O License : 0.1053, 
+Possess/Use Weapon 3 Deg Felon : -0.1448, 
+DWLS Habitual Offender 2nd : -0.2296, 
+DWLS/License Susp/Revoked : -0.0031, 
+Speeding (Speed Not Indicated)-Driver : 0.2167, 
+Sleep On Pub/Street/Sidewlk/Bch : -0.0251, 
+Impair/Impede Phone/Power Dweli : 0.1184, 
+Possession Of MDMA W/I/D/S : 0.0614, 
+Trafficking In Cocaine : 0.0546, 
+Burglary Conveyance Occupied : -0.2294, 
+None Or Improper Turn Signal : -0.0971, 
+Shoot In Occupied Dwell : -0.0675, 
+Shoot/throw In Occupied Build : -0.0919, 
+Temporary Tag : 0.0201, 
+Throw In Occupied Dwell : -0.1235, 
+Burgl Dwel/Struct/Convey Armed : -0.1668, 
+Poss New/Legend Drug w/o RX : 0.2443, 
+Poss/sell/deliver Alprazolam : 0.3207, 
+Shoot/throw Into Vehicle : -0.1807, 
+Crim Conspiracy 3rd Deg Felony : -0.229, 
+Soliciting For Prostitution : -0.0661, 
+Disturbing The Peace : 0.0193, 
+Driving while DL Susp / Financial Resp : -0.0801, 
+Fail To Secure Load : -0.0512, 
+Del Cannabis At/Near Park : 0.2384, 
+Obstruct Officer By Disguise : 0.0545, 
+Drinking In Public : 0.0272, 
+Loitering Or Prowling : 0.0103, 
+Agg Batt W/Arm S/B/I 25 Min/Ma : -0.1458, 
+Petit Theft / Previous Convict : -0.2906, 
+Possession Stolen Credit Card : 0.3717, 
+Bike/Brakes None/Improper : -0.0738, 
+Fail Disp Registration : 0.0534, 
+Poss of Ethylone W/I/D/S : 0.1587, 
+Possession Of Clonazepam : 0.0668, 
+Possession of Hydromorphone : 0.0701, 
+Battery (aged) : -0.0281, 
+Battery on a Person Over 65 : 0.0406, 
+Fail To Change Address On DL : 0.0924, 
+Fail Yield Overtaking Vehicle : -0.0514, 
+False Motor Veh Insurance Card : 0.2855, 
+Fish/Hunt/Trap W/O License/Stamp : 0.1117, 
+Inflicts Culpable Negligence : -0.0187, 
+Sell/Man/Del Pos/w/int Heroin : 0.4508, 
+Learner DL/Operate Invalid Hrs : 0.156, 
+Fel Drive License Perm Revoke : 0.1792, 
+Temporary Tag Expired 7 Days/< : 0.0828, 
+Induce/Entice Lewd Act : -0.1986, 
+Pub Indecency/Urinate In Public : 0.0245, 
+Shoot/throw In Occupied Dwell : -0.1388, 
+Assault Law Enforcement Officer : 0.1733, 
+Loitering : -0.0241, 
+Tampering With A Victim : 0.167, 
+Theft/To Appropriate : -0.0572, 
+Aggravated Assault W/dead Weap : 0.0769, 
+Disobey Stop/Yield Sign : 0.0198, 
+No Proper Endorsement On DL : 0.0521, 
+Racing On Highway : 0.0859, 
+Failed To Provide Plumbing Fix : -0.0049, 
+Panhandling : 0.0124, 
+Ped/Walk Left Side No Sidewlk : 0.2334, 
+Sleeping On Municipal Beaches : 0.142, 
+Solicit Charble Don W/O Permit : 0.1588, 
+Poss Weapon Commission Felony : -0.0146, 
+Sex Offender Fail Comply W/Law : -0.1374, 
+Consp Sell/pur/mfr Cntrl Subst : 0.2009, 
+Drink/Premises Licensed Estab : 0.1691, 
+Forgery : -0.0007, 
+Possess Armor Piercing Bullet : 0.0842, 
+Possession of Ammunition : 0.0643, 
+Shooting Into Occup Building : 0.0175, 
+Possess Cannabis W/I Deliver : 0.203, 
+System/Attempt/Solicit/Conspiracy : 0.0707, 
+Attempted Strongarm Robbery : -0.0552, 
+Intoxicating Beverages : 0.023, 
+Fail Obey Driv Lic Restriction : 0.3856, 
+Improper Stop/Stand/Park : 0.0691, 
+No Valid Florida DL : 0.0172, 
+Poss/sell/del Methamphetamine : 0.3152, 
+Refuse To Submit To Breathalyzer : -0.0255, 
+Too Fast For Conditions : 0.1387, 
+Cont Oth Originally Del : 0.1685, 
+Imp Pass/Interfr Approch Traff : 0.1778, 
+Create/Poss/Use Fictitious Personal ID Info : 0.3966, 
+Fail To Turn As Directed : -0.0381, 
+Poss/Unlaw Use Driver License : 0.3278, 
+Possess False ID Card : 0.2735, 
+Unfiled Case - Capias Issued : 0.0481, 
+Drive Left Side No Passing Zone : 0.356, 
+Expired DL Less Than 4 Months : 0.1396, 
+None/Def Rear View Mirrors : -0.0283, 
+Bike Disobey/ Avoid Red Light : -0.2022, 
+Disobey Green Light : -0.0255, 
+Fail Surend DL Reg Susp By FRD : 0.0663, 
+Opert With Susp DL 2ND Offense : -0.0807, 
+Strong Armed  Robbery : 0.0343, 
+Unlawful Use Temporary Tag : 0.0746, 
+Lewd or Lascivious Molestation : -0.2159, 
+Crim Use Of Personal Id Info : 0.1692, 
+Operate W/Illegal Sunscreen : 0.0249, 
+Poss Unlaw Issue Driv Lic / Id : 0.5768, 
+Procure Person Und 18/Prostitu : 0.1745, 
+Stand/Park Prohibited Driveway : 0.1051, 
+Mcycle No/Imp Rearview Mirror : 0.0603, 
+Headlights Required/Tinted : 0.1601, 
+Passenger Exced Seatbelt-/Picku : 0.0231, 
+Permit Unauthorizd Person Drv : 0.2696, 
+Poss/sel/del Cannabis 1000'sch : 0.5035, 
+Improper Change of Lanes : 0.1532, 
+Conspiracy Traffic in Cocaine : 0.08, 
+Fail to Provide Proof of Insur : 0.0479, 
+Poss Oxycodone W/Int/Sell/Del : 0.379, 
+Dog At Large-DV : 0.0165, 
+Bike Regulation Violations : 0.0325, 
+Obstruct Officer W/Violence : 0.1246, 
+Red Light Camera Violation-LEO : -0.2226, 
+Speed On Roadways : 0.049, 
+Poss F/Arm Delinq : 0.1479, 
+Criminal Attempt 2nd Deg Felon : -0.1896, 
+Trafficking In Cocaine 28><200 : 0.086, 
+Consume Alcoh Bev Where Prohib : -0.0367, 
+S/M/D/P/W/Int 1000 Sch Cocaine : 0.2045, 
+Trespassing/Construction Site : 0.026, 
+Loud Defective Muffler : 0.0061, 
+Poss/sell/deliver Clonazepam : 0.3119, 
+Speed Posted/Municip/State Rd-Toll : 0.1087, 
+Attempted Robbery  Weapon : -0.1872, 
+Felony/driving Under Influence : -0.1166, 
+Burglary Structure Armed : -0.0426, 
+Fail To Register Bike : -0.0366, 
+Fraudulent Use of Credit Card : 0.3035, 
+Hitchhiking/Stand : 0.0116, 
+Home Invasion Robbery : 0.0032, 
+Rec Goods Faud Cred Card : 0.2336, 
+Conspiracy / Traffic Cocaine : 0.08, 
+Overtake/Passing Veh Cutting In : 0.2218, 
+FTYROW Thru Hgwy/XSection : 0.0916, 
+Improper Pass / Overtake Vehicle : 0.0503, 
+Poss/sell/del Cocaine 200'park : 0.3528, 
+Drinking Alcohol Bev In Open : -0.0553, 
+Speed Con/Zone No Worker/Equip : 0.4209, 
+Fail Obey Driv Lic Restrictions : 0.3707, 
+Possess Weapon 1 Deg Felon : -0.189, 
+Retail Theft : -0.0795, 
+Defective Equipment/ No Horn : 0.0189, 
+Headlight Violation/Wrong : -0.0296, 
+Mcycle Headlights Required On : 0.1488, 
+Mcycle/No Headgear : 0.0662, 
+Poss Personal Prop W/Alter ID : 0.5115, 
+Poss/sell Mot Veh W/alt Vin # : 0.4035, 
+Attempted Burglary Occupied : -0.1756, 
+Eng/Bus/Contract W/O License : 0.0583, 
+Failure Regist as Sex Predator : -0.1088, 
+Obtain Prop False Personation : 0.1928, 
+Sex Ofdr Fail Notify Leo Cor : 0.0179, 
+Delivery Cannabis For Consider : 0.1469, 
+Occupying Condemned Stucture : 0.0772, 
+Sale Subst in Lieu Contr Subst : 0.0608, 
+Extortion / Threats : 0.0186, 
+Crim Attempt/Solicit/Consp : 0.002, 
+Crim Use of Personal ID Info : 0.1692, 
+Motor Vehicle Noise Violation : -0.1818, 
+Poss Cannabis/20 Grams Or Less : 0.494, 
+Solicit To Deliver Cocaine : 0.1691, 
+Viol Disaster Emer Management : 0.1023, 
+Crim Mischief (Aggregate Value) : -0.0073, 
+Grand Theft in the 1st Degree : -0.2847, 
+Public Phone Cables Fixtures E : 0.0226, 
+Take Copper Other Metal Intrf/Damg Utility : 0.0489, 
+Dealing In Stolen Property : 0.1955, 
+Attempted Murder 2nd Degree : -0.2654, 
+Possession Of Lorazepam : 0.0642, 
+Speeding (Speed not Indicated) : 0.1656, 
+FTYROW When Turning : 0.0521, 
+Cash/deposit Item W/i/defraud : 0.0242, 
+Defraud Financial Institution : 0.0423, 
+Fraud Use/Persnl ID Info/Deceased : 0.1975, 
+Offense Against Computer User : -0.0426, 
+Perjury/contradict Statement : 0.0313, 
+Poss Unlaw Issue Driver Licenc : 0.3226, 
+Poss of Cloned Cellular Phone : 0.1849, 
+Extradition/Defendants : 0.0196, 
+Grand Theft In The 3Rd Degree : -0.3127, 
+Assault (inactive) : 0.1667, 
+Fail To Change Name On DL : 0.2853, 
+False Statement To Obtain DL/ID : 0.212, 
+Felony/Driving Under Influence : -0.1166, 
+No D/L Serious Bodily Injury : 0.0438, 
+Possession of PCP : 0.061, 
+Receiving Stolen Property : 0.1027, 
+Solicit Sell/purch/del Cocaine : 0.292, 
+Bike/Fail To Wear Helmet : 0.1487, 
+Poss F/Arm Violent Career Crim : 0.0241, 
+Possess/Use Weapon 1 Deg Felon : -0.1448, 
+Poss/sell/deliv Lysergic Acid : 0.2021, 
+Improper Turn : 0.008, 
+Special Hazrd/To Fast For Cond : 0.2201, 
+Altered Exhaust System : 0.0645, 
+Litter On Private Land : 0.0206, 
+Bike/Ride W/O Hands on Handlebars : 0.1835, 
+Fraudulent Use Of Credit Card : 0.3035, 
+Att Burgl Occp Dwelling : -0.0394, 
+Unlaw Malic Strike K9/Horses : 0.1301, 
+DWLS Suspend Cancel Revoked : -0.0622, 
+Disobey Yield Sign : 0.0417, 
+Battery On A Person Over 65 : 0.0406, 
+Defrauding Innkeeper $300/Less : -0.01, 
+Present Proof of Invalid Insur : 0.0598, 
+Failure To Pay Taxi Cab Charge : 0.0311, 
+Possess Forged/altered Bills : 0.1828, 
+Fraud Use/obtain D.Lic/id Card : 0.3205, 
+Ride Tri-Rail Without Paying : 0.1961, 
+Learner's Driver's License Vio : 0.2258, 
+Florida Litter Law Over 5Lbs : 0.022, 
+Leave Accd/Attend Veh/Less $50 : 0.4966, 
+Poss Forged/revoke Credit Card : 0.4519, 
+Poss/sell/deliver Hydrocodone : 0.308, 
+Trespass Structure : 0.0852, 
+Agg Flee Serious Injury/Death : 0.0917, 
+FYROW/Slow Speed Emerg Vehicle : 0.0225, 
+Op Exh Sysm Noise/Abate Modify : 0.0194, 
+Speed Con/Zone Workers/Equip : 0.4477, 
+Sunscreen Violations : 0.0501, 
+Attempted Burg/Convey/Unocc : -0.2609, 
+Fail Obey Pol Off//Flee : 0.242, 
+Felony DUI (level 3) : -0.0058, 
+Att Burgl Unoccupied Dwel : 0.0024, 
+Park In Signed No Park Zone : 0.1518, 
+Deliver Cannabis 1000FTSch : 0.1765, 
+Trespass At A School : 0.0759, 
+Sell Cannabis 1000FTChur : 0.1495, 
+Aggravated Assault W/o Firearm : 0.0502, 
+Def on Felony Bail Fail Appear : 0.0128, 
+Exploit Elderly Person 20-100K : 0.1325, 
+Loitering/prowling : 0.0103, 
+Robbery / Wearing a Mask : -0.0054, 
+Unlaw Number Of Person On Bike : 0.0478, 
+DL Restrictions/Under 17 : 0.0782, 
+Burglary Struct Unoccup Mask : -0.059, 
+Law Enforc Inves/Miss Prsn/Crm : -0.0631, 
+Manufacture Cannabis : 0.0906, 
+Littering : 0.0026, 
+Poss/sell/deliver Diazepam : 0.3134, 
+Poss3,4 Methylenedioxymethcath : 0.0583, 
+Possession Of Amphetamine : 0.0676, 
+Possession of Ethylone : 0.0554, 
+Poss/Sell/Del Cocaine 1000FT Sch : 0.4598, 
+Ped Fail To Use Sidewalk : 0.2103, 
+FLA Litter Law Viol/Dumping : 0.0524, 
+Open Container Alcohol - MV : -0.007, 
+Possession of Morphine : 0.064, 
+Alcoholic Bev Under Age Of 21 : 0.009, 
+Aiding Escape : -0.0258, 
+No Valid DL / Non Resident : 0.0614, 
+Ride W/O Hand on Handle Bar : 0.2254, 
+Stand In Rd/ Solict Ride/Busns : 0.3049, 
+DOC/Trespass Private Property : 0.0964, 
+Prostitution : -0.0633, 
+Comm/Off Lewd/Prost Assign : -0.2526, 
+Lewd/Lascivious Behavior : -0.2047, 
+Speed/65 Interstate (requires speed) : 0.2937, 
+Aggrav Battery W/Deadly Weapon : -0.214, 
+Armed Home Invasion : 0.0098, 
+Bike/Disobey Stop/Yield Sign : -0.0574, 
+Possess Drug W/O Prescription : 0.1344, 
+Aggrav Child Abuse-Agg Battery : 0.0175, 
+Sex Battery Deft 18+/Vict 11- : -0.0605, 
+Agg Bodily Inj with Dead Weapn : -0.0068, 
+Unauth Poss ID Card or DL : 0.4295, 
+Poss Short Barl Rifle : 0.179, 
+Possession Of Phentermine : 0.0634, 
+Traffick Hydrocodone   4g><14g : 0.1225, 
+Temporary Tag Violation : -0.0253, 
+Corrupt Threat/public Servant : 0.0642, 
+DUI Blood Alcohol Above 0.20 : -0.016, 
+Arson in the Second Degree : -0.1418, 
+Attempted Murder First Degree : -0.274, 
+Burglary Damage Property>$1000 : -0.0058, 
+Petit Larceny : -0.1416, 
+Child Neglect/Delinquency : 0.1552, 
+Burglary With Assault/battery : 0.0303, 
+Public Indecency/Exposing : 0.005, 
+Agg Battery Domestic Violence : 0.0368, 
+Fail To Stop/Yield at Sidewalk : 0.0471, 
+Batt On School Board Employee : -0.0264, 
+Failed To Stop/Yield At Sidewalk : 0.0172, 
+Ride Bike 2 Abreast or More : 0.0944, 
+Battery On County Det Facility : -0.0127, 
+None Or Improper Stop/Turn Signal : -0.119, 
+Use Mot Veh In Comm Of Felony : 0.1359, 
+Windshield Violations : 0.0677, 
+Pos Cannabis W/I/D/S Near Worsh : 0.3148, 
+Imp Stop Lim Access Fac : 0.0749, 
+Kidnapping (Facilitate Felony) : -0.0931, 
+Misuse Of 911 Or E911 System : 0.1766, 
+Burglary Structure Assault/Batt : 0.0142, 
+Crim Solicitation 1st Deg Misd : -0.201, 
+False Info LEO During Invest : 0.0922, 
+Unlaw Lic Use/Disply Of Others : 0.2824, 
+Drink Alcoholic Bev In Public : 0.1046, 
+Inciting to Riot : 0.0175, 
+Drive While License Susp By FRD : 0.1875, 
+Crim Solicitation 3 Deg Felony : -0.2058, 
+Ind Assault Child Under 16 Yrs : 0.177, 
+Del Pyrrolidinovalerophenone : 0.0836, 
+Trespass Property w/Dang Weap : -0.0377, 
+Agg Fleeing/eluding High Speed : 0.3126, 
+Consp Traff Oxycodone  4g><14g : 0.1958, 
+No Brake/Turn/Signals Lighted : -0.0632, 
+Gambling Paraphernalia : 0.0937, 
+Poss 3,4 Mdma (ecstasy) : 0.1682, 
+Possession Of Mdma W/I/D/S : 0.0614, 
+Spearfishing Prohibited Area : 0.1, 
+Violation Of Diver Down Flag : -0.0576, 
+Litter In A Public Place : 0.0525, 
+Sexual Battery - Great Force : -0.0421, 
+Trafficking In Cocaine 200-400 : 0.0605, 
+Attempt Sexual Batt / Vict 12+ : -0.1773, 
+Fail Register Motor Vehicle : -0.0745, 
+Poss Firearm W/alter/remov Id# : 0.2377, 
+Refuse To Post Bond/Sign Summons : -0.0487, 
+Poss Control Subst W/200' Park : 0.1679, 
+Poss/Drug Para/Inject/Ingest : 0.2682, 
+Traff In Cocaine <400g>150 Kil : 0.1823, 
+Loiter Solicit Act Prostitute : -0.0243, 
+Unnatural/Lascivious Act : -0.0716, 
+Expired DL/More than 4 Months : 0.0615, 
+Viol Municipal Speed / Posted-Driver : 0.1489, 
+Murder in 3rd Degree : -0.2412, 
+Aggravated Assault W/Firearm : 0.0502, 
+Misuse Of Wireless 911 System : 0.147, 
+Carjacking w/o Deadly Weapon : -0.1784, 
+Crim Solicitation 3d Drugs : -0.1141, 
+Insurance Fraud : 0.0446, 
+Open Container Of Alcoholic Bev : 0.0257, 
+Possession of a Fire Bomb : 0.078, 
+False Imprisonment Under 13 YR : 0.0325, 
+Grand Theft Dwell Property : -0.2012, 
+Littering-DR : -0.0003, 
+Unlawful Speed: Interstate : 0.1132, 
+Aggrav Child Abuse-Causes Harm : 0.0281, 
+Accessory After the Fact : 0.0012, 
+Consume Alcoholic Bev Pub : 0.054, 
+DWLS Child Support 1st Offense : -0.0909, 
+Speeding (Speed Not Indicated) : 0.1656, 
+Unlawful Speed (Requires Speed)-Toll : 0.2492, 
+Viol Drivers Lic Restriction : 0.2375, 
+Consp To Attempt Deliv Cocaine : 0.0105, 
+Gambling : 0.0192, 
+Dog Running At Large Within City : 0.0806, 
+Emit Excess Exhaust Fumes : 0.0402, 
+No Registration : 0.007, 
+Possession Of Alcohol Under 21 : 0.0399, 
+Susp D/l Death Serious Injury : -0.0162, 
+Pos/Sel/Del Cannabis 1000FTChur : 0.4421, 
+Fail Give Turn/Stop Signal : -0.0834, 
+Improper Left Hand Turn : 0.0856, 
+Disorderly By Fighting : 0.0142, 
+Driving W/Lic Susp Habitual : -0.0474, 
+Failure Display Registration : 0.02, 
+License Not Carried : 0.1068, 
+Violation Of Restraining Order : -0.0444, 
+Poss Anti-Shoplifting Device : 0.1401, 
+Lodge In Open/ Park Closed : 0.0422, 
+Sleep On Municipal Beaches : 0.0694, 
+Burg Dweling Occupied/Mask : -0.0722, 
+Brakes Not Maintained : 0.0213, 
+Ped Walk Left Side/No Sidewalks : 0.2497, 
+Sleeping In Park Pavillion-FL : 0.0908, 
+Solicitation On Felony 3 Deg : -0.145, 
+Battery Spouse Or Girlfriend : -0.0264, 
+DOC/Engage In Fighting : 0.0923, 
+Bike / Fail To Wear Helmet : 0.1487, 
+Possession Of Cannabis : 0.1322, 
+Public Consumption Poss Prohib : 0.148, 
+Assault on Person 65 or Older : 0.2326, 
+Obstruct Firefighter During Duty : 0.0082, 
+Obstruct Officer W/violence : 0.1246, 
+Threat Public Servant : 0.0398, 
+Did Lodge Underneath Bridge : 0.158, 
+Attempted Burgl Conv Unoccup : -0.1675, 
+Gambling/Gamb Paraphernalia : 0.1118, 
+Sell or Offer for Sale Counterfeit Goods : 0.154, 
+Sell/Possess Counterfeit Goods : 0.1577, 
+Unauthor Copy of Sound Article : 0.0071, 
+Resisting Arrest W/out Violenc : 0.0431, 
+Advertisement of Drug Para : 0.0934, 
+Pass in No Pass Zone : 0.1871, 
+Penalties/Financial Responsibility : 0.0356, 
+DWLS Susp/Cancel Revoked : -0.0897, 
+Unlawful Speed/County Roads-Driver : 0.0551, 
+DWLS Fin Obligation 1stOfense : -0.0435, 
+Harass Witness/Victm/Informnt : 0.1718, 
+Attempted Escape : -0.0765, 
+Harass Witness/Victim/Information : 0.1731, 
+Neglect/Abuse Elderly Person : 0.1908, 
+Poss Controlled Substance : 0.2568, 
+DWLS/ Habitual Offender : -0.2087, 
+Fail to Wear Bike Helmet : 0.1487, 
+Mcycle/Moped Head/Eye Protection : 0.1652, 
+Moped Violation : -0.0084, 
+Possess Meth/diox/meth/amp : 0.013, 
+Drop /Shift/Leak Load : -0.0251, 
+Improp Park/Unincorp Area : 0.1765, 
+Possession Of Cocaine : 0.0936, 
+Felony Dui (level 3) : -0.0058, 
+Violation License Restrictions : 0.0701, 
+Temp Tag Expired 7days or Less : 0.0926, 
+Break/Coin Operated Machine : 0.0255, 
+Fail To Maintain Electrical : 0.04, 
+Trespass In A Struct / Convey : -0.1326, 
+Trespass School Grounds/Facility : 0.0804, 
+Imp Stop Un/Load Pasg Limt Acs : -0.048, 
+Solic Poss/Pur/Sell/Del Cocaine : 0.4089, 
+Bicycle Regulation Violations : 0.1317, 
+Slow Bike Fail Ride Right Curb : 0.2893, 
+Discharge Firearm in Public : -0.0924, 
+Agg Batt With Deadly Weapon : -0.3044, 
+Att Murd Civ Vic/ser Bod Inj A : 0.0296, 
+RR Crossing Failed To Stop : -0.0354, 
+Disobey Red Flashing Signal : -0.1837, 
+Trafficking 14-28 Grams Heroin : 0.1222, 
+None/Improper Rear Stop Lamps : -0.0444, 
+Racing on the Highway : 0.0859, 
+Sale of Altered Motor Vehicle : -0.0472, 
+Solicitor or Panhandler in/on Prohibited roadway : 0.1358, 
+Inj/kill Police/fire Dog/horse : 0.073, 
+Bike/Cyc On Limit Access/Inter : -0.0073, 
+Ped Cross Intersect Diagonally : 0.1976, 
+Prowling : 0.0344, 
+Retail Theft $300 1st Offense : -0.2267, 
+Unlawful Blood Alcohol Level : 0.0151, 
+Delay Free Movement/ Any Person : 0.1284, 
+Felony Committing Prostitution : -0.1301, 
+Lodge Upon Property W/O Cons : 0.0937, 
+No Solicit/Obstruct Veh Traffic : 0.2653, 
+Ped On Limited Access Fac : 0.2248, 
+Trespass Private Property : 0.0531, 
+Tresps Privt Prop/Notice By Mgr : 0.4339, 
+Unlawful Panhandling, Begging or Soliciting : 0.0271, 
+Improper No Bike Brake : 0.02, 
+Not Ride Astride/Perm Bike Seat : 0.1331, 
+Resist/Obstruct An Officer : 0.005, 
+Drive Wrong Side Divided Highway : 0.2748, 
+Consume Alcohol In Public : 0.0031, 
+False/fraud Insurance Claim : 0.0558, 
+Insurance Fraud By False Claim : 0.0558, 
+Possess Of Stolen Credit Card : 0.3628, 
+Fail to Obey Traffic Laws : 0.1816, 
+Speed Post Cnty Rd Non-Bus/Rsd : 0.0867, 
+Fail Submit Writ Acc Rpt To St : 0.2813, 
+Fail Wear Safety Belt/ Operator : 0.4447, 
+Possession Of Open  Container : 0.0526, 
+False Verification of Ownership to Secondhand Dealer : 0.0391, 
+PL/Unlaw Use Credit Card : 0.251, 
+Park/Obstruct Disable Pk Space : 0.1512, 
+Pedestrian/Obstructing Traffic : 0.1836, 
+Carrying Concealed Weapon : 0.0174, 
+Red Fuse/Lant/Reflc Imp Amount : -0.1602, 
+ATV- Violation : -0.0282, 
+Fraudulent Use Credit Card : 0.3035, 
+Robbery W/Deadly Weapon : -0.1561, 
+Fail Secure Load Injury/ Death : -0.0428, 
+Contempt Of Court : 0.0573, 
+False 911 Call : 0.0628, 
+Op Off Rd Veh W/O Reg Decal : 0.1875, 
+Park Handicap Space/Private : 0.1007, 
+Possess Cannabis W/i/deliver : 0.203, 
+Pos/sel/del Cannabis 1000'chur : 0.4382, 
+Computer Pornography : 0.0335, 
+Fail to Reg as Sexual Offender : -0.1239, 
+Oss W/I/Promote Sex Perform Child : -0.0064, 
+Possession Child Pornography : 0.1184, 
+Sexual Performance by a Child : 0.0296, 
+Block Intersection/Crosswalk : -0.0111, 
+Poss Of Firearm By Convicted : 0.0563, 
+Registration not Carried : 0.0305, 
+Contrib Delinq/depend Of Minor : 0.0506, 
+Att Deprive offic/Weapon : -0.1547, 
+Attempt Deprive Leo/weapon : -0.1539, 
+Poss/Drug Paraphernalia : 0.2965, 
+Improper Tag/Non-Resident : 0.0656, 
+Pos W/Int/Del Cann N/Conv Busi : 0.1243, 
+Sale/Del Counterfeit Cont Subs : 0.258, 
+Sell Cocaine 1000FT Store : 0.1764, 
+Improper Tags/Out of State : 0.0668, 
+Solicitation To Purchase Cann : -0.0504, 
+Bike Careless Driving : -0.1316, 
+Poss W/I/Promot Sex Perf Child : 0.1511, 
+Arson II (Vehicle) : -0.1074, 
+Accessory After The Fact : 0.0012, 
+Impregnating a Minor : 0.0577, 
+Ped/Fail Obey Traf Sig/Intersc : 0.3248, 
+Deliver Cocaine 200' Park : 0.1374, 
+Organized Fraud : 0.0174, 
+Use Lost Or Stolen Credit Card : 0.3646, 
+S/m/d/p/w/int 1000 Relig Mdma : 0.1112, 
+Intoxicated/Safety Of Another : 0.1521, 
+Expired Temp Tag 7 Day Or Less : 0.0951, 
+Maximum Bumper Height/None : -0.0641, 
+No Head Lamps Rain/Fog/Smoke : -0.0004, 
+Burglary Dwelling Assault/batt : -0.0311, 
+Tampering with a Victim : 0.167, 
+Sex Offender Residence Prohib : -0.1468, 
+Fail To Obey CMV Rules : 0.1098, 
+Sex Batt Faml/Cust Vict 12-17Y : -0.1601, 
+Ped Cros Rd Right Angl/Shortrt : 0.25, 
+Ped Obstruct Traf/No Permit Sol : 0.2725, 
+Pedestrian Disobey Red Light : -0.1053, 
+Flee Law Enforcement Off : 0.1244, 
+Purchase Of Cocaine : 0.0184, 
 Discharge Firearm From Vehicle 
-, -0.1912 
-Violation Of Move Over Law, -0.0347 
-FTYROW to Ped No Signal, 0.1452 
-Att Armd Burgl Struc/conv Occp, -0.1734 
-Unnecessary Use Of Horn, 0.0538 
-Attempt/Solicitation/Conspiracy, -0.0641 
-DOC/Breach Of Peace, 0.0593 
-Inhale Harmful Substance, 0.0881 
-Driving Unregistered Moped, -0.0602 
-Unlaw Alter of Motor Veh ID NO, 0.2952 
-Conspiracy Deliver Drugs, 0.0522 
-Litter Law Violation/Highway, 0.0229 
-Solic Poss/pur/sell/del Cocain, 0.3937 
-Traf 3,4 MDMA 10-200 Grams, 0.1549 
-Make False Statement, 0.0166 
-Unlawf Use Temptag More 7 Days, 0.074 
-Lewd/Lascivious Conduct, -0.1647 
-Crim Conspiracy 1st Deg Felony, -0.2009 
-Fail to Submit Accident Report, 0.1337 
-Attempted Burg/struct/unocc, -0.1207 
-Fail to Report Change/Residence, 0.0747 
-False Name By Person Arrest, 0.3068 
-Violation of Injunction Order/Stalking/Cyberstalking, -0.064 
-Att Burgl Struct/conv Unoccup, -0.1108 
-Poss F/A Serial Num Removed, 0.1843 
-Mcycle/No Helmet /Insurance, 0.112 
-Burglary Conveyance Armed, -0.1973 
-Lewd/Lasc Exhib Presence <16yr, -0.2351 
-Shoot/throw In Unoccupied Buil, -0.0896 
-Armed Del Cocaine 1000' School, 0.2402 
-Possession Of Shopping Cart, 0.0704 
-Trespass City Owned Property, 0.1619 
-Fail Provide Shelter Animal, 0.0433 
-Fail Provide Water for Animal, 0.04 
-Unlawful/ Tether Animal Restr Hrs, 0.0608 
-Unlawful Assembly, 0.0212 
-Unlawful Solic State Highway, 0.0657 
-Park Handicapped Zone, 0.1489 
-Poss/sell/deliver Oxycodone, 0.3437 
-Del 3,4 Methylenedioxymethcath, 0.115 
-Curfew Violation, -0.0414 
-Traffick Oxycodone    14g><28g, 0.1391 
-Drive on Sidewalk/Bike Path, 0.0973 
-Poss Open Container in MV, 0.1564 
-Operating  W/O Valid License, 0.0749 
-Agg Abuse Elderlly/Disabled Adult, 0.0408 
-Agg Manslaughter Elderly/Disabled Adult, 0.0295 
-Municipal Ord/Criminal/Charge, 0.0793 
-Deliver Cocaine 1000FT Store, 0.1939 
-Sale/Del Cannabis At/Near Scho, 0.3134 
-Possession of XLR11, 0.0648 
-Poss of Methylethcathinone, 0.1648 
-DOC/Resist/Obstruct Officer, 0.0483 
-Public Indecency, -0.0031 
-No Court Susp Control Substance, 0.0917 
-Pos/Sel/Del Cocaine 1000' Store, 0.4698 
-Possess Uncurrent Bank Bills, 0.1505 
-Possess w/I/Utter Forged Bills, 0.1913 
-Failure of Driver To Make Written Report, 0.0854 
-Load Not Secure/Supports Trucks, -0.0917 
-No Lamp/Flag On Projected Load, -0.0971 
-Arson Result in Injury Another, 0.0608 
-Deliver Cocaine 1000FT Church, 0.1903 
-Fail Cover/Secure Load, -0.0501 
-Passing In A No Passing Zone, 0.1728 
-Evidence Of Theft, 0.0634 
-DWLS  Habitual Offender 2nd, -0.2296 
-FTYROW to  Emergency Vehicle, -0.0512 
-Interfering W/an Officer, 0.013 
-Speed To Fast Cond/Special Haz, 0.2626 
-Viol Injunction Protect Dom Vi, 0.019 
-Audio Visual Articles Over 7, 0.0452 
-Interfer With City Emp Performace of Duties, 0.1647 
-Operate Bike W/O Lights, 0.1219 
-Unlawful Lic Use/Display, 0.2671 
-Trafficking 4-14 Grams Heroin, 0.1303 
-Bike/FTYROW To Pedestrian, 0.0402 
-Indecent Behavior Prohibited, 0.1011 
-Litter, -0.0147 
-Fail To Redeliv Hire/Leas Prop, 0.2734 
-Failed To Yield At Sidewalk, 0.0391 
-Aggravated Battery (Firearm/Actual Possession), -0.0749 
-Animal Rabies Vaccine Viol, 0.0877 
-Obtain Property for Bad Check, 0.0833 
-Windscreen Req On Grove Equipment, 0.0317 
-Bk/Disby/Avid Red Light/Turnig, -0.2441 
-Fail Have Req Endorse On DL, 0.0784 
-Simulated Process, 0.0179 
-Uttering A Forged Instrument, 0.2206 
-Violation of Marine Life Rules, -0.0232 
-TV Visable To Driver, 0.0691 
-Fail To Obey RR Crossing Device, 0.0595 
-Service BrakesInadequate, 0.0109 
-Operate Moped No Headgear, 0.1014 
-Improper Stop Stand Park, 0.0691 
-Wear Mask w/Commit Offense, 0.0669 
-Obstruct Search Warrant, 0.0397 
-Permitting A Minor To Gamble, 0.0674 
-Sell Cocaine 1000FT School, 0.2011 
-Enter/Exit Lim Acces Interstat, 0.0407 
-Contempt/Fail To Appear/Summons, 0.0646 
-Issue Worthless Check, 0.1478 
-Unlawful Noise violation, -0.0564 
-Uttering Worthless Check +$150, 0.1755 
-Improper Passing On The Right, 0.1745 
-Sleeping On Beach, 0.0672 
-Excess Speed Manatee Zone, 0.1658 
-Felony W/hold /info From Pract, -0.0146 
-Violation Manatee Sanctuary, -0.0334 
-Attempt Sex Batt/vict 12 Yrs +, -0.2238 
-Littering Water Pollution Prohib, -0.0017 
-Refusal Sign Traffic Ticket, 0.0687 
-DUI/Property Damage/Persnl Inj, 0.0591 
-Deliver Methamphetamine, 0.0966 
-Possess Cannabis 1000'sch, 0.1852 
-Possession Of Ketamine, 0.0614 
-Perjury/Official Proceedings, 0.0267 
-Poss Beer/Wine/Liq Where Proh, 0.1997 
-FTYROW To Vehicle On Right, -0.0011 
-Conspr Traf 3,4MDMA 10-200g, 0.0848 
-Blood/Breath Alc 0.08 Or Above, -0.0274 
-Aggress/Panhandle/Beg/Solict, 0.1598 
-Crim Conspiracy Cannabis, -0.0058 
-Solicitation and Display on Public Right of Way, -0.013 
-Credit Card/Obtained By Fraud, 0.2281 
-Obstuct By Solicitation, -0.0448 
-Possession of Methadone, 0.0608 
-Escape - Commitment Facility, -0.0309 
-Armed Possession Of Cocaine, 0.1213 
-Carjacking / Firearm / Mask, -0.1358 
-Carjacking with Deadly Weapon, -0.1784 
-Robbery Firearm Wearing Mask, -0.1198 
-Robbery-Strong Arm W/mask, -0.0405 
-Fraud Use Bank/credit Card, 0.2961 
-Lewd Act Presence Child 16-, -0.182 
-Trespassing Public School Grounds, 0.0663 
-Armed False Imprisonment, 0.0589 
-Obstruct/Dig Up/Disturb Road, 0.0168 
-Aggravated Battery On A Child, 0.0202 
-Possession Of Temazepam, 0.0625 
-Trespass Structure W/Dang Weap, 0.0159 
-Del Oxycodone 1000FT School, 0.2167 
-Deliver Alprazolam, 0.0953 
-Possession of Codeine, 0.0623 
-Obt Or Att Obt Drugs By Decept, 0.0324 
-Possess Altered Bills, 0.1078 
-Traffic Counterfeit Cred Cards, 0.126 
-Diving From Pier, 0.0064 
-Operate W/O Valid Registration, 0.0014 
-Vessel Safety Equip Violation, 0.1842 
-Forging Bank Bills/Promis Note, 0.1503 
-Disobey Red Traffic Signal, -0.1023 
-None/Improper Turn Signals, -0.0885 
-Disobey Stop Sign, 0.0079 
-Burg Dwell Unocc State/Emerg, -0.1381 
-Conspiracy to Deliver Cocaine, 0.0961 
-Double Parked, 0.0117 
-Fail Change Address On Veh Reg, 0.1871 
-Battery As Domestic Violence, 0.0773 
-Mcycle W/O Proper Taillight, 0.044 
-Poss/sell/del Chlordiazepoxide, 0.3022 
-Poss/sell/deliver Pentazocine, 0.3071 
-Too Fast For Conditions On Curve, 0.1494 
-Poss/sell Dextropropoxyphene, 0.2325 
-Burglary Of Motor Vehicle, -0.2345 
-Fail Leave Info/Dam Veh/Unatnd, 0.3421 
-Leave Acc/Attended Veh, 0.3875 
-Unlawful Speed/Fail Use Care, 0.1852 
-Litter Less 15LB/27 Cubic Feet, 0.095 
-Poss/sell/deliver Lorazepam, 0.3093 
-Poss/sell/deliver Phentermine, 0.3085 
-Secondhand Dealer Violations, 0.0622 
-Engine Run/Key In Ignition, -0.0571 
-Unlawful Speed: Interstate-/Driver, 0.1643 
-Att Burgl Dwel, -0.0066 
-Shoot In Unoccupied Dweling, -0.0154 
-Traffick Amphetamine 14g><28g, 0.1082 
-Aggravated Battery (Firearm), -0.1422 
-Bike Violation Alw By Parent/Gard, -0.1063 
-Traffic Cannabis/25-2000lbs, 0.1439 
-Man/Distro/Sel Etc Imitat Drug, 0.3108 
-Conspiracy Traffic in Drugs, 0.0361 
-Poss/pur/sel/del/manuf Heroin, 0.4262 
-Discharging Firearm in Public, -0.1043 
-Throw Missile Into Pub/priv Dw, -0.1151 
-Headlights Minimum Requirements, 0.0788 
-Attempt Burglary Assault/Batt, -0.0391 
-DUI Bood Alcohol Level Above 0.20, 0.0318 
-Fail Comply ID Requirements, 0.1206 
-Improper Stop Within Intersection, 0.0523 
-Att Sex Batt Def 18+/vict 11-, -0.0636 
-No Lamp/Flag On Projecting Load, -0.0838 
-Speeding State Posted-Driver, 0.0478 
-DOC/Alcoholic Bev/Bus Facility, 0.0519 
-Pos Canbs W/I/D/S 1000FT School, 0.2617 
-DOC/Beg/Panhandle/Obtain Money, 0.2082 
-Financial Responsibility, 0.03 
-Disabled Vehicle Obstruct Traffic, -0.0212 
-DWLS Cancelled Disqual 2nd Off, -0.0916 
-Propelling A Moped Sidewalk, 0.0768 
-DOC/Fight/Brawl/Riot, 0.06 
-Falsely Impersonating Officer, 0.0039 
-Harassing Telephone Calls, 0.0135 
-Improper Flashing Lights, 0.2482 
-Bike/Fail Sub Written Acc Rpt, 0.3506 
-Att Obt Prop by Fraud Cred Crd, 0.2135 
-Fictitious Sign Corp Ofc/Agent, -0.0012 
-Bike/Disobey/Avoid Traffic Device, 0.0376 
-Tampering/Felony Life/Capital Proc, 0.1041 
-Improper Pass Oncoming, 0.128 
-Battery On Law Enforc Officer, -0.1088 
-Bribery, -0.0003 
-Robbery W/deadly Weapon, -0.1561 
-Crim/Transmit of HIV Virus, -0.044 
-Kidnapping Under Age 13, -0.0378 
-Aggrav Battery Upon Detainee, -0.0595 
-Possess/Use Weapon 2 Deg Felon, -0.1448 
-Following Fire Apparatus W/I 500', 0.0235 
-Criminal Conspiracy, -0.0984 
-Drinking In Public-TM, 0.0282 
-Attempted Lewd Conduct, -0.1807 
-Use Computer for Child Exploit, 0.151 
-Poss Of Propoxyphene, 0.1657 
-S/m/d/p/w/int 1000 Sch Cocaine, 0.2045 
-Unl/Speed in School Zone, 0.2718 
-Neglect Child / Bodily Harm, 0.1165 
-Use Out Of State Lic When Susp, 0.1257 
-Exceed Bumper Height Limit, 0.048 
-Poss Telecomm Device for Theft, 0.1059 
-Remove Alter ID Markings, 0.1989 
-Poss Counterfeit Payment Inst, 0.189 
-Unlawful Poss of Another Persons ID, 0.3541 
-Culpable Negligence, -0.0202 
-Loud Noises Prohibited, 0.0757 
-Burg Structure Occupied/Mask, -0.0139 
-Lewd/Lascivious Exhibition, -0.2096 
-Public Consumption Of Alcohol, -0.0083 
-Disobey/Avoid RR Barrier, 0.0908 
-Unlawful Speed/Amt Not Indicat, 0.0452 
-Traffick Methampheta 14g><28g, 0.1106 
-Possess Cannabis/20 Grams Or  Less, 0.3819 
-Trespass On Private Property, 0.0531 
-DOC/Hinder Person In Public Way, 0.0051 
-DOC/Sleep In Prohibited Area, 0.1323 
-Lewd/Lasc Molest Person <16Yrs, -0.1401 
-Pos 3,4 MDMA >10 Grams, 0.2397 
-S/M/D/P/W/Int 1000FT Sch Cocaine, 0.2038 
-Sell Cocaine, 0.0959 
-Fraud Obtain ID Card, 0.2702 
-Lewd/Lasciv Bat Elder/Disabled, -0.2968 
-Ped Obstruct Traffic, 0.1647 
-Poss Credit Card Making Equip, 0.5542 
-Possess Countrfeit Credit Card, 0.2631 
-DOC Obstruct Justice, 0.0563 
-Op CMV Alcohol Content>00%<.04, 0.0004 
-Poss of Heroin W/I/D/S at or near Public Park, 0.2689 
-Traffic Hydromorphone 4g><14g, 0.1558 
-Traffick Amphetamine 28g><200g, 0.0766 
-Traffick Methampheta 28g><200g, 0.0791 
-Trafficking Heroin Over 28g<30k, 0.0578 
-Consp/Com/Confeds W Anoth, 0.0243 
-Possession Of Cannabis Le, 0.1332 
-Possession Of Drug Paraph, 0.1194 
-Interference with Custody, 0.0128 
-Sex Battery Deft 17-/Vict 11-, -0.0983 
-Aggravated Battery Firearm, -0.1422 
-Sale/Poss Unauth/Dup Tapes, 0.2706 
-Sunscrn/Sign/Covering On Wndsh, -0.0106 
-Imp Backing Sholder/Lm Acc Fac, 0.2486 
-Violation of License Restrictions, 0.0701 
-Loud Music Between 9 pm- 7 am, 0.0093 
-Speed To Fast Cond/Apprch Hill, 0.1964 
-Brake Equipment Required, 0.0813 
-Brakes On All Wheels, 0.0239 
-Burglary Assault/battery Armed, 0.058 
-Poss Similitude of Drivers Lic, 0.2824 
-Prowl/ Warrant Alarm For Safety, 0.1181 
-Unlawful Speed / Requires Speed, 0.2186 
-Poss Unlaw Issue Id, 0.3443 
-Refuse To Sign Citation/Post Bond, -0.0579 
-Trespassing-DN, -0.0003 
-Harass/False Identification, 0.05 
-Improper Stop School Bus, 0.0913 
-Disobey No Change Lane Device, 0.0102 
-Careless Operation Of Vessel, 0.061 
-Failure To Return Hired Vehicle, -0.1379 
-Uttering Forged Credit Card, 0.3641 
-Adopt Chapt 316/Florida Stats, 0.0468 
-Attempted Arson Second Degree, -0.1935 
-Speed/Racing on the Highway, 0.1103 
-Unemployment Compensatn Fraud, 0.0249 
-Deliver  Cannabis, 0.152 
-Deliver  Cocaine, 0.1134 
-Turn Improper On Hill/Curve, 0.0313 
-Writing a Threat to Kill, 0.0288 
-Present False Statemnt Ins Cov, -0.0556 
-Unlawful Break/ Injure Fence, 0.034 
-Attempted Deliv Control Subst, -0.1013 
-Vessel Reg/Number/Decal Viol, 0.1351 
-Drink Alcoholic Beverage, 0.1894 
-Sell Cannabis 1000'chur, 0.1456 
-Attempt Armed Burglary Dwell, -0.1437 
-Crlty Twrd Child Urge Oth Act, 0.0516 
-Poss/deliv Meth/diox/meth/amp, 0.0948 
-Poss of AB-CHMINACA, 0.1644 
-Trespass Proh in School Safety Zone 2nd, 0.2437 
-Unauthor Poss 2 or + Cred Card, 0.313 
-DOC Panhandle Or Beg, 0.112 
-Trespass Which Notice Exist, 0.124 
-Deliver Cocaine 1000FT Park, 0.1848 
-Criminal Solicitation, -0.1237 
-Tampering With Witnesses, 0.1265 
-Aggravated Assault 65 & Older, 0.1711 
-Pos Recv Retain Stoln Cred/Debit Card, 0.3403 
-Theft/Unlawful Credit Card, 0.1999 
-Bike/Motor Drven Cycle Op Hgwy, -0.0671 
-DOC/Cause Public Danger, 0.0651 
-Driving Thru Safety Zone, 0.0974 
-DUI Property Damage, 0.063 
-Carry Weapon In Open, -0.1628 
-Petit Theft-2Nd Degree -, -0.2535 
-Fail Display 3 Emg Devices, 0.0923 
-Agg Battery Bod Hrm-Deadly Weap, -0.1445 
-Fail to Turn as Directed, -0.0381 
-Poss Alprazolam W/int Sell/del, 0.356 
-Possession of Raw Opium, 0.0708 
-Manfact/Delivery Of Drug Para, 0.1371 
-Solic Sell/Del/Man Cannabis, 0.3551 
-Del Coc w/in 200ft Pub Houfac, 0.1049 
-Battery On School Board Employ, 0.0318 
-Atmpt Traf Oxycodone, 0.1017 
-DUI / Manslaughter, 0.0332 
-Vehicular Homicide, 0.0118 
-Mandatory Susp Possess Alcohol, 0.0231 
-Bike/Fail Remv Obst Veh/Unatnd, 0.1208 
-Attempted Sexual Battery, -0.0988 
-Park Not Near Curb/Angle, 0.1298 
-Ped FTYROW Emergency Veh, 0.3059 
-Dog Bite/ Ofc While Conduct Inv, 0.0527 
-Open Container, -0.0073 
-Att Burgl Conv Occp, -0.192 
-Attempt Burglary (Struct), -0.1377 
-TV Receivers In Drivers View, 0.013 
-Del or Poss of Sythetic Marajuana or Bath Salts, 0.2881 
-Noise Ordinance, -0.0501 
-Offer Sell Counterfeit Goods, 0.0936 
-Defraud To Obtain Food/Lodg, 0.0801 
-Tamper With Victim, 0.1284 
-Agg Battery Grt/bod/harm, -0.0671 
-Fail Disp Proper Light/Shape, 0.0245 
-Vessel Decal Violation, -0.0384 
-Vessel Viol In Restricted Area, 0.1015 
-Make False Affidavit For DL, 0.0436 
-Habit Traf Offend (3+ Convict), -0.0603 
-Enter City Park/ Prohibited Hrs, 0.1752 
-Attempt Trafficking in Cocaine, 0.0505 
-Lease For Purpose Trafficking, 0.0325 
-Poss Paraph Control Sub, 0.3121 
-Poss Struct Drugs Manuf, 0.1416 
-Sell/Pur/Mfr/Del Cntrl Substan, 0.3399 
-Trespass On School Grounds, 0.0865 
-Unlawful Assemblies, 0.0131 
-Failure To Report Accident, 0.0613 
-Del 5-Methoxy-N,N-Diisopropylt, 0.0861 
-Defrauding Innkeeper, -0.0317 
-Attempted Grand Theft 3 Degree, -0.3159 
-System Conspiracy, 0.0191 
-No Stoplight/Turn Ind, -0.0866 
-Cash Item w/Intent to Defraud, 0.0297 
-Consp Traff Contra Legend Drug, 0.1436 
-Medicaid Fraud, 0.0125 
-Money Laundering, 0.0518 
-Traf In Contraband Legend Drug, 0.1684 
-Trans/Harm/Material to a Minor, 0.0457 
-Traveling to Meet a Minor, 0.0642 
-Battery Emergency Care Provide, 0.0737 
-Poss of Firearm W/O License, 0.1321 
-Stand/Park Prohibit By Sign, -0.0016 
-Ped Failed to Walk in Crosswalk, 0.1073 
-Possession Of Buprenorphine, 0.0624 
-Driver View Obstrcted By Matrl, 0.0923 
-Pass Within 100' Of Intersection, -0.0944 
-Rear Window  Non-transparent, 0.019 
-Trafficking In Methamphetamine, 0.0378 
-Murder In The First Degree, -0.2222 
-Sexual Battery Victim Helpless, -0.002 
-Leave Acc: Unattended Veh, 0.4299 
-Traff Morphine 4-14 Grams, 0.1695 
-Fail Provide Animal Medical Att, 0.0581 
-Own/ Control Dog W/O Vaccines, 0.0201 
-Improper Stop On Crosswalk, 0.0576 
-Sexual Violator Resid Prohib, 0.0442 
-Fabricating Physical Evidence, 0.2355 
-Improper Parking Two Way Road, -0.0135 
-Unauthor/Disp/Blue/Red/Light, -0.2063 
-Possess Narcotic Drug, 0.1142 
-Mcycle W/O/Improper Headlight, 0.1114 
-DUI Manslaughter (UBAL), 0.0348 
-Create A Disturbance, 0.0069 
-Trespass/Private Property, 0.0531 
-DWLS Habitual Off 1st Offene, -0.137 
-Failure To Vaccinate Animals, -0.032 
-Identification Tag Violation, -0.0739 
-Outdoor Pen Requirements, 0.0263 
-Tether/Chain Dog Violation, -0.0213 
-Operate Against Lic/Restric, 0.1783 
-State/Misd/County Violation, -0.0905 
-Traffick Oxycodone 14-25 grams, 0.1711 
-Exploit Elderly $100 Or More\, -0.0454 
-Poss of AB-FUBINACA, 0.166 
-Grand Theft of a Fire Extinquisher, -0.1359 
-Poss Of 1,4-Butanediol, 0.1644 
-Alcohol Bev Under Age Of 21, -0.055 
-Possess Forged Bills, 0.1753 
-Possession Of Cocaine 1000FT Sch, 0.2215 
-Threaten Throw Destruct Device, -0.1372 
-Cruelty to Animals, 0.032 
-Fail To Dim Lights From Rear, 0.2126 
-Possession Firearm By A Minor, -0.0054 
-ATV/Safety Equip/Under 16, 0.2205 
-False Bill of Sale/Title M/V, 0.0715 
-Making False Affidavit/Perjury, 0.043 
-Driving While Intoxicated, -0.0715 
-Compulsury Attendance Violation, -0.0384 
-Vandalism Church/synag/mosq/re, 0.0415 
-Soliciting Without A Permit, 0.0505 
-Curbside Drinking Of Alcohol, 0.0223 
-Del/poss Cocaine 200' Property, 0.2833 
-Indecent Assault 1 Deg, 0.1387 
-Unemployment Compensation Fraud, 0.0174 
-Atmp Home Invasion Rob/mask, -0.0261 
-System Mischief, 0.1064 
-Poss/sell/del N-Hydr-3,4methyl, 0.3026 
-Violations Of Right Of Way, 0.0181 
-Burglary Dwell/Stealthy Manner, -0.1593 
-Manslaughter W/Weapon/Firearm, -0.2533 
-Obstruct By Stp/Stnd/Prk Excav, 0.0049 
-Dog Unrestrained In Public, 0.0168 
-Traffick/Gamma Butyrolactone, 0.0507 
-Sell Cocaine 1000' Church, 0.1735 
-False Insurance Claim, 0.0484 
-Beach Close 11PM/6AM Violation, -0.0251 
-Prohibited On Certain Streets, 0.087 
-Open Cont Alcohol Bev-HW, 0.0337 
-YROW To State Rds At Intersection, -0.0334 
-Pos Hydromorphone W/I/D/S, 0.1589 
-Following To Close W/Tow Truck, 0.0177 
-Lewd/Assignation/Prostitution, -0.2505 
-Armed Trafficking in Cocaine, 0.0822 
-Head Lamp Violation, -0.0768 
-Aggravated Manslaughter Child, 0.0592 
-DUI Serious Bodily Injury, 0.0594 
-Munic Occup License Req, 0.0972 
-Mcycle Headlights To Be On, 0.0803 
-Poss Meth/Diox/Meth/Amp (MDMA), 0.1267 
-Unregistered Tag Not On, -0.0156 
-Conspiracy Murder First Degree, -0.2396 
-Burglary Struc/Dwel/Conv Armed, -0.1869 
-Discharge Firearm in Public/Res, -0.0918 
-Harm Public Servant Or Family, 0.005 
-Fraud Use of Personal ID Info, 0.2372 
-Organized Fraud In The 2nd Degree, -0.1188 
-Poss Pethidine (meperidine), 0.1707 
-Retaliate Wit/vict/ci Body Inj, 0.0128 
-Bike/Ride Two Abreast Or More, 0.0854 
-Possess Duplicate Or Fake ID, 0.1655 
-Animal Running At Large, 0.0292 
-Dogs Running At Large-LS, 0.0227 
-Abuse Of Child, 0.0994 
-Imp Park One/Two Way Rd/Angle, -0.0525 
-Mcycle/Moped Equipment Violation, 0.0252 
-Theft/to Appropriate, -0.0572 
-Exposing Genitals In Pub Place, 0.0911 
-False Alarms Of Fires, 0.0195 
-False Bomb Report State Prop, 0.133 
-Alcoholic Beverage Violation, 0.0768 
-Bike/Drive Across Median, 0.0324 
-Poss Drugs W/O A Prescription, 0.1776 
-Public Indecency/Sex Intercourse, -0.0748 
-Suspended CMV License, 0.093 
-Batt/on a Specified Employee, -0.0688 
-Disturb Peace Of Others, 0.0549 
-Consp Traff Oxycodone 14g><28g, 0.1768 
-Drinking/Open-FL, 0.0261 
-Poss F/A Altered Serial Num, 0.1851 
-Bike Improper Pass/Lane Change, 0.068 
-Veh Fail Use Due Care-Ped/Bike, 0.2394 
-Fraud Obtain/ Use Disable Permit, 0.2332 
-Pos Hydrocodone W/I/D/S, 0.1517 
-Possession False Prescription, 0.0931 
-Attempted Aggravated Battery, -0.0795 
-Felony Littering Over 500 Poun, -0.0388 
-Litter Law Viol/ Private Prop, 0.2251 
-Opert With  Susp DL 2nd Offens, -0.0369 
-Poss/Sel/Del Cannabis 1000'Sch, 0.5035 
-Burglary Conveyance Assault/bat, -0.1252 
-Cnsp Traf Cocain <400g>150 Kil, 0.1663 
-Vehicle Deprive Mcycle Of Lane, -0.0886 
-Solicit Public W/O Perform Permt, 0.0622 
-Loud/Defective/Muffler/Cut Out, 0.0082 
-Deliver Meth/Diox/Meth/Amp, 0.0416 
-Criminal Mischief / Church, 0.0003 
-Disobey Red Light/Non-Intersct, -0.1888 
-Unlawful Use Of License, 0.1378 
-Pub Intoxication/Disorderly, 0.0698 
-Fail Stop Red Signal 1 Way Lft, -0.3036 
-Viol Injunction Protect Dom Violence, 0.148 
-Neglect Or Refuse To Aid Officer, 0.0232 
-Infraction, 0.0086 
-Poss Gamma-Hydroxy Acid (GHB), 0.1775 
-Bicycle Violations, 0.0794 
-Disobey Red Light/FYROW To Ped, -0.0761 
-Traffick Methampheta   200g+, 0.0573 
-Buy/Sell Possess Gator W/O Permit, 0.2774 
-Unlawful Feed/Entice Alligator, 0.0242 
-Deal Stolen Prop-Traffic/Organ, 0.1279 
-Traffick Hydrocodone  28g><30k, 0.0694 
-Unlaw Pos of Prson ID of another, 0.302 
-Fighting/Baiting Animals, 0.0506 
-Obstructing An Officer, 0.0378 
-Vicious Dog Running At Large-FL, 0.0254 
-Intercept Communications, -0.0002 
-Transmit of Child Porn Elec DV, 0.0786 
-In Park After Hours, 0.0113 
-Communications Fraud + $300, -0.0526 
-Obtain Property Worthless Check, 0.1047 
-Poss Mart'l For Counterfeit Dl, 0.2184 
-Poss/forg Cntrfeit Credit Card, 0.3856 
-Counterfeit Lic Plates/Sticker, 0.3071 
-False Reports, 0.0111 
-Fraud Obtain Food or Lodging, 0.0707 
-Utilizing Juvenile to Deliver, 0.0843 
-Crim Solicitation 2 Deg Felony, -0.2058 
-Sell Methamphetamine, 0.0791 
-50/More Over Limit 1st Offense, -0.0113 
-Wilful/Malic/Intent Burn Lands, 0.0748 
-Booked, 0.0005 
-Electrical Alteration W/O Permit, 0.1148 
-Grand Theft Of The 2Nd Degree, -0.2851 
-Refuse to Supply DNA Sample, -0.0076 
-Abuse Without Great Harm, 0.0244 
-DWI w/Inj Susp Lic / Habit Off, 0.1069 
-Rent Vehicle W/O Proper DL, -0.0509 
-Splash /Spray Suppressant Dev, 0.0721 
-Enforce Violation, -0.1009 
-Possession Of  Paraphernalia, 0.1343 
-Fail Stop/Avoid Mobility Impaired, 0.0533 
-Pos 3,4 Mdma >10 Grams, 0.2397 
-Open House Party, -0.0431 
-Offer Agree  Secure For Lewd Act, -0.2776 
-Possession Of Anabolic Steroid, 0.0713 
-Unlawful Speed Interstate-Toll, 0.0437 
-Veh Imp/No Stop/Turn Signal, 0.0783 
-Attempt Robbery Strong Arm/Mask, -0.0365 
-Bike On Shoulder Of Interstate, 0.022 
-Littering Less than 15 pounds, 0.0818 
-Out Of State Lic Use When Susp, 0.1257 
-Fail Apply Lost/Stole Tag/ Decl, 0.0184 
-Discharge Firearm From Vehicle, -0.1912 
-Osbt Crim Invst False Info Leo, 0.0291 
-Prohibited Lights On Vehicle Blue, 0.1422 
-Manslaughter with Weapon, -0.1389 
-Poss Meth/Diox/Meth/Amp >10gms, 0.1265 
-DWI Injury Persons Property, 0.0299 
-Halluc Pos W/Int Sel/Mfg/Del, 0.4023 
-Vessel Prohibited Activity, 0.0886 
-Sel/Man/Del/Pos/W/Int Methamph, 0.5125 
-Improper Pass/Overtake Vehicle, 0.0503 
+ : -0.1912, 
+Violation Of Move Over Law : -0.0347, 
+FTYROW to Ped No Signal : 0.1452, 
+Att Armd Burgl Struc/conv Occp : -0.1734, 
+Unnecessary Use Of Horn : 0.0538, 
+Attempt/Solicitation/Conspiracy : -0.0641, 
+DOC/Breach Of Peace : 0.0593, 
+Inhale Harmful Substance : 0.0881, 
+Driving Unregistered Moped : -0.0602, 
+Unlaw Alter of Motor Veh ID NO : 0.2952, 
+Conspiracy Deliver Drugs : 0.0522, 
+Litter Law Violation/Highway : 0.0229, 
+Solic Poss/pur/sell/del Cocain : 0.3937, 
+Traf 3,4 MDMA 10-200 Grams : 0.1549, 
+Make False Statement : 0.0166, 
+Unlawf Use Temptag More 7 Days : 0.074, 
+Lewd/Lascivious Conduct : -0.1647, 
+Crim Conspiracy 1st Deg Felony : -0.2009, 
+Fail to Submit Accident Report : 0.1337, 
+Attempted Burg/struct/unocc : -0.1207, 
+Fail to Report Change/Residence : 0.0747, 
+False Name By Person Arrest : 0.3068, 
+Violation of Injunction Order/Stalking/Cyberstalking : -0.064, 
+Att Burgl Struct/conv Unoccup : -0.1108, 
+Poss F/A Serial Num Removed : 0.1843, 
+Mcycle/No Helmet /Insurance : 0.112, 
+Burglary Conveyance Armed : -0.1973, 
+Lewd/Lasc Exhib Presence <16yr : -0.2351, 
+Shoot/throw In Unoccupied Buil : -0.0896, 
+Armed Del Cocaine 1000' School : 0.2402, 
+Possession Of Shopping Cart : 0.0704, 
+Trespass City Owned Property : 0.1619, 
+Fail Provide Shelter Animal : 0.0433, 
+Fail Provide Water for Animal : 0.04, 
+Unlawful/ Tether Animal Restr Hrs : 0.0608, 
+Unlawful Assembly : 0.0212, 
+Unlawful Solic State Highway : 0.0657, 
+Park Handicapped Zone : 0.1489, 
+Poss/sell/deliver Oxycodone : 0.3437, 
+Del 3,4 Methylenedioxymethcath : 0.115, 
+Curfew Violation : -0.0414, 
+Traffick Oxycodone    14g><28g : 0.1391, 
+Drive on Sidewalk/Bike Path : 0.0973, 
+Poss Open Container in MV : 0.1564, 
+Operating  W/O Valid License : 0.0749, 
+Agg Abuse Elderlly/Disabled Adult : 0.0408, 
+Agg Manslaughter Elderly/Disabled Adult : 0.0295, 
+Municipal Ord/Criminal/Charge : 0.0793, 
+Deliver Cocaine 1000FT Store : 0.1939, 
+Sale/Del Cannabis At/Near Scho : 0.3134, 
+Possession of XLR11 : 0.0648, 
+Poss of Methylethcathinone : 0.1648, 
+DOC/Resist/Obstruct Officer : 0.0483, 
+Public Indecency : -0.0031, 
+No Court Susp Control Substance : 0.0917, 
+Pos/Sel/Del Cocaine 1000' Store : 0.4698, 
+Possess Uncurrent Bank Bills : 0.1505, 
+Possess w/I/Utter Forged Bills : 0.1913, 
+Failure of Driver To Make Written Report : 0.0854, 
+Load Not Secure/Supports Trucks : -0.0917, 
+No Lamp/Flag On Projected Load : -0.0971, 
+Arson Result in Injury Another : 0.0608, 
+Deliver Cocaine 1000FT Church : 0.1903, 
+Fail Cover/Secure Load : -0.0501, 
+Passing In A No Passing Zone : 0.1728, 
+Evidence Of Theft : 0.0634, 
+DWLS  Habitual Offender 2nd : -0.2296, 
+FTYROW to  Emergency Vehicle : -0.0512, 
+Interfering W/an Officer : 0.013, 
+Speed To Fast Cond/Special Haz : 0.2626, 
+Viol Injunction Protect Dom Vi : 0.019, 
+Audio Visual Articles Over 7 : 0.0452, 
+Interfer With City Emp Performace of Duties : 0.1647, 
+Operate Bike W/O Lights : 0.1219, 
+Unlawful Lic Use/Display : 0.2671, 
+Trafficking 4-14 Grams Heroin : 0.1303, 
+Bike/FTYROW To Pedestrian : 0.0402, 
+Indecent Behavior Prohibited : 0.1011, 
+Litter : -0.0147, 
+Fail To Redeliv Hire/Leas Prop : 0.2734, 
+Failed To Yield At Sidewalk : 0.0391, 
+Aggravated Battery (Firearm/Actual Possession) : -0.0749, 
+Animal Rabies Vaccine Viol : 0.0877, 
+Obtain Property for Bad Check : 0.0833, 
+Windscreen Req On Grove Equipment : 0.0317, 
+Bk/Disby/Avid Red Light/Turnig : -0.2441, 
+Fail Have Req Endorse On DL : 0.0784, 
+Simulated Process : 0.0179, 
+Uttering A Forged Instrument : 0.2206, 
+Violation of Marine Life Rules : -0.0232, 
+TV Visable To Driver : 0.0691, 
+Fail To Obey RR Crossing Device : 0.0595, 
+Service BrakesInadequate : 0.0109, 
+Operate Moped No Headgear : 0.1014, 
+Improper Stop Stand Park : 0.0691, 
+Wear Mask w/Commit Offense : 0.0669, 
+Obstruct Search Warrant : 0.0397, 
+Permitting A Minor To Gamble : 0.0674, 
+Sell Cocaine 1000FT School : 0.2011, 
+Enter/Exit Lim Acces Interstat : 0.0407, 
+Contempt/Fail To Appear/Summons : 0.0646, 
+Issue Worthless Check : 0.1478, 
+Unlawful Noise violation : -0.0564, 
+Uttering Worthless Check +$150 : 0.1755, 
+Improper Passing On The Right : 0.1745, 
+Sleeping On Beach : 0.0672, 
+Excess Speed Manatee Zone : 0.1658, 
+Felony W/hold /info From Pract : -0.0146, 
+Violation Manatee Sanctuary : -0.0334, 
+Attempt Sex Batt/vict 12 Yrs + : -0.2238, 
+Littering Water Pollution Prohib : -0.0017, 
+Refusal Sign Traffic Ticket : 0.0687, 
+DUI/Property Damage/Persnl Inj : 0.0591, 
+Deliver Methamphetamine : 0.0966, 
+Possess Cannabis 1000'sch : 0.1852, 
+Possession Of Ketamine : 0.0614, 
+Perjury/Official Proceedings : 0.0267, 
+Poss Beer/Wine/Liq Where Proh : 0.1997, 
+FTYROW To Vehicle On Right : -0.0011, 
+Conspr Traf 3,4MDMA 10-200g : 0.0848, 
+Blood/Breath Alc 0.08 Or Above : -0.0274, 
+Aggress/Panhandle/Beg/Solict : 0.1598, 
+Crim Conspiracy Cannabis : -0.0058, 
+Solicitation and Display on Public Right of Way : -0.013, 
+Credit Card/Obtained By Fraud : 0.2281, 
+Obstuct By Solicitation : -0.0448, 
+Possession of Methadone : 0.0608, 
+Escape - Commitment Facility : -0.0309, 
+Armed Possession Of Cocaine : 0.1213, 
+Carjacking / Firearm / Mask : -0.1358, 
+Carjacking with Deadly Weapon : -0.1784, 
+Robbery Firearm Wearing Mask : -0.1198, 
+Robbery-Strong Arm W/mask : -0.0405, 
+Fraud Use Bank/credit Card : 0.2961, 
+Lewd Act Presence Child 16- : -0.182, 
+Trespassing Public School Grounds : 0.0663, 
+Armed False Imprisonment : 0.0589, 
+Obstruct/Dig Up/Disturb Road : 0.0168, 
+Aggravated Battery On A Child : 0.0202, 
+Possession Of Temazepam : 0.0625, 
+Trespass Structure W/Dang Weap : 0.0159, 
+Del Oxycodone 1000FT School : 0.2167, 
+Deliver Alprazolam : 0.0953, 
+Possession of Codeine : 0.0623, 
+Obt Or Att Obt Drugs By Decept : 0.0324, 
+Possess Altered Bills : 0.1078, 
+Traffic Counterfeit Cred Cards : 0.126, 
+Diving From Pier : 0.0064, 
+Operate W/O Valid Registration : 0.0014, 
+Vessel Safety Equip Violation : 0.1842, 
+Forging Bank Bills/Promis Note : 0.1503, 
+Disobey Red Traffic Signal : -0.1023, 
+None/Improper Turn Signals : -0.0885, 
+Disobey Stop Sign : 0.0079, 
+Burg Dwell Unocc State/Emerg : -0.1381, 
+Conspiracy to Deliver Cocaine : 0.0961, 
+Double Parked : 0.0117, 
+Fail Change Address On Veh Reg : 0.1871, 
+Battery As Domestic Violence : 0.0773, 
+Mcycle W/O Proper Taillight : 0.044, 
+Poss/sell/del Chlordiazepoxide : 0.3022, 
+Poss/sell/deliver Pentazocine : 0.3071, 
+Too Fast For Conditions On Curve : 0.1494, 
+Poss/sell Dextropropoxyphene : 0.2325, 
+Burglary Of Motor Vehicle : -0.2345, 
+Fail Leave Info/Dam Veh/Unatnd : 0.3421, 
+Leave Acc/Attended Veh : 0.3875, 
+Unlawful Speed/Fail Use Care : 0.1852, 
+Litter Less 15LB/27 Cubic Feet : 0.095, 
+Poss/sell/deliver Lorazepam : 0.3093, 
+Poss/sell/deliver Phentermine : 0.3085, 
+Secondhand Dealer Violations : 0.0622, 
+Engine Run/Key In Ignition : -0.0571, 
+Unlawful Speed: Interstate-/Driver : 0.1643, 
+Att Burgl Dwel : -0.0066, 
+Shoot In Unoccupied Dweling : -0.0154, 
+Traffick Amphetamine 14g><28g : 0.1082, 
+Aggravated Battery (Firearm) : -0.1422, 
+Bike Violation Alw By Parent/Gard : -0.1063, 
+Traffic Cannabis/25-2000lbs : 0.1439, 
+Man/Distro/Sel Etc Imitat Drug : 0.3108, 
+Conspiracy Traffic in Drugs : 0.0361, 
+Poss/pur/sel/del/manuf Heroin : 0.4262, 
+Discharging Firearm in Public : -0.1043, 
+Throw Missile Into Pub/priv Dw : -0.1151, 
+Headlights Minimum Requirements : 0.0788, 
+Attempt Burglary Assault/Batt : -0.0391, 
+DUI Bood Alcohol Level Above 0.20 : 0.0318, 
+Fail Comply ID Requirements : 0.1206, 
+Improper Stop Within Intersection : 0.0523, 
+Att Sex Batt Def 18+/vict 11- : -0.0636, 
+No Lamp/Flag On Projecting Load : -0.0838, 
+Speeding State Posted-Driver : 0.0478, 
+DOC/Alcoholic Bev/Bus Facility : 0.0519, 
+Pos Canbs W/I/D/S 1000FT School : 0.2617, 
+DOC/Beg/Panhandle/Obtain Money : 0.2082, 
+Financial Responsibility : 0.03, 
+Disabled Vehicle Obstruct Traffic : -0.0212, 
+DWLS Cancelled Disqual 2nd Off : -0.0916, 
+Propelling A Moped Sidewalk : 0.0768, 
+DOC/Fight/Brawl/Riot : 0.06, 
+Falsely Impersonating Officer : 0.0039, 
+Harassing Telephone Calls : 0.0135, 
+Improper Flashing Lights : 0.2482, 
+Bike/Fail Sub Written Acc Rpt : 0.3506, 
+Att Obt Prop by Fraud Cred Crd : 0.2135, 
+Fictitious Sign Corp Ofc/Agent : -0.0012, 
+Bike/Disobey/Avoid Traffic Device : 0.0376, 
+Tampering/Felony Life/Capital Proc : 0.1041, 
+Improper Pass Oncoming : 0.128, 
+Battery On Law Enforc Officer : -0.1088, 
+Bribery : -0.0003, 
+Robbery W/deadly Weapon : -0.1561, 
+Crim/Transmit of HIV Virus : -0.044, 
+Kidnapping Under Age 13 : -0.0378, 
+Aggrav Battery Upon Detainee : -0.0595, 
+Possess/Use Weapon 2 Deg Felon : -0.1448, 
+Following Fire Apparatus W/I 500' : 0.0235, 
+Criminal Conspiracy : -0.0984, 
+Drinking In Public-TM : 0.0282, 
+Attempted Lewd Conduct : -0.1807, 
+Use Computer for Child Exploit : 0.151, 
+Poss Of Propoxyphene : 0.1657, 
+S/m/d/p/w/int 1000 Sch Cocaine : 0.2045, 
+Unl/Speed in School Zone : 0.2718, 
+Neglect Child / Bodily Harm : 0.1165, 
+Use Out Of State Lic When Susp : 0.1257, 
+Exceed Bumper Height Limit : 0.048, 
+Poss Telecomm Device for Theft : 0.1059, 
+Remove Alter ID Markings : 0.1989, 
+Poss Counterfeit Payment Inst : 0.189, 
+Unlawful Poss of Another Persons ID : 0.3541, 
+Culpable Negligence : -0.0202, 
+Loud Noises Prohibited : 0.0757, 
+Burg Structure Occupied/Mask : -0.0139, 
+Lewd/Lascivious Exhibition : -0.2096, 
+Public Consumption Of Alcohol : -0.0083, 
+Disobey/Avoid RR Barrier : 0.0908, 
+Unlawful Speed/Amt Not Indicat : 0.0452, 
+Traffick Methampheta 14g><28g : 0.1106, 
+Possess Cannabis/20 Grams Or  Less : 0.3819, 
+Trespass On Private Property : 0.0531, 
+DOC/Hinder Person In Public Way : 0.0051, 
+DOC/Sleep In Prohibited Area : 0.1323, 
+Lewd/Lasc Molest Person <16Yrs : -0.1401, 
+Pos 3,4 MDMA >10 Grams : 0.2397, 
+S/M/D/P/W/Int 1000FT Sch Cocaine : 0.2038, 
+Sell Cocaine : 0.0959, 
+Fraud Obtain ID Card : 0.2702, 
+Lewd/Lasciv Bat Elder/Disabled : -0.2968, 
+Ped Obstruct Traffic : 0.1647, 
+Poss Credit Card Making Equip : 0.5542, 
+Possess Countrfeit Credit Card : 0.2631, 
+DOC Obstruct Justice : 0.0563, 
+Op CMV Alcohol Content>00%<.04 : 0.0004, 
+Poss of Heroin W/I/D/S at or near Public Park : 0.2689, 
+Traffic Hydromorphone 4g><14g : 0.1558, 
+Traffick Amphetamine 28g><200g : 0.0766, 
+Traffick Methampheta 28g><200g : 0.0791, 
+Trafficking Heroin Over 28g<30k : 0.0578, 
+Consp/Com/Confeds W Anoth : 0.0243, 
+Possession Of Cannabis Le : 0.1332, 
+Possession Of Drug Paraph : 0.1194, 
+Interference with Custody : 0.0128, 
+Sex Battery Deft 17-/Vict 11- : -0.0983, 
+Aggravated Battery Firearm : -0.1422, 
+Sale/Poss Unauth/Dup Tapes : 0.2706, 
+Sunscrn/Sign/Covering On Wndsh : -0.0106, 
+Imp Backing Sholder/Lm Acc Fac : 0.2486, 
+Violation of License Restrictions : 0.0701, 
+Loud Music Between 9 pm- 7 am : 0.0093, 
+Speed To Fast Cond/Apprch Hill : 0.1964, 
+Brake Equipment Required : 0.0813, 
+Brakes On All Wheels : 0.0239, 
+Burglary Assault/battery Armed : 0.058, 
+Poss Similitude of Drivers Lic : 0.2824, 
+Prowl/ Warrant Alarm For Safety : 0.1181, 
+Unlawful Speed / Requires Speed : 0.2186, 
+Poss Unlaw Issue Id : 0.3443, 
+Refuse To Sign Citation/Post Bond : -0.0579, 
+Trespassing-DN : -0.0003, 
+Harass/False Identification : 0.05, 
+Improper Stop School Bus : 0.0913, 
+Disobey No Change Lane Device : 0.0102, 
+Careless Operation Of Vessel : 0.061, 
+Failure To Return Hired Vehicle : -0.1379, 
+Uttering Forged Credit Card : 0.3641, 
+Adopt Chapt 316/Florida Stats : 0.0468, 
+Attempted Arson Second Degree : -0.1935, 
+Speed/Racing on the Highway : 0.1103, 
+Unemployment Compensatn Fraud : 0.0249, 
+Deliver  Cannabis : 0.152, 
+Deliver  Cocaine : 0.1134, 
+Turn Improper On Hill/Curve : 0.0313, 
+Writing a Threat to Kill : 0.0288, 
+Present False Statemnt Ins Cov : -0.0556, 
+Unlawful Break/ Injure Fence : 0.034, 
+Attempted Deliv Control Subst : -0.1013, 
+Vessel Reg/Number/Decal Viol : 0.1351, 
+Drink Alcoholic Beverage : 0.1894, 
+Sell Cannabis 1000'chur : 0.1456, 
+Attempt Armed Burglary Dwell : -0.1437, 
+Crlty Twrd Child Urge Oth Act : 0.0516, 
+Poss/deliv Meth/diox/meth/amp : 0.0948, 
+Poss of AB-CHMINACA : 0.1644, 
+Trespass Proh in School Safety Zone 2nd : 0.2437, 
+Unauthor Poss 2 or + Cred Card : 0.313, 
+DOC Panhandle Or Beg : 0.112, 
+Trespass Which Notice Exist : 0.124, 
+Deliver Cocaine 1000FT Park : 0.1848, 
+Criminal Solicitation : -0.1237, 
+Tampering With Witnesses : 0.1265, 
+Aggravated Assault 65 & Older : 0.1711, 
+Pos Recv Retain Stoln Cred/Debit Card : 0.3403, 
+Theft/Unlawful Credit Card : 0.1999, 
+Bike/Motor Drven Cycle Op Hgwy : -0.0671, 
+DOC/Cause Public Danger : 0.0651, 
+Driving Thru Safety Zone : 0.0974, 
+DUI Property Damage : 0.063, 
+Carry Weapon In Open : -0.1628, 
+Petit Theft-2Nd Degree - : -0.2535, 
+Fail Display 3 Emg Devices : 0.0923, 
+Agg Battery Bod Hrm-Deadly Weap : -0.1445, 
+Fail to Turn as Directed : -0.0381, 
+Poss Alprazolam W/int Sell/del : 0.356, 
+Possession of Raw Opium : 0.0708, 
+Manfact/Delivery Of Drug Para : 0.1371, 
+Solic Sell/Del/Man Cannabis : 0.3551, 
+Del Coc w/in 200ft Pub Houfac : 0.1049, 
+Battery On School Board Employ : 0.0318, 
+Atmpt Traf Oxycodone : 0.1017, 
+DUI / Manslaughter : 0.0332, 
+Vehicular Homicide : 0.0118, 
+Mandatory Susp Possess Alcohol : 0.0231, 
+Bike/Fail Remv Obst Veh/Unatnd : 0.1208, 
+Attempted Sexual Battery : -0.0988, 
+Park Not Near Curb/Angle : 0.1298, 
+Ped FTYROW Emergency Veh : 0.3059, 
+Dog Bite/ Ofc While Conduct Inv : 0.0527, 
+Open Container : -0.0073, 
+Att Burgl Conv Occp : -0.192, 
+Attempt Burglary (Struct) : -0.1377, 
+TV Receivers In Drivers View : 0.013, 
+Del or Poss of Sythetic Marajuana or Bath Salts : 0.2881, 
+Noise Ordinance : -0.0501, 
+Offer Sell Counterfeit Goods : 0.0936, 
+Defraud To Obtain Food/Lodg : 0.0801, 
+Tamper With Victim : 0.1284, 
+Agg Battery Grt/bod/harm : -0.0671, 
+Fail Disp Proper Light/Shape : 0.0245, 
+Vessel Decal Violation : -0.0384, 
+Vessel Viol In Restricted Area : 0.1015, 
+Make False Affidavit For DL : 0.0436, 
+Habit Traf Offend (3+ Convict) : -0.0603, 
+Enter City Park/ Prohibited Hrs : 0.1752, 
+Attempt Trafficking in Cocaine : 0.0505, 
+Lease For Purpose Trafficking : 0.0325, 
+Poss Paraph Control Sub : 0.3121, 
+Poss Struct Drugs Manuf : 0.1416, 
+Sell/Pur/Mfr/Del Cntrl Substan : 0.3399, 
+Trespass On School Grounds : 0.0865, 
+Unlawful Assemblies : 0.0131, 
+Failure To Report Accident : 0.0613, 
+Del 5-Methoxy-N,N-Diisopropylt : 0.0861, 
+Defrauding Innkeeper : -0.0317, 
+Attempted Grand Theft 3 Degree : -0.3159, 
+System Conspiracy : 0.0191, 
+No Stoplight/Turn Ind : -0.0866, 
+Cash Item w/Intent to Defraud : 0.0297, 
+Consp Traff Contra Legend Drug : 0.1436, 
+Medicaid Fraud : 0.0125, 
+Money Laundering : 0.0518, 
+Traf In Contraband Legend Drug : 0.1684, 
+Trans/Harm/Material to a Minor : 0.0457, 
+Traveling to Meet a Minor : 0.0642, 
+Battery Emergency Care Provide : 0.0737, 
+Poss of Firearm W/O License : 0.1321, 
+Stand/Park Prohibit By Sign : -0.0016, 
+Ped Failed to Walk in Crosswalk : 0.1073, 
+Possession Of Buprenorphine : 0.0624, 
+Driver View Obstrcted By Matrl : 0.0923, 
+Pass Within 100' Of Intersection : -0.0944, 
+Rear Window  Non-transparent : 0.019, 
+Trafficking In Methamphetamine : 0.0378, 
+Murder In The First Degree : -0.2222, 
+Sexual Battery Victim Helpless : -0.002, 
+Leave Acc: Unattended Veh : 0.4299, 
+Traff Morphine 4-14 Grams : 0.1695, 
+Fail Provide Animal Medical Att : 0.0581, 
+Own/ Control Dog W/O Vaccines : 0.0201, 
+Improper Stop On Crosswalk : 0.0576, 
+Sexual Violator Resid Prohib : 0.0442, 
+Fabricating Physical Evidence : 0.2355, 
+Improper Parking Two Way Road : -0.0135, 
+Unauthor/Disp/Blue/Red/Light : -0.2063, 
+Possess Narcotic Drug : 0.1142, 
+Mcycle W/O/Improper Headlight : 0.1114, 
+DUI Manslaughter (UBAL) : 0.0348, 
+Create A Disturbance : 0.0069, 
+Trespass/Private Property : 0.0531, 
+DWLS Habitual Off 1st Offene : -0.137, 
+Failure To Vaccinate Animals : -0.032, 
+Identification Tag Violation : -0.0739, 
+Outdoor Pen Requirements : 0.0263, 
+Tether/Chain Dog Violation : -0.0213, 
+Operate Against Lic/Restric : 0.1783, 
+State/Misd/County Violation : -0.0905, 
+Traffick Oxycodone 14-25 grams : 0.1711, 
+Exploit Elderly $100 Or More\ : -0.0454, 
+Poss of AB-FUBINACA : 0.166, 
+Grand Theft of a Fire Extinquisher : -0.1359, 
+Poss Of 1,4-Butanediol : 0.1644, 
+Alcohol Bev Under Age Of 21 : -0.055, 
+Possess Forged Bills : 0.1753, 
+Possession Of Cocaine 1000FT Sch : 0.2215, 
+Threaten Throw Destruct Device : -0.1372, 
+Cruelty to Animals : 0.032, 
+Fail To Dim Lights From Rear : 0.2126, 
+Possession Firearm By A Minor : -0.0054, 
+ATV/Safety Equip/Under 16 : 0.2205, 
+False Bill of Sale/Title M/V : 0.0715, 
+Making False Affidavit/Perjury : 0.043, 
+Driving While Intoxicated : -0.0715, 
+Compulsury Attendance Violation : -0.0384, 
+Vandalism Church/synag/mosq/re : 0.0415, 
+Soliciting Without A Permit : 0.0505, 
+Curbside Drinking Of Alcohol : 0.0223, 
+Del/poss Cocaine 200' Property : 0.2833, 
+Indecent Assault 1 Deg : 0.1387, 
+Unemployment Compensation Fraud : 0.0174, 
+Atmp Home Invasion Rob/mask : -0.0261, 
+System Mischief : 0.1064, 
+Poss/sell/del N-Hydr-3,4methyl : 0.3026, 
+Violations Of Right Of Way : 0.0181, 
+Burglary Dwell/Stealthy Manner : -0.1593, 
+Manslaughter W/Weapon/Firearm : -0.2533, 
+Obstruct By Stp/Stnd/Prk Excav : 0.0049, 
+Dog Unrestrained In Public : 0.0168, 
+Traffick/Gamma Butyrolactone : 0.0507, 
+Sell Cocaine 1000' Church : 0.1735, 
+False Insurance Claim : 0.0484, 
+Beach Close 11PM/6AM Violation : -0.0251, 
+Prohibited On Certain Streets : 0.087, 
+Open Cont Alcohol Bev-HW : 0.0337, 
+YROW To State Rds At Intersection : -0.0334, 
+Pos Hydromorphone W/I/D/S : 0.1589, 
+Following To Close W/Tow Truck : 0.0177, 
+Lewd/Assignation/Prostitution : -0.2505, 
+Armed Trafficking in Cocaine : 0.0822, 
+Head Lamp Violation : -0.0768, 
+Aggravated Manslaughter Child : 0.0592, 
+DUI Serious Bodily Injury : 0.0594, 
+Munic Occup License Req : 0.0972, 
+Mcycle Headlights To Be On : 0.0803, 
+Poss Meth/Diox/Meth/Amp (MDMA) : 0.1267, 
+Unregistered Tag Not On : -0.0156, 
+Conspiracy Murder First Degree : -0.2396, 
+Burglary Struc/Dwel/Conv Armed : -0.1869, 
+Discharge Firearm in Public/Res : -0.0918, 
+Harm Public Servant Or Family : 0.005, 
+Fraud Use of Personal ID Info : 0.2372, 
+Organized Fraud In The 2nd Degree : -0.1188, 
+Poss Pethidine (meperidine) : 0.1707, 
+Retaliate Wit/vict/ci Body Inj : 0.0128, 
+Bike/Ride Two Abreast Or More : 0.0854, 
+Possess Duplicate Or Fake ID : 0.1655, 
+Animal Running At Large : 0.0292, 
+Dogs Running At Large-LS : 0.0227, 
+Abuse Of Child : 0.0994, 
+Imp Park One/Two Way Rd/Angle : -0.0525, 
+Mcycle/Moped Equipment Violation : 0.0252, 
+Theft/to Appropriate : -0.0572, 
+Exposing Genitals In Pub Place : 0.0911, 
+False Alarms Of Fires : 0.0195, 
+False Bomb Report State Prop : 0.133, 
+Alcoholic Beverage Violation : 0.0768, 
+Bike/Drive Across Median : 0.0324, 
+Poss Drugs W/O A Prescription : 0.1776, 
+Public Indecency/Sex Intercourse : -0.0748, 
+Suspended CMV License : 0.093, 
+Batt/on a Specified Employee : -0.0688, 
+Disturb Peace Of Others : 0.0549, 
+Consp Traff Oxycodone 14g><28g : 0.1768, 
+Drinking/Open-FL : 0.0261, 
+Poss F/A Altered Serial Num : 0.1851, 
+Bike Improper Pass/Lane Change : 0.068, 
+Veh Fail Use Due Care-Ped/Bike : 0.2394, 
+Fraud Obtain/ Use Disable Permit : 0.2332, 
+Pos Hydrocodone W/I/D/S : 0.1517, 
+Possession False Prescription : 0.0931, 
+Attempted Aggravated Battery : -0.0795, 
+Felony Littering Over 500 Poun : -0.0388, 
+Litter Law Viol/ Private Prop : 0.2251, 
+Opert With  Susp DL 2nd Offens : -0.0369, 
+Poss/Sel/Del Cannabis 1000'Sch : 0.5035, 
+Burglary Conveyance Assault/bat : -0.1252, 
+Cnsp Traf Cocain <400g>150 Kil : 0.1663, 
+Vehicle Deprive Mcycle Of Lane : -0.0886, 
+Solicit Public W/O Perform Permt : 0.0622, 
+Loud/Defective/Muffler/Cut Out : 0.0082, 
+Deliver Meth/Diox/Meth/Amp : 0.0416, 
+Criminal Mischief / Church : 0.0003, 
+Disobey Red Light/Non-Intersct : -0.1888, 
+Unlawful Use Of License : 0.1378, 
+Pub Intoxication/Disorderly : 0.0698, 
+Fail Stop Red Signal 1 Way Lft : -0.3036, 
+Viol Injunction Protect Dom Violence : 0.148, 
+Neglect Or Refuse To Aid Officer : 0.0232, 
+Infraction : 0.0086, 
+Poss Gamma-Hydroxy Acid (GHB) : 0.1775, 
+Bicycle Violations : 0.0794, 
+Disobey Red Light/FYROW To Ped : -0.0761, 
+Traffick Methampheta   200g+ : 0.0573, 
+Buy/Sell Possess Gator W/O Permit : 0.2774, 
+Unlawful Feed/Entice Alligator : 0.0242, 
+Deal Stolen Prop-Traffic/Organ : 0.1279, 
+Traffick Hydrocodone  28g><30k : 0.0694, 
+Unlaw Pos of Prson ID of another : 0.302, 
+Fighting/Baiting Animals : 0.0506, 
+Obstructing An Officer : 0.0378, 
+Vicious Dog Running At Large-FL : 0.0254, 
+Intercept Communications : -0.0002, 
+Transmit of Child Porn Elec DV : 0.0786, 
+In Park After Hours : 0.0113, 
+Communications Fraud + $300 : -0.0526, 
+Obtain Property Worthless Check : 0.1047, 
+Poss Mart'l For Counterfeit Dl : 0.2184, 
+Poss/forg Cntrfeit Credit Card : 0.3856, 
+Counterfeit Lic Plates/Sticker : 0.3071, 
+False Reports : 0.0111, 
+Fraud Obtain Food or Lodging : 0.0707, 
+Utilizing Juvenile to Deliver : 0.0843, 
+Crim Solicitation 2 Deg Felony : -0.2058, 
+Sell Methamphetamine : 0.0791, 
+50/More Over Limit 1st Offense : -0.0113, 
+Wilful/Malic/Intent Burn Lands : 0.0748, 
+Booked : 0.0005, 
+Electrical Alteration W/O Permit : 0.1148, 
+Grand Theft Of The 2Nd Degree : -0.2851, 
+Refuse to Supply DNA Sample : -0.0076, 
+Abuse Without Great Harm : 0.0244, 
+DWI w/Inj Susp Lic / Habit Off : 0.1069, 
+Rent Vehicle W/O Proper DL : -0.0509, 
+Splash /Spray Suppressant Dev : 0.0721, 
+Enforce Violation : -0.1009, 
+Possession Of  Paraphernalia : 0.1343, 
+Fail Stop/Avoid Mobility Impaired : 0.0533, 
+Pos 3,4 Mdma >10 Grams : 0.2397, 
+Open House Party : -0.0431, 
+Offer Agree  Secure For Lewd Act : -0.2776, 
+Possession Of Anabolic Steroid : 0.0713, 
+Unlawful Speed Interstate-Toll : 0.0437, 
+Veh Imp/No Stop/Turn Signal : 0.0783, 
+Attempt Robbery Strong Arm/Mask : -0.0365, 
+Bike On Shoulder Of Interstate : 0.022, 
+Littering Less than 15 pounds : 0.0818, 
+Out Of State Lic Use When Susp : 0.1257, 
+Fail Apply Lost/Stole Tag/ Decl : 0.0184, 
+Discharge Firearm From Vehicle : -0.1912, 
+Osbt Crim Invst False Info Leo : 0.0291, 
+Prohibited Lights On Vehicle Blue : 0.1422, 
+Manslaughter with Weapon : -0.1389, 
+Poss Meth/Diox/Meth/Amp >10gms : 0.1265, 
+DWI Injury Persons Property : 0.0299, 
+Halluc Pos W/Int Sel/Mfg/Del : 0.4023, 
+Vessel Prohibited Activity : 0.0886, 
+Sel/Man/Del/Pos/W/Int Methamph : 0.5125, 
+Improper Pass/Overtake Vehicle : 0.0503, 
