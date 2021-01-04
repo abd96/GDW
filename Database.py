@@ -8,18 +8,23 @@ import pandas as pd
 import numpy as np
 from functools import reduce
 import matplotlib.pyplot as plt 
+import seaborn as sns 
 from tqdm import tqdm 
 from pprint import pprint 
+from sklearn.decomposition import PCA 
 from sklearn import preprocessing 
 from datetime import datetime 
 from gensim.models import word2vec
-
+from sklearn.preprocessing import StandardScaler
 
 # NLP 
 import nltk
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
 from nltk.stem import PorterStemmer, WordNetLemmatizer
+
+nltk.download('punkt')
+nltk.download('stopwords')
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -41,16 +46,28 @@ class Database:
         return conn 
 
     def list_tables(self):
+        """ 
+            Lists all tables found in the input database 
+        
+        """
         cursor = self.conn.cursor()
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
         return [x[0] for x in cursor.fetchall() if x[0] != 'summary']
     
     def get_columns(self, table_name):
+        """ 
+            Given a tablename as input, get_columns will returns the names of all columns inside this input table.
+            The output here is list of tupels, where each tupel has a empty first index 
+        """
         cursor = self.conn.cursor()
         cursor.execute(f"PRAGMA table_info({table_name});")
         return cursor.fetchall()
 
     def get_columns_names(self, table_name):
+        """ 
+            Given a tablename as input, get_columns will returns the names of all columns inside this input table.
+            The output here is list strings.
+        """
         cursor = self.conn.cursor()
          
         cursor.execute(f"PRAGMA table_info({table_name});")
@@ -69,17 +86,33 @@ class Database:
         return res 
     
     def read_csv(self, path):
+
+        """ 
+            Reads a csv file given as input 
+        
+        """
         logging.info(f"|-> Reading path {path}")
         data = pd.read_csv(path) 
         logging.info(f"|-> Successfully read data of shape {data.shape}")        
         return data
     
     def export_csv(self, data, name):
+        """ 
+            Exports a DataFrame object given as input data as csv file. The name of the file is then specified by the input argument name. 
+        
+        """
         logging.info(f"|-> Exporting Data to csv, filename : {name}")
-        data.to_csv(name)
+        data.to_csv(name, index=False)
         logging.info(f"|-> Done writing data to csv, filename : {name}")
     
     def embed_sentence(self, sent):
+        """ 
+            convert sentence given as input argument sent into a embedding vector. All Stopword, special chars and NaNs are then 
+            deleted from the representation. 
+            
+            Returns a list of words that are important for the meaning of the sentence 
+        
+        """
         if isinstance(sent, float):
             return []  # because there is entries without a charge (1300+ )
         else:
@@ -96,6 +129,10 @@ class Database:
             return tokenized_sent 
 
     def calculate_value(self, tokenized_charge):
+        """ 
+            This method becomes a list of tokens(important words) and converts this tokenized list into 
+            a representation value used as a value for the charge for training. 
+        """
         if not tokenized_charge:
             return -1.0
         else:
@@ -109,7 +146,6 @@ class Database:
             summation = np.add.reduce(to_multiply)
             summation = round(sum(summation) / summation.shape[0], 4)
             return summation 
-
 
     def embed_sentences(self, data, col):
         ''' 
@@ -155,6 +191,11 @@ class Database:
         return data 
 
     def categorize(self, data, cols):
+        """ 
+            This method creates categories for all columns in data specified by the list of strings cols. 
+            
+            Ex: for the column sex there is only two classes 1 for male and 0 for female.
+        """
         logging.info("|-> Starting to categorize ")
         categories = {}
         for col in cols:
@@ -166,7 +207,10 @@ class Database:
         return data, categories   
     
     def calculate_custody(self, data):
-        
+        """
+            This method calculates calculates the custody period from the given custody_in and out. And does the same 
+            thig for the jail period. Finally it saves the period it in a new column
+        """ 
         logging.info('|-> Converting jail custody to datetime')
         data['in_custody']     = pd.to_datetime(data['in_custody'])
         data['out_custody']    = pd.to_datetime(data['out_custody'])
@@ -215,14 +259,26 @@ class Database:
         del data['c_jail_in']
         del data['c_jail_out']
         return data  
-
-    def normalize(self, data):
-        x = data.values
-        min_max_scaler = preprocessing.MinMaxScaler()
-        x_scaled = min_max_scaler.fit_transform(x)
-        df = pd.DataFrame(x_scaled)
+    
+    def scale(self, data):
+        """ 
+            For scaling values in the input DataFrame given as argument data. 
+            Notice that here we use the PowerTransformer for scaling data. 
+        """
+        min_max_scaler = preprocessing.PowerTransformer()
+        for col in data.columns:
+            if col not in ['sex', 'charge']:
+                standard_normalDis_scaler = StandardScaler().fit(data[col].values.reshape(-1,1))
+                data[col] = standard_normalDis_scaler.transform(data[col].values.reshape(-1,1)) 
+        return data 
 
     def flatten(self, data):
+        """  
+           This method does nothing new - uses only other methods for creating the result flattened table. 
+
+           1. creates categories and calculates custody 
+            
+        """
         logging.info('|-> Starting to flatten')
 
         ############## Preprocess #######################
@@ -240,29 +296,38 @@ class Database:
         # self.normalize(data)
         logging.info('|-> Done flattening')
         return data 
-
-    def join_to_csv(self):
-        cursor = self.conn.cursor()
-        # Die Ergebnisse dieser Query sind auch durch sqlitebrowser als csv speicherbar, aber die Methode könnte später auch hilfreich sind.
-        query = " \
-                SELECT DISTINCT *  \
-                FROM ( \
-                SELECT DISTINCT A.*, charge, charge_degree  \
-                FROM ( \
-                        SELECT P.id,P.sex,P.race,P.age,P.juv_fel_count, P.priors_count, P.juv_misd_count, \
-                                JH.in_custody, JH.out_custody, P.juv_other_count \
-                        FROM people as P \
-                        JOIN jailhistory as JH   \
-                        ON P.id = JH.person_id \
-                    ) AS A \
-                JOIN charge as C \
-                On A.id = C.person_id ) AS B\
-                "
-        cursor.execute(query)
-
-        self.export_csv(cursor.fetchall(), 'data.csv')
     
+    def dim_reduction(self, data):
+
+        """ 
+            This method uses the dimension reduction algorithm PCA (Principle Component Analysis).
+            PCA is helpful in reducing the column sizes, while also keeping almost all possible information from the input columns. 
+
+        """
+        logging.info("|-> Dimension reduction using PCA ")
+        Y = data['c_jail_days']
+        X = data.drop(columns=['c_jail_days'])
+        logging.info(f"|-> Deleted column c_jails_days : new dimension is {X.shape}")
+        pca = PCA(n_components=8)
+        principal_components = pca.fit_transform(X)
+        principalDF = pd.DataFrame(data=principal_components,
+                columns=['PCA_Feature1','PCA_Feature2', 'PCA_Feature3', 'PCA_Feature4', 
+                    'PCA_Feature5',
+                    'PCA_Feature6',
+                    'PCA_Feature7',
+                    'PCA_Feature8'])
+        logging.info(f"|-> Dimension reduced to {principalDF.shape}")
+        principalDF['c_jail_days'] = Y 
+        return principalDF
+
     def plot(self, data):
+        """ 
+            Plots :) 
+            You can specify the x and y and plot data as scatter plot. 
+            Notice that its helpful to first convert the input data to float values using the methods above and then 
+            plot the data to see how values between two columns are distributed. 
+            This will also work on PCA data created by dim_reduction method.
+        """
         data.plot.scatter(x='sex',y='age', color='green')
         # data.plot.scatter(x='sex_cat', y='priors_count', color='blue')
         # data.plot.scatter(x='priors_count', y='age') 
@@ -271,17 +336,27 @@ class Database:
         # data.plot.scatter(x='prison_days', y='sex')
         plt.show()
 
-
-    def describe(self, data, column):
-        logging.info(f'|-> Describtion of {column}')
-        print(data[column].describe())
-        
     def find_correlation(self, data):
+        """ 
+            This method creates the correlation table for the input DataFrame given as argument data. 
+            The correlation_matrix can be printed or plotted as a heatmap. 
+        
+        """
         logging.info("|-> Finding Correlation of Data")
-        print(data.corr(method='pearson'))
-        logging.info("-> Process of finding correlation is done ")
+        
+        correlation_matrix = data.corr(method='pearson')
+
+        logging.info("|-> Process of finding correlation is done ")
+        logging.info("|-> Plotting correlation matrix")
+
+        sns.heatmap(correlation_matrix, xticklabels= correlation_matrix.columns.values, yticklabels=correlation_matrix.columns.values)
+        plt.title("Correlation Matrix")
+        plt.show()
 
     def write_possible_charges(self, data):
+        """ 
+            Writes DataFrame data given as input into a file called possible_charges.
+        """
         di = {}
         group_charge = data['charge'].unique()
         for charge in group_charge:
@@ -292,6 +367,20 @@ class Database:
                 k = k.replace(',', ' ') if isinstance(k, str) else k
                 k = k.replace('\n', ' ') if isinstance(k, str) else k
                 f.write(f'{k} : {v}, \n')
+    
+    def describe(self, data):
+        logging.info("|-> Data Describtion")
+        print(data.describe(percentiles=[.25,.5, .75, .80, .90, .95]).transpose())
+
+    def clear(self, data):
+        print("Is Nan : ", np.isnan(data))
+        print("Where is Nan : ", np.where(np.isnan(data)))
+        for col in data.columns:
+            data[col] = data[col].fillna(0)
+        print("Is Nan : ", np.isnan(data))
+        print("Where is Nan : ", np.where(np.isnan(data)))
+        return data 
+
 
 if __name__ == '__main__':
     try :
@@ -301,23 +390,36 @@ if __name__ == '__main__':
         sys.exit(0)
     try:
 
-        db = Database(path)
+        db   = Database(path)
         data = db.read_csv(path)
-        # data = db.embed_sentences(data, 'charge')
-        # data = db.flatten(data)
-        # db.export_csv(data, "dataaaaaaaaaaaa.csv")    
+        
+     
+        # db.describe(data) # prints statistics about each column in data 
+        
+        # db.describe(data) # prints statistics about each column in data 
+        
+        ########## standard workflow for new exported data from prisoner database ######################
+        #
+        #
+        #
+        #
+        data = db.embed_sentences(data, 'charge') # transforms the charge into a meaningfull values
+        data = db.flatten(data) # categorizes and calculates custody for input data (only use on data where custody has been not calculated yet)
+        data = data.drop(columns=['id']) # drop the id columns because it is not needed anymore 
+        data = db.clear(data)
+        # data = db.dim_reduction(data)
+        # data = db.scale(data) 
+        db.export_csv(data, "reduced_data.csv")    
+        #
+        #
+        #
+        #
+        ################################################################################################
+         
         # db.write_possible_charges(data)
-        # data = db.embed_sentence(data, 'charge')
-        # data = db.flatten(data)
-        # db.export_csv(data, "data_cat_new_new.csv")    
         # db.plot(data) 
-        # db.export_csv(data, "data.csv")
-        # db.flatten(data)
-        # db.plot(data)
-        # db.find_correlation(data)
-        # db.describe(data, 'race')
+        db.describe(data) # prints statistics about each column in data 
+        db.find_correlation(data) # finds correlcation and plots the correlation matrix 
          
     except Exception as e:
         logging.warning(f"|-> Error while loading database {path}: Exception: {e}")
-        traceback.print_exc()
-
