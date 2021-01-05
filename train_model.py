@@ -51,11 +51,11 @@ def save_model(model):
 
 def load_model():
     #load json and create model 
-    json_file = open('model.json', 'r')
+    json_file = open('models_ANN/model.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()
     loaded_model = model_from_json(loaded_model_json)
-    loaded_model.load_weights("model.h5")
+    loaded_model.load_weights("models_ANN/model.h5")
     return loaded_model
 
 def build_model(X_train, X_test, Y_train, Y_test):
@@ -105,7 +105,9 @@ def main():
     model.compile(loss='mean_absolute_error', optimizer='adam',
             metrics=['mse', 'mae', 'mape', 'cosine_proximity'])
     score = model.evaluate(X_test, Y_test)
-    print("%s: %.2f%%" % (model.metrics_names[1], score[1]*100))
+    print();print('Score on Test Data ')
+    for i in range(len(model.metrics_names)):
+        print(f'{model.metrics_names[i]}: {score[i] }')
 
 if __name__ == '__main__':
     main()
