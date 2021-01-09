@@ -1,4 +1,4 @@
-import sys
+import sys, os 
 import csv 
 import re
 import sqlite3 
@@ -16,7 +16,7 @@ from sklearn import preprocessing
 from datetime import datetime 
 from gensim.models import word2vec
 from sklearn.preprocessing import StandardScaler
-
+from pickle import dump, load 
 # NLP 
 import nltk
 from nltk.corpus import stopwords 
@@ -33,7 +33,7 @@ class Database:
     def __init__(self, fileDB):
         self.fileDB = fileDB 
         self.conn = self.create_connection() 
-        self.model = word2vec.Word2Vec.load("word2vec.model")
+        self.model = word2vec.Word2Vec.load("model_gensim/word2vec.model")
 
 
     def create_connection(self):
@@ -265,11 +265,23 @@ class Database:
             For scaling values in the input DataFrame given as argument data. 
             Notice that here we use the PowerTransformer for scaling data. 
         """
+        logging.info('|-> Scaling data using Standrand normal scaler ')
         min_max_scaler = preprocessing.PowerTransformer()
         for col in data.columns:
             if col not in ['sex', 'charge']:
-                standard_normalDis_scaler = StandardScaler().fit(data[col].values.reshape(-1,1))
-                data[col] = standard_normalDis_scaler.transform(data[col].values.reshape(-1,1)) 
+                if os.path.exists(f"Scalers/{col}_scaler.pkl"):
+                    standard_normalDis_scaler = load(open(f'Scalers/{col}_scaler.pkl', 'rb'))
+                    print(f"Want to scale {col} with value data{col}")
+                    data[col] = standard_normalDis_scaler.transform(data[col].values.reshape(-1,1))
+                else:
+                    standard_normalDis_scaler = StandardScaler().fit(data[col].values.reshape(-1,1))
+                    data[col] = standard_normalDis_scaler.transform(data[col].values.reshape(-1,1)) 
+                    # Save the scaler for the column 
+                    dump(standard_normalDis_scaler, open(f'Scalers/{col}_scaler.pkl', 'wb'))        
+        logging.info('|-> Scaling data using Standrand normal scaler finished')
+        # With this line of code we can use scaler to revert scaled values back to its original values 
+        # standard_normalDis_scaler.inverse_transform(data['c_jail_days'])
+
         return data 
 
     def flatten(self, data):
@@ -308,14 +320,19 @@ class Database:
         Y = data['c_jail_days']
         X = data.drop(columns=['c_jail_days'])
         logging.info(f"|-> Deleted column c_jails_days : new dimension is {X.shape}")
-        pca = PCA(n_components=8)
-        principal_components = pca.fit_transform(X)
+        
+        pca = PCA(n_components=6)
+        if os.path.isfile("models_PCA/pca.pkl"):
+            pca = load(open("models_PCA/pca.pkl", "rb"))
+            principal_components = pca.transform(X)
+        else:
+            principal_components = pca.fit_transform(X)
+            dump(pca, open('models_PCA/pca.pkl', 'wb'))
+        
         principalDF = pd.DataFrame(data=principal_components,
                 columns=['PCA_Feature1','PCA_Feature2', 'PCA_Feature3', 'PCA_Feature4', 
-                    'PCA_Feature5',
-                    'PCA_Feature6',
-                    'PCA_Feature7',
-                    'PCA_Feature8'])
+                    'PCA_Feature5', 
+                    'PCA_Feature6'])
         logging.info(f"|-> Dimension reduced to {principalDF.shape}")
         principalDF['c_jail_days'] = Y 
         return principalDF
@@ -392,7 +409,6 @@ if __name__ == '__main__':
 
         db   = Database(path)
         data = db.read_csv(path)
-        
      
         # db.describe(data) # prints statistics about each column in data 
         
@@ -407,9 +423,9 @@ if __name__ == '__main__':
         data = db.flatten(data) # categorizes and calculates custody for input data (only use on data where custody has been not calculated yet)
         data = data.drop(columns=['id']) # drop the id columns because it is not needed anymore 
         data = db.clear(data)
-        # data = db.dim_reduction(data)
-        # data = db.scale(data) 
-        db.export_csv(data, "reduced_data.csv")    
+        data = db.dim_reduction(data)
+        data = db.scale(data) 
+        db.export_csv(data, "reduced1.csv")    
         #
         #
         #
@@ -418,8 +434,8 @@ if __name__ == '__main__':
          
         # db.write_possible_charges(data)
         # db.plot(data) 
-        db.describe(data) # prints statistics about each column in data 
-        db.find_correlation(data) # finds correlcation and plots the correlation matrix 
+        # db.describe(data) # prints statistics about each column in data 
+        # db.find_correlation(data) # finds correlcation and plots the correlation matrix 
          
     except Exception as e:
         logging.warning(f"|-> Error while loading database {path}: Exception: {e}")
