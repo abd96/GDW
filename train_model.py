@@ -1,7 +1,9 @@
+import sys 
+import csv 
 import logging 
 import pandas as pd 
 import numpy as np 
-
+from pickle import load 
 from keras.models import model_from_json
 from matplotlib import pyplot as plt 
 import tensorflow as tf 
@@ -16,6 +18,12 @@ from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LogisticRegression, LinearRegression 
 from kerastuner.tuners import RandomSearch
 
+
+### Local 
+from Database import Database 
+
+
+### Logging 
 logging.getLogger().setLevel(logging.INFO)
 
 def create_model(X_train, Y_train):
@@ -75,7 +83,43 @@ def read_csv(path):
     logging.info(f"|-> Successfully read data of shape {data.shape}")        
     return data
 
+def preprocess(path):
+    db = Database(path)
+    
+    data = db.read_csv(path)
+    data = db.dim_reduction(data)
+    data = db.scale(data)
+    return data
+
+def inverse_scale_prediction(prediction):
+    # load Scaler 
+    scaler = load(open("Scalers/c_jail_days_scaler.pkl", 'rb'))
+    return scaler.inverse_transform(prediction)
+    
 def main():
+    mode = ""
+    try:
+        mode  = sys.argv[1]
+        path  = sys.argv[2]
+    except: 
+        if mode == 'test':
+            logging.error("|-> Please enter the path to csv file")
+            sys.exit(0)
+        elif mode == 'train':#
+            pass 
+        else:
+            logging.error("|-> mode not scpecified. Please enter *train* or *test* as first argument")
+            sys.exit(0)
+
+    if mode == 'test':
+
+        input_data = preprocess(path).drop(columns=['c_jail_days'])
+        model = load_model()
+    
+        prediction = inverse_scale_prediction(model.predict(input_data))[0][0]
+        print();print("Period prediction for input : ", int(prediction), 'days') 
+        sys.exit(0) 
+         
     data = read_csv("reduced1.csv")
     logging.info("|-> Splitting dataset for train and test ")
     train_dataset = data.sample(frac=0.8, random_state=0)
