@@ -10,10 +10,10 @@ features and were considered for training :
 |---|---|---|---|---|---|---|
 
 | out_custody|  juv_other_count| c_jail_in | c_jail_out  |  charge  | charge_degree |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 
 | prison_in|  prison_out |
-|---|---|---|---|---|---|
+|---|---|
 
 
 In order to be able to train a prediction model using these data, mutliple preprocessing steps were necessary. 
@@ -60,7 +60,7 @@ Here is an example of the data at this point:
 | 1|  0 | 60  | 0  | 11 | 0 | 0 |
 
 | charge | charge degree| jail_days  | prison_days  | c_jail_days |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|
 | -0.0493| 9 | 4  | 343  | 33 |
 
 Basically our label is c_jail_days
