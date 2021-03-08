@@ -30,7 +30,7 @@ class RegressionHyperModel(HyperModel):
                 layers.Dense(
                         units = 2048,
                         input_shape = self.input_shape,
-                        activation = hp.Choice('dense__activation', values=['relu'])
+                        activation = hp.Choice('input_layer', values=['relu', 'linear'])
                         )
                 )
         for unit in units:
@@ -45,7 +45,7 @@ class RegressionHyperModel(HyperModel):
         model.add(
                 layers.Dense(
                         units = 3,
-                        activation = hp.Choice('final_layer', values=['linear'])
+                        activation = hp.Choice('output_layer', values=['linear', 'sigmoid', 'relu'])
                         )
                 )
         model.compile(optimizer=keras.optimizers.Adam(hp.Choice('learning_rate', values=[1e-2, 1e-3, 1e-4, 0.5, 0.1])), loss='mean_absolute_error', metrics=['mse', 'mae', 'mape', 'cosine_proximity'])
@@ -69,18 +69,25 @@ def create_model(X_train, Y_train):
 
 def build_model(X_train, Y_train, X_test, Y_test):
     # model = create_model(X_train, Y_train)
-    hyperModel = RegressionHyperModel((X_train.shape[1],)) 
+    hyperModel = RegressionHyperModel((X_train.shape[1],))
      
 
-    tuner_rs = RandomSearch(hyperModel, objective='mse', seed=42, max_trials=10, executions_per_trial=1)
+    tuner_rs = RandomSearch(hyperModel, objective='mse', seed=42, max_trials=135, 
+            executions_per_trial=1 ,directory='param_opt_checkouts', project_name='GDW')
 
-    tuner_rs.search(X_train, Y_train, epochs=60)
+    tuner_rs.search(X_train, Y_train, epochs=155)
     
     print("Best Results")
     best_model = tuner_rs.get_best_models(num_models=1)[0]
     print("!!!!!!!!!!!!!!!!!!!!!Evaluation ON TEST DATA!!!!!!!!!!!!!!!!!!!!!!") 
+    metrics = ['loss', 'mse', 'mae', 'mape', 'cosine_proximity'] 
     print(best_model.summary())
-    print(best_model.evaluate(X_test, Y_test))
+    _eval = best_model.evaluate(X_test, Y_test)
+    print(_eval)
+    for i in range(len(metrics)):
+        print(f'{metrics[i]} : {_eval[i]}')
+    tuner_rs.results_summary()
+    best_model.save('./models_ANN/best_model')
     print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!") 
 
     #history = model.fit(X_train, Y_train, epochs=155)
