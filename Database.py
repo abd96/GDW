@@ -396,7 +396,133 @@ class Database:
             data[col] = data[col].fillna(0)
         print("Is Nan : ", np.isnan(data))
         print("Where is Nan : ", np.where(np.isnan(data)))
-        return data 
+        return data
+
+
+    def first_n_charges(self, data, gr, field_name, added_name):
+        #creates n new columns for first n ',' seperatet strings in field_name
+        #data, gr: n, field_name:field to split, added_name: name of added columns (added_nameN)
+        maxamount = 0
+        sum = 0
+        cnt = 0
+        cntGr = 0
+        count_name = added_name + '_count'
+
+        # adding columns for first gr charges
+        lastIndex = 0
+        for i in range(0, gr):
+            loc = data.columns.get_loc(field_name) + i + 1
+            name = added_name + str(i)
+            data.insert(loc, name, 'x', True)
+            lastIndex = loc
+        data.insert(lastIndex + 1, count_name, 0, True)
+        # end adding
+
+        for ind, row in data.iterrows():
+            word = row[field_name]
+            if word == word:  # nulltest
+                amount = word.count(',') + 1
+
+                singles = word.split(',')
+                cap = min(amount, 5)
+                for i in range(0, cap):
+                    name = added_name + str(i)
+                    data.at[ind, name] = singles[i]
+
+                data.at[ind, count_name] = amount
+
+            else:
+                amount = 0
+
+            sum += amount
+            cnt += 1
+            if amount > gr:
+                cntGr += 1
+
+            if amount > maxamount:
+                maxamount = amount
+        sum = sum / cnt
+        logging.info(" finished Splitting " + field_name + ":  avg: %0.1f, max: %d, Count of greater than %d : %d of %d" % (sum, maxamount, gr, cntGr, cnt))
+        return data
+
+    def processData (self,db, data):
+        #expects pandas dataframe in formated like our SQL output
+
+        #split charge lists
+        db.first_n_charges(data, 5, 'c_charges', 'charge')
+        db.first_n_charges(data, 5, 'r_charges', 'r_charge')
+        data = data.drop(columns=['c_charges', 'r_charges'])
+        #end split charge lists
+
+        # encode nominal data to numeric values
+        tmp = db.categorize(data,
+                            ['sex', 'race', 'marital_status', 'charge0', 'charge1', 'charge2', 'charge3', 'charge4',
+                             'r_charge0', 'r_charge1', 'r_charge2', 'r_charge3', 'r_charge4', 'score_v_txt',
+                             'score_a_txt', 'score_r_txt'])
+        data = tmp[0]
+        # end encode nominla data
+
+        # encode chargedegrees to vector of counts
+        # Einfügen einer Spalte mit der Anzahl an Charge Degrees eines bestimmten Typs
+        data['c_(0)'] = data.c_charge_degrees.str.count('(0)')
+        data['c_C03'] = data.c_charge_degrees.str.count('(CO3)')
+        data['c_CT'] = data.c_charge_degrees.str.count('(CT)')
+        data['c_F1'] = data.c_charge_degrees.str.count('(F1)')
+        data['c_F2'] = data.c_charge_degrees.str.count('(F2)')
+        data['c_F3'] = data.c_charge_degrees.str.count('(F3)')
+        data['c_F5'] = data.c_charge_degrees.str.count('(F5)')
+        data['c_F6'] = data.c_charge_degrees.str.count('(F6)')
+        data['c_F7'] = data.c_charge_degrees.str.count('(F7)')
+        data['c_M1'] = data.c_charge_degrees.str.count('(M1)')
+        data['c_M2'] = data.c_charge_degrees.str.count('(M2)')
+        data['c_M3'] = data.c_charge_degrees.str.count('(M3)')
+        data['c_M03'] = data.c_charge_degrees.str.count('(MO3)')
+        data['c_NI0'] = data.c_charge_degrees.str.count('(NI0)')
+        data['c_TC4'] = data.c_charge_degrees.str.count('(TC4)')
+        data['c_TCX'] = data.c_charge_degrees.str.count('(TCX)')
+        data['c_X'] = data.c_charge_degrees.str.count('(X)')
+        data['c_XXXXXXXXXX'] = data.c_charge_degrees.str.count('XXXXXXXXXX')
+        del data['c_charge_degrees']  # Entfernen der entsprechenden Spalte
+
+        data['r_(0)'] = data.r_charge_degrees.str.count('(0)')
+        data['r_C03'] = data.r_charge_degrees.str.count('(CO3)')
+        data['r_CT'] = data.r_charge_degrees.str.count('(CT)')
+        data['r_F1'] = data.r_charge_degrees.str.count('(F1)')
+        data['r_F2'] = data.r_charge_degrees.str.count('(F2)')
+        data['r_F3'] = data.r_charge_degrees.str.count('(F3)')
+        data['r_F5'] = data.r_charge_degrees.str.count('(F5)')
+        data['r_F6'] = data.r_charge_degrees.str.count('(F6)')
+        data['r_F7'] = data.r_charge_degrees.str.count('(F7)')
+        data['r_M1'] = data.r_charge_degrees.str.count('(M1)')
+        data['r_M2'] = data.r_charge_degrees.str.count('(M2)')
+        data['r_M3'] = data.r_charge_degrees.str.count('(M3)')
+        data['r_M03'] = data.r_charge_degrees.str.count('(MO3)')
+        data['r_NI0'] = data.r_charge_degrees.str.count('(NI0)')
+        data['r_TC4'] = data.r_charge_degrees.str.count('(TC4)')
+        data['r_TCX'] = data.r_charge_degrees.str.count('(TCX)')
+        data['r_X'] = data.r_charge_degrees.str.count('(X)')
+        data['r_XXXXXXXXXX'] = data.r_charge_degrees.str.count('XXXXXXXXXX')
+        del data['r_charge_degrees']  # Entfernen der entsprechenden Spalte
+        # end encode chargedegrees
+
+        #fill invalid values
+        data = data.fillna(0)
+        #end fill
+
+        return data
+
+    def processCustom(self, db, data,customData):
+        #WARNIGN: sketchy work around, to ensure same Categorization
+        #data has to be the unprocessed dataframe
+        # custom data should be the new data to processes in the same format
+        #!!! CUSTOM DATA MUSN'T CONTAIN NOMINAL VALUES WICH AREN'T ALREADY PRESENT IN DATA
+        ndat = data.copy()
+        customRowCount = customData.shape[0]
+        ndat.append(customData)
+        ndat=db.processData(db, ndat)
+        pCData= ndat.tail(customRowCount)
+
+        return pCData
 
 
 if __name__ == '__main__':
