@@ -8,8 +8,8 @@ import sklearn.metrics
 
 
 #load data
-db = DB.Database('C:/Users/fruch/PycharmProjects/GDW/rawData.csv')
-data= db.read_csv('C:/Users/fruch/PycharmProjects/GDW/rawData.csv')
+db = DB.Database('rawData.csv')
+data= db.read_csv('rawData.csv')
 #end load data
 
 #process data
