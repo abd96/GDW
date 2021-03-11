@@ -47,10 +47,16 @@ def doTree(tdata, tlabel, tcat):
 
 print("\n\n V prediction:")
 doTree(data,v_label,v_cat)
+print("label mean: %d" %(v_cat.mean()))
+print(v_cat['score_v_txt'].value_counts())
 print("\n\n A prediction:")
 doTree(data, a_label, a_cat)
+print("label mean: %d" %(a_cat.mean()))
+print(a_cat['score_a_txt'].value_counts())
 print("\n\n R prediction:")
 doTree(data, r_label, r_cat)
+print("label mean: %d" %(r_cat.mean()))
+print(r_cat['score_r_txt'].value_counts())
 
 
 '''
