@@ -60,7 +60,7 @@ def save_model(model):
     logging.info("|-> Saving trained model ")
     # serialize model to json 
     model_json = model.to_json()
-    with open("model.json", 'w') as f:
+    with open("models_ANN/model.json", 'w') as f:
         f.write(model_json)
     # serialize model to HDF5
     model.save_weights("model.h5")
